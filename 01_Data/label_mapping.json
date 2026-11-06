@@ -1,0 +1,159 @@
+
+{
+  "project": "Confidence-Aware Model Ensemble and LLM Reasoning for Response Clarity Classification",
+  "dataset": "ailsntua/QEvasion",
+  "source_paper": {
+    "title": "\"I Never Said That\": A dataset, taxonomy and baselines on response clarity classification",
+    "authors": "Thomas et al.",
+    "year": 2024,
+    "venue": "Findings of EMNLP 2024",
+    "doi": "10.18653/v1/2024.findings-emnlp.300"
+  },
+  "taxonomy": {
+    "structure": "two-level hierarchical taxonomy",
+    "description": "The original taxonomy maps nine fine-grained evasion labels to three high-level clarity labels.",
+    "level_1": "Clarity Level",
+    "level_2": "Evasion Level",
+    "note": "The paper uses Ambivalent Reply, while the released dataset uses Ambivalent. The dataset label is retained in this project."
+  },
+  "task_1": {
+    "name": "Clarity-level Classification",
+    "num_classes": 3,
+    "label_column": "clarity_label",
+    "labels": [
+      "Clear Reply",
+      "Ambivalent",
+      "Clear Non-Reply"
+    ],
+    "label_to_id": {
+      "Clear Reply": 0,
+      "Ambivalent": 1,
+      "Clear Non-Reply": 2
+    },
+    "label_definitions": {
+      "Clear Reply": "The response clearly provides the information requested by the question.",
+      "Ambivalent": "The response is unclear or allows multiple interpretations.",
+      "Clear Non-Reply": "The response does not provide the requested information, for example by refusing to answer, claiming ignorance, or asking for clarification."
+    },
+    "paper_label_name": {
+      "Ambivalent": "Ambivalent Reply"
+    }
+  },
+  "task_2": {
+    "name": "Evasion-level Classification",
+    "num_classes": 9,
+    "train_label_column": "evasion_label",
+    "test_original_label_columns": [
+      "annotator1",
+      "annotator2",
+      "annotator3"
+    ],
+    "test_majority_label_column": "evasion_label_majority",
+    "test_majority_vote_count_column": "majority_vote_count",
+    "labels": [
+      "Explicit",
+      "Implicit",
+      "Dodging",
+      "General",
+      "Deflection",
+      "Declining to answer",
+      "Claims ignorance",
+      "Clarification",
+      "Partial/half-answer"
+    ],
+    "label_to_id": {
+      "Explicit": 0,
+      "Implicit": 1,
+      "Dodging": 2,
+      "General": 3,
+      "Deflection": 4,
+      "Declining to answer": 5,
+      "Claims ignorance": 6,
+      "Clarification": 7,
+      "Partial/half-answer": 8
+    },
+    "label_definitions": {
+      "Explicit": "The requested information is explicitly stated in the expected form.",
+      "Implicit": "The requested information is conveyed indirectly rather than explicitly.",
+      "Dodging": "The response ignores the question altogether.",
+      "General": "The response is too general and lacks the requested specificity.",
+      "Deflection": "The response starts on topic but shifts the focus to a different point.",
+      "Declining to answer": "The respondent directly or indirectly refuses to answer.",
+      "Claims ignorance": "The respondent claims not to know the requested information.",
+      "Clarification": "The respondent asks for clarification instead of providing the requested information.",
+      "Partial/half-answer": "The response provides only a specific component of the requested information."
+    },
+    "paper_label_name": {
+      "Partial/half-answer": "Partial"
+    }
+  },
+  "taxonomy_hierarchy": {
+    "Clear Reply": [
+      "Explicit"
+    ],
+    "Ambivalent": [
+      "Implicit",
+      "General",
+      "Partial/half-answer",
+      "Dodging",
+      "Deflection"
+    ],
+    "Clear Non-Reply": [
+      "Declining to answer",
+      "Claims ignorance",
+      "Clarification"
+    ]
+  },
+  "task_2_to_task_1_mapping": {
+    "Explicit": "Clear Reply",
+    "Implicit": "Ambivalent",
+    "General": "Ambivalent",
+    "Partial/half-answer": "Ambivalent",
+    "Dodging": "Ambivalent",
+    "Deflection": "Ambivalent",
+    "Declining to answer": "Clear Non-Reply",
+    "Claims ignorance": "Clear Non-Reply",
+    "Clarification": "Clear Non-Reply"
+  },
+  "special_labels": {
+    "No_Majority": {
+      "description": "The three test annotators provide three different labels, so no majority label can be assigned.",
+      "is_official_class": false,
+      "label_id": null
+    },
+    "Missing_Annotation": {
+      "description": "One or more annotator labels are missing.",
+      "is_official_class": false,
+      "label_id": null
+    }
+  },
+  "majority_voting_rules": {
+    "three_agree": {
+      "label": "shared label",
+      "vote_count": 3
+    },
+    "two_agree": {
+      "label": "shared label",
+      "vote_count": 2
+    },
+    "three_different": {
+      "label": "No_Majority",
+      "vote_count": 0
+    },
+    "missing_annotation": {
+      "label": "Missing_Annotation",
+      "vote_count": 0
+    },
+    "note": "Majority voting is an additional project-derived reference. It is not assumed to be the official evaluation method of the original paper."
+  },
+  "evaluation_notes": [
+    "Task 1 uses the original clarity_label column.",
+    "Task 2 training uses the original evasion_label column.",
+    "Task 2 test data preserves annotator1, annotator2, and annotator3.",
+    "The nine Task 2 labels follow the original fine-grained taxonomy.",
+    "The taxonomy_hierarchy records the original mapping from the nine evasion labels to the three clarity labels.",
+    "No_Majority and Missing_Annotation are annotation-status labels, not official classification classes.",
+    "The derived majority-vote label must not silently replace the original annotator labels.",
+    "The final multi-annotator evaluation protocol must be agreed upon by the group."
+  ]
+}

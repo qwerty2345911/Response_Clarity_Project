@@ -1,0 +1,73 @@
+﻿section,dataset,field,label,count,percentage
+dataset_summary,Train,rows,,3448,
+dataset_summary,Train,columns,,20,
+dataset_summary,Train,duplicate_rows,,0,
+missing_values,Train,annotator1,,3448,100.0
+missing_values,Train,annotator2,,3448,100.0
+missing_values,Train,annotator3,,3448,100.0
+label_distribution,Train,clarity_label,Ambivalent,2040,59.16
+label_distribution,Train,clarity_label,Clear Reply,1052,30.51
+label_distribution,Train,clarity_label,Clear Non-Reply,356,10.32
+label_distribution,Train,evasion_label,Explicit,1052,30.51
+label_distribution,Train,evasion_label,Dodging,706,20.48
+label_distribution,Train,evasion_label,Implicit,488,14.15
+label_distribution,Train,evasion_label,General,386,11.19
+label_distribution,Train,evasion_label,Deflection,381,11.05
+label_distribution,Train,evasion_label,Declining to answer,145,4.21
+label_distribution,Train,evasion_label,Claims ignorance,119,3.45
+label_distribution,Train,evasion_label,Clarification,92,2.67
+label_distribution,Train,evasion_label,Partial/half-answer,79,2.29
+dataset_summary,Test,rows,,308,
+dataset_summary,Test,columns,,22,
+dataset_summary,Test,duplicate_rows,,0,
+missing_values,Test,title,,308,100.0
+missing_values,Test,date,,308,100.0
+missing_values,Test,president,,308,100.0
+missing_values,Test,gpt3.5_summary,,308,100.0
+missing_values,Test,gpt3.5_prediction,,308,100.0
+missing_values,Test,annotator_id,,308,100.0
+missing_values,Test,evasion_label,,308,100.0
+label_distribution,Test,clarity_label,Ambivalent,206,66.88
+label_distribution,Test,clarity_label,Clear Reply,79,25.65
+label_distribution,Test,clarity_label,Clear Non-Reply,23,7.47
+label_distribution,Test,annotator1,Explicit,106,34.42
+label_distribution,Test,annotator1,Dodging,58,18.83
+label_distribution,Test,annotator1,Implicit,54,17.53
+label_distribution,Test,annotator1,Deflection,30,9.74
+label_distribution,Test,annotator1,General,29,9.42
+label_distribution,Test,annotator1,Declining to answer,10,3.25
+label_distribution,Test,annotator1,Claims ignorance,9,2.92
+label_distribution,Test,annotator1,Partial/half-answer,8,2.6
+label_distribution,Test,annotator1,Clarification,4,1.3
+label_distribution,Test,annotator2,General,78,25.32
+label_distribution,Test,annotator2,Dodging,72,23.38
+label_distribution,Test,annotator2,Implicit,54,17.53
+label_distribution,Test,annotator2,Explicit,53,17.21
+label_distribution,Test,annotator2,Deflection,22,7.14
+label_distribution,Test,annotator2,Claims ignorance,11,3.57
+label_distribution,Test,annotator2,Declining to answer,9,2.92
+label_distribution,Test,annotator2,Partial/half-answer,5,1.62
+label_distribution,Test,annotator2,Clarification,4,1.3
+label_distribution,Test,annotator3,Explicit,80,25.97
+label_distribution,Test,annotator3,Implicit,67,21.75
+label_distribution,Test,annotator3,General,65,21.1
+label_distribution,Test,annotator3,Dodging,43,13.96
+label_distribution,Test,annotator3,Deflection,23,7.47
+label_distribution,Test,annotator3,Declining to answer,14,4.55
+label_distribution,Test,annotator3,Claims ignorance,7,2.27
+label_distribution,Test,annotator3,Partial/half-answer,5,1.62
+label_distribution,Test,annotator3,Clarification,4,1.3
+majority_vote_statistics,Test,majority_vote_count,2 votes,77,25.0
+majority_vote_statistics,Test,majority_vote_count,2 votes,57,18.51
+majority_vote_statistics,Test,majority_vote_count,2 votes,50,16.23
+majority_vote_statistics,Test,majority_vote_count,2 votes,48,15.58
+majority_vote_statistics,Test,majority_vote_count,No majority,33,10.71
+majority_vote_statistics,Test,majority_vote_count,2 votes,17,5.52
+majority_vote_statistics,Test,majority_vote_count,3 votes,11,3.57
+majority_vote_statistics,Test,majority_vote_count,3 votes,8,2.6
+majority_vote_statistics,Test,majority_vote_count,3 votes,4,1.3
+majority_vote_statistics,Test,majority_vote_count,3 votes,3,0.97
+sample_id_validation,Train,sample_id,unique IDs,2700,100.0
+sample_id_validation,Validation,sample_id,unique IDs,748,100.0
+sample_id_validation,Test,sample_id,unique IDs,308,100.0
+leakage_check,Train vs Test,exact_normalized_QA_overlap,,0,

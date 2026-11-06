@@ -1,0 +1,47 @@
+{
+    "project": "Response Clarity Classification",
+    "random_seed": 42,
+    "splitting_strategy": "Stratified sampling",
+    "label_column": "evasion_label",
+    "dataset_sizes": {
+        "original_train": 3448,
+        "train": 2700,
+        "validation": 748,
+        "test": 308,
+        "total": 3756
+    },
+    "number_of_evasion_classes": 9,
+    "train_evasion_distribution": {
+        "Explicit": 824,
+        "Dodging": 553,
+        "Implicit": 382,
+        "General": 302,
+        "Deflection": 298,
+        "Declining to answer": 114,
+        "Claims ignorance": 93,
+        "Clarification": 72,
+        "Partial/half-answer": 62
+    },
+    "validation_evasion_distribution": {
+        "Explicit": 228,
+        "Dodging": 153,
+        "Implicit": 106,
+        "General": 84,
+        "Deflection": 83,
+        "Declining to answer": 31,
+        "Claims ignorance": 26,
+        "Clarification": 20,
+        "Partial/half-answer": 17
+    },
+    "test_clarity_distribution": {
+        "Ambivalent": 206,
+        "Clear Reply": 79,
+        "Clear Non-Reply": 23
+    },
+    "sample_id": {
+        "column": "sample_id",
+        "train_validation_prefix": "train_",
+        "test_prefix": "test_",
+        "total_unique_ids": 3756
+    }
+}

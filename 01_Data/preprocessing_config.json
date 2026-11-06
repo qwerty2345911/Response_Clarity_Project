@@ -1,0 +1,129 @@
+{
+  "project": "Response Clarity Classification",
+  "dataset": {
+    "name": "QEvasion",
+    "source": "https://huggingface.co/datasets/ailsntua/QEvasion",
+    "original_train_samples": 3448,
+    "original_test_samples": 308
+  },
+  "pipeline_order": [
+    "preprocess_dataset.py",
+    "add_majority_vote.py",
+    "create_data_splits.py"
+  ],
+  "label_mapping": {
+    "file": "01_Data/label_mapping.json",
+    "task_1_labels": ["Clear Reply", "Ambivalent", "Clear Non-Reply"],
+    "task_2_labels": [
+      "Explicit",
+      "Implicit",
+      "Dodging",
+      "General",
+      "Deflection",
+      "Declining to answer",
+      "Claims ignorance",
+      "Clarification",
+      "Partial/half-answer"
+    ]
+  },
+  "preprocessing_pipeline": {
+    "steps": [
+      {
+        "order": 1,
+        "script": "preprocess_dataset.py",
+        "purpose": "Load, validate, and clean text and label fields",
+        "input": ["raw/train.csv", "raw/test.csv"],
+        "output": ["processed/train_cleaned.csv", "processed/test_cleaned.csv"],
+        "text_processing": {
+          "columns": ["question", "interview_answer"],
+          "fill_missing_values": "",
+          "convert_to_string": true,
+          "normalize_whitespace": true,
+          "strip_leading_trailing_whitespace": true,
+          "lowercase": false,
+          "remove_punctuation": false
+        },
+        "label_processing": {
+          "columns": ["clarity_label", "evasion_label", "annotator1", "annotator2", "annotator3"],
+          "strip_leading_trailing_whitespace": true,
+          "empty_string_to_NA": true,
+          "remove_missing_label_samples": false
+        },
+        "data_quality_checks": [
+          "Required column validation",
+          "index column existence",
+          "index missing-value check",
+          "index uniqueness check",
+          "Empty question count",
+          "Empty answer count",
+          "Missing value summary",
+          "Duplicate row count"
+        ]
+      },
+      {
+        "order": 2,
+        "script": "add_majority_vote.py",
+        "purpose": "Generate supplementary majority-vote labels",
+        "input": ["processed/test_cleaned.csv"],
+        "output": ["processed/test_cleaned.csv"],
+        "overwrites_processed_test": true,
+        "annotator_columns": ["annotator1", "annotator2", "annotator3"],
+        "output_columns": ["evasion_label_majority", "majority_vote_count"],
+        "no_majority_policy": "No_Majority",
+        "missing_annotation_policy": "Missing_Annotation",
+        "note": "Rerunning preprocess_dataset.py removes these derived columns."
+      },
+      {
+        "order": 3,
+        "script": "create_data_splits.py",
+        "purpose": "Create shared dataset splits and globally unique sample IDs",
+        "stratification_column": "evasion_label",
+        "random_seed": 42,
+        "output_directory": "data_splits/",
+        "required_test_columns": ["evasion_label_majority", "majority_vote_count"],
+        "fail_if_majority_columns_missing": true
+      }
+    ]
+  },
+  "text_fields": {
+    "question": "question",
+    "answer": "interview_answer"
+  },
+  "data_splitting": {
+    "strategy": "Stratified train-validation split",
+    "stratification_column": "evasion_label",
+    "random_seed": 42,
+    "train_samples": 2700,
+    "validation_samples": 748,
+    "test_samples": 308,
+    "test_set": "Preserved from the original test split",
+    "test_set_policy": "Not used for model training or model selection."
+  },
+  "sample_id": {
+    "enabled": true,
+    "training_format": "train_<original_index>",
+    "validation_format": "train_<original_index>",
+    "test_format": "test_<original_index>",
+    "globally_unique": true,
+    "total_samples": 3756,
+    "note": "train_ identifies samples from the original training split. It does not indicate final train/validation membership. Always use the split file itself."
+  },
+  "output_files": {
+    "train": "data_splits/train.csv",
+    "validation": "data_splits/validation.csv",
+    "test": "data_splits/test.csv",
+    "statistics": "data_splits/split_statistics.csv",
+    "summary": "data_splits/split_summary.json",
+    "protocol": "data_splits/split_protocol.md",
+    "dataset_statistics": "01_Data/dataset_statistics.csv",
+    "data_description": "01_Data/data_description.md"
+  },
+  "reproducibility": {
+    "fixed_random_seed": true,
+    "shared_splits_for_all_members": true,
+    "raw_data_modified": false,
+    "processed_test_modified": true,
+    "processed_test_modification": "Derived majority-vote columns are added to processed/test_cleaned.csv.",
+    "all_original_rows_preserved": true
+  }
+}
