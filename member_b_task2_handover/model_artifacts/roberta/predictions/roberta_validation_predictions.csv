@@ -1,0 +1,749 @@
+sample_id,gold_label,predicted_label
+train_3,Dodging,Implicit
+train_6,Deflection,Explicit
+train_8,Explicit,Explicit
+train_10,Declining to answer,Explicit
+train_14,Dodging,Dodging
+train_17,Explicit,Dodging
+train_20,Dodging,Explicit
+train_23,Dodging,Explicit
+train_28,Dodging,Dodging
+train_31,Clarification,Explicit
+train_34,Explicit,Dodging
+train_50,Explicit,Explicit
+train_52,Deflection,Explicit
+train_54,Dodging,Explicit
+train_60,Explicit,Explicit
+train_65,Explicit,Explicit
+train_68,Partial/half-answer,Explicit
+train_78,Implicit,Explicit
+train_82,Dodging,Explicit
+train_85,Dodging,Explicit
+train_96,Explicit,Explicit
+train_97,General,Explicit
+train_101,Declining to answer,Explicit
+train_103,Claims ignorance,Dodging
+train_106,Implicit,Explicit
+train_111,Dodging,Explicit
+train_114,Explicit,Explicit
+train_115,Claims ignorance,Explicit
+train_117,Partial/half-answer,Explicit
+train_118,Explicit,Explicit
+train_121,Deflection,Explicit
+train_126,Dodging,Explicit
+train_129,Explicit,Explicit
+train_132,General,Deflection
+train_133,Implicit,Explicit
+train_145,General,Explicit
+train_146,Explicit,Explicit
+train_149,Clarification,Dodging
+train_151,Explicit,Explicit
+train_153,Implicit,Explicit
+train_166,Deflection,Explicit
+train_167,Dodging,Dodging
+train_173,Clarification,Explicit
+train_175,Explicit,Explicit
+train_184,Dodging,Explicit
+train_193,Dodging,Claims ignorance
+train_194,Explicit,Explicit
+train_195,Explicit,Explicit
+train_196,Dodging,Explicit
+train_201,Dodging,Explicit
+train_210,Implicit,Dodging
+train_211,Implicit,Dodging
+train_219,Dodging,Implicit
+train_224,General,Declining to answer
+train_234,Clarification,Clarification
+train_238,Explicit,Explicit
+train_239,Dodging,Explicit
+train_242,Dodging,Dodging
+train_248,General,Dodging
+train_254,Explicit,Claims ignorance
+train_257,Deflection,Dodging
+train_265,Explicit,Explicit
+train_275,Explicit,Deflection
+train_293,Implicit,Deflection
+train_296,Dodging,Dodging
+train_298,Explicit,Explicit
+train_313,Explicit,Explicit
+train_318,Explicit,Explicit
+train_320,Explicit,Deflection
+train_327,Explicit,Explicit
+train_330,Dodging,Implicit
+train_331,Deflection,Dodging
+train_338,Explicit,Dodging
+train_356,Explicit,Explicit
+train_360,Deflection,Deflection
+train_365,Dodging,Dodging
+train_366,Implicit,Explicit
+train_374,General,Dodging
+train_376,Dodging,Explicit
+train_378,Implicit,General
+train_380,Declining to answer,Dodging
+train_387,General,Claims ignorance
+train_389,Explicit,Explicit
+train_391,Explicit,Explicit
+train_392,Explicit,Explicit
+train_403,Explicit,Explicit
+train_405,Dodging,Explicit
+train_407,Dodging,Explicit
+train_410,Implicit,Implicit
+train_418,Dodging,Dodging
+train_419,Implicit,Dodging
+train_425,Dodging,Explicit
+train_428,Claims ignorance,Explicit
+train_432,General,Explicit
+train_433,Dodging,Explicit
+train_439,Explicit,Explicit
+train_446,Deflection,Deflection
+train_456,Dodging,Explicit
+train_461,Deflection,Dodging
+train_463,Declining to answer,Claims ignorance
+train_469,Clarification,Clarification
+train_471,Claims ignorance,Claims ignorance
+train_472,Explicit,Explicit
+train_474,Explicit,Explicit
+train_481,Dodging,Dodging
+train_482,Explicit,Explicit
+train_483,Claims ignorance,Dodging
+train_494,General,Deflection
+train_495,Dodging,Dodging
+train_499,Implicit,Dodging
+train_504,Claims ignorance,Claims ignorance
+train_509,Dodging,Explicit
+train_514,Explicit,Explicit
+train_518,Dodging,Explicit
+train_519,Deflection,Explicit
+train_520,Explicit,Explicit
+train_523,Explicit,Explicit
+train_526,Implicit,Declining to answer
+train_531,Dodging,Deflection
+train_532,Explicit,Explicit
+train_533,Explicit,Explicit
+train_535,Deflection,Explicit
+train_537,Implicit,Explicit
+train_545,Dodging,Explicit
+train_547,Deflection,Declining to answer
+train_550,Dodging,Explicit
+train_554,Implicit,Dodging
+train_560,Dodging,Deflection
+train_561,Clarification,Explicit
+train_566,Claims ignorance,Claims ignorance
+train_584,Implicit,Explicit
+train_589,Explicit,Explicit
+train_595,Explicit,Dodging
+train_598,Deflection,Explicit
+train_601,Explicit,Explicit
+train_602,Explicit,Deflection
+train_605,Explicit,Explicit
+train_609,Explicit,Deflection
+train_613,Deflection,Explicit
+train_616,General,Explicit
+train_617,Dodging,Explicit
+train_619,Deflection,Explicit
+train_633,Explicit,Explicit
+train_639,Claims ignorance,Claims ignorance
+train_640,Implicit,Claims ignorance
+train_644,Implicit,Declining to answer
+train_659,Explicit,Explicit
+train_660,Explicit,Explicit
+train_662,Explicit,Explicit
+train_664,Dodging,Implicit
+train_669,General,Implicit
+train_673,Implicit,Clarification
+train_675,Partial/half-answer,Explicit
+train_679,Explicit,General
+train_682,Dodging,Explicit
+train_684,Partial/half-answer,Dodging
+train_698,Explicit,Explicit
+train_705,Declining to answer,Dodging
+train_706,Explicit,Explicit
+train_717,Explicit,Explicit
+train_718,Explicit,Explicit
+train_719,Implicit,Dodging
+train_727,Explicit,Explicit
+train_728,Explicit,Explicit
+train_738,Explicit,Explicit
+train_751,Explicit,Explicit
+train_760,Implicit,Explicit
+train_766,Dodging,Explicit
+train_767,Partial/half-answer,Explicit
+train_776,Explicit,Explicit
+train_782,Explicit,Explicit
+train_784,Explicit,Explicit
+train_797,Partial/half-answer,Implicit
+train_798,Dodging,Deflection
+train_800,Implicit,Dodging
+train_811,Explicit,Explicit
+train_814,Dodging,Explicit
+train_815,Dodging,Explicit
+train_817,Implicit,Explicit
+train_819,Explicit,Explicit
+train_845,Implicit,Explicit
+train_846,Implicit,Explicit
+train_848,Dodging,Declining to answer
+train_853,Explicit,Explicit
+train_867,Explicit,Explicit
+train_869,Implicit,Deflection
+train_871,Deflection,Dodging
+train_875,Explicit,Explicit
+train_876,Explicit,Explicit
+train_882,Implicit,Dodging
+train_883,Explicit,Explicit
+train_888,Explicit,Explicit
+train_893,Explicit,Dodging
+train_897,Implicit,Explicit
+train_899,Explicit,Dodging
+train_900,Deflection,Dodging
+train_901,Explicit,Explicit
+train_902,Explicit,Explicit
+train_904,Dodging,General
+train_911,General,General
+train_914,Explicit,Explicit
+train_919,Explicit,Explicit
+train_920,Explicit,Explicit
+train_930,Explicit,Explicit
+train_931,Implicit,Explicit
+train_932,Deflection,Explicit
+train_938,Claims ignorance,Clarification
+train_943,Implicit,Dodging
+train_945,Claims ignorance,Dodging
+train_947,Explicit,Explicit
+train_950,Explicit,Explicit
+train_957,Deflection,Dodging
+train_958,Partial/half-answer,Dodging
+train_963,Explicit,Explicit
+train_978,Explicit,Explicit
+train_979,Dodging,Dodging
+train_980,Dodging,Explicit
+train_986,Explicit,Explicit
+train_988,Declining to answer,Declining to answer
+train_992,Explicit,Explicit
+train_1000,Explicit,Explicit
+train_1006,Deflection,Explicit
+train_1007,Explicit,Explicit
+train_1008,Declining to answer,Dodging
+train_1011,Explicit,Explicit
+train_1012,Explicit,Explicit
+train_1014,Deflection,Dodging
+train_1016,Declining to answer,Clarification
+train_1017,Deflection,Explicit
+train_1019,Deflection,Deflection
+train_1020,Declining to answer,Declining to answer
+train_1022,General,Dodging
+train_1034,Dodging,Dodging
+train_1040,Explicit,Explicit
+train_1041,Explicit,Explicit
+train_1044,Explicit,Explicit
+train_1063,Dodging,Dodging
+train_1071,Explicit,Explicit
+train_1076,Explicit,Explicit
+train_1080,Explicit,Explicit
+train_1084,Explicit,Explicit
+train_1090,Explicit,Explicit
+train_1109,Explicit,Explicit
+train_1111,Explicit,Explicit
+train_1113,Implicit,Explicit
+train_1117,Implicit,Deflection
+train_1119,Deflection,Explicit
+train_1121,Partial/half-answer,Deflection
+train_1124,Explicit,Explicit
+train_1126,Implicit,Explicit
+train_1129,Deflection,Implicit
+train_1130,Explicit,Explicit
+train_1131,Dodging,Explicit
+train_1141,Explicit,Explicit
+train_1144,Dodging,Dodging
+train_1152,Deflection,Explicit
+train_1154,Explicit,Explicit
+train_1161,Deflection,Explicit
+train_1164,Clarification,Clarification
+train_1168,Explicit,Explicit
+train_1169,Claims ignorance,Explicit
+train_1173,Implicit,Dodging
+train_1178,Deflection,Deflection
+train_1180,Deflection,Claims ignorance
+train_1185,Explicit,Explicit
+train_1188,Deflection,Dodging
+train_1189,Dodging,Dodging
+train_1191,Deflection,Explicit
+train_1192,Dodging,Dodging
+train_1198,Deflection,Explicit
+train_1205,Dodging,Explicit
+train_1225,Explicit,Deflection
+train_1233,Declining to answer,Declining to answer
+train_1237,Clarification,Explicit
+train_1248,Dodging,Dodging
+train_1251,Explicit,Explicit
+train_1257,Explicit,Explicit
+train_1259,Clarification,Clarification
+train_1261,Claims ignorance,Explicit
+train_1262,Dodging,Claims ignorance
+train_1268,Dodging,Dodging
+train_1273,General,Explicit
+train_1279,Dodging,Explicit
+train_1286,Explicit,Explicit
+train_1291,Dodging,Explicit
+train_1292,Clarification,Clarification
+train_1297,Clarification,Clarification
+train_1302,Declining to answer,Declining to answer
+train_1306,Deflection,Deflection
+train_1308,Explicit,Explicit
+train_1309,Dodging,Clarification
+train_1314,Deflection,Deflection
+train_1315,Deflection,Deflection
+train_1319,Clarification,Clarification
+train_1329,Deflection,Dodging
+train_1335,Implicit,Implicit
+train_1339,General,Explicit
+train_1342,Dodging,Dodging
+train_1344,Deflection,Explicit
+train_1345,Dodging,Explicit
+train_1348,Explicit,Explicit
+train_1350,Dodging,Explicit
+train_1360,Explicit,Explicit
+train_1364,Dodging,Dodging
+train_1379,Deflection,Dodging
+train_1384,Deflection,Deflection
+train_1386,Explicit,Explicit
+train_1387,Claims ignorance,Claims ignorance
+train_1388,Implicit,Explicit
+train_1391,General,Explicit
+train_1403,Implicit,Declining to answer
+train_1404,Dodging,Explicit
+train_1408,Explicit,Explicit
+train_1409,Deflection,Dodging
+train_1413,Dodging,Clarification
+train_1418,General,Explicit
+train_1421,Dodging,Explicit
+train_1424,Implicit,Explicit
+train_1426,Explicit,Explicit
+train_1438,Implicit,Deflection
+train_1442,Dodging,Explicit
+train_1443,Dodging,Explicit
+train_1460,Explicit,Dodging
+train_1464,Partial/half-answer,Deflection
+train_1466,General,Dodging
+train_1484,General,Explicit
+train_1494,General,Declining to answer
+train_1498,Explicit,Explicit
+train_1500,Deflection,Explicit
+train_1506,Explicit,Explicit
+train_1510,Explicit,Explicit
+train_1511,Explicit,Explicit
+train_1523,General,Explicit
+train_1524,Dodging,Explicit
+train_1535,Explicit,Explicit
+train_1537,Explicit,Explicit
+train_1539,Deflection,Dodging
+train_1542,Implicit,Explicit
+train_1547,Claims ignorance,Explicit
+train_1554,Dodging,Explicit
+train_1556,General,Explicit
+train_1557,Clarification,Clarification
+train_1558,Deflection,Explicit
+train_1559,Explicit,Explicit
+train_1560,Implicit,Explicit
+train_1573,Declining to answer,Declining to answer
+train_1578,General,Explicit
+train_1581,General,Explicit
+train_1583,Dodging,Explicit
+train_1586,General,Explicit
+train_1591,Explicit,Explicit
+train_1592,General,Explicit
+train_1595,General,Explicit
+train_1597,Declining to answer,Declining to answer
+train_1599,Dodging,Dodging
+train_1609,Deflection,Dodging
+train_1612,Declining to answer,Declining to answer
+train_1616,General,Explicit
+train_1617,General,Dodging
+train_1621,Dodging,Explicit
+train_1625,Explicit,Explicit
+train_1629,General,Explicit
+train_1630,General,Explicit
+train_1632,General,Dodging
+train_1639,Clarification,Clarification
+train_1647,Explicit,Explicit
+train_1653,Dodging,Clarification
+train_1662,Explicit,Dodging
+train_1665,Declining to answer,Explicit
+train_1667,Declining to answer,Declining to answer
+train_1675,Dodging,Dodging
+train_1678,Implicit,Dodging
+train_1680,Explicit,Explicit
+train_1683,Explicit,Explicit
+train_1684,Explicit,Explicit
+train_1688,General,Explicit
+train_1693,Deflection,Explicit
+train_1694,General,Explicit
+train_1703,Explicit,Explicit
+train_1707,Explicit,Dodging
+train_1713,Deflection,Explicit
+train_1714,Dodging,Explicit
+train_1718,Dodging,Explicit
+train_1722,General,Explicit
+train_1737,Dodging,Implicit
+train_1739,Dodging,Dodging
+train_1742,Dodging,General
+train_1744,Explicit,Explicit
+train_1745,General,Explicit
+train_1752,General,Explicit
+train_1754,Implicit,Explicit
+train_1763,Dodging,Dodging
+train_1766,Dodging,Dodging
+train_1768,Explicit,Deflection
+train_1769,Explicit,General
+train_1770,Explicit,Deflection
+train_1773,Dodging,Declining to answer
+train_1785,Implicit,Deflection
+train_1787,Partial/half-answer,Deflection
+train_1788,Dodging,Deflection
+train_1793,Explicit,Implicit
+train_1794,Implicit,Implicit
+train_1803,Dodging,Explicit
+train_1804,Explicit,Explicit
+train_1811,Dodging,Implicit
+train_1814,Deflection,Explicit
+train_1815,General,Implicit
+train_1822,General,Explicit
+train_1826,Explicit,Dodging
+train_1842,Implicit,Deflection
+train_1843,Explicit,Deflection
+train_1858,Explicit,Explicit
+train_1861,Implicit,Explicit
+train_1869,Dodging,Implicit
+train_1879,Partial/half-answer,Dodging
+train_1882,Dodging,Deflection
+train_1883,General,Deflection
+train_1885,Implicit,Deflection
+train_1909,Implicit,Dodging
+train_1930,Dodging,Dodging
+train_1934,Explicit,Explicit
+train_1943,Implicit,Explicit
+train_1947,General,Explicit
+train_1948,Dodging,Dodging
+train_1954,Dodging,Dodging
+train_1965,Clarification,Implicit
+train_1966,Clarification,Implicit
+train_1968,Dodging,Explicit
+train_1975,General,Implicit
+train_1981,Implicit,Explicit
+train_1988,Implicit,Explicit
+train_1992,Explicit,Explicit
+train_1993,Declining to answer,Dodging
+train_2000,Partial/half-answer,Declining to answer
+train_2001,Implicit,Explicit
+train_2011,General,Explicit
+train_2021,Explicit,Explicit
+train_2036,General,Claims ignorance
+train_2037,Deflection,Explicit
+train_2045,Implicit,Implicit
+train_2053,General,Explicit
+train_2055,General,Explicit
+train_2059,Explicit,Explicit
+train_2060,Dodging,Explicit
+train_2061,General,Explicit
+train_2065,General,Implicit
+train_2067,Implicit,Explicit
+train_2073,Implicit,Explicit
+train_2074,Dodging,Clarification
+train_2079,Implicit,Explicit
+train_2081,Claims ignorance,Explicit
+train_2085,Implicit,Explicit
+train_2089,Explicit,Explicit
+train_2090,General,Explicit
+train_2093,Implicit,Dodging
+train_2096,Implicit,Explicit
+train_2097,Explicit,Explicit
+train_2098,Dodging,Dodging
+train_2101,Dodging,Explicit
+train_2104,Implicit,Implicit
+train_2106,Implicit,Declining to answer
+train_2114,Dodging,Dodging
+train_2118,Explicit,Explicit
+train_2120,Dodging,Explicit
+train_2122,General,Dodging
+train_2123,Dodging,Implicit
+train_2131,Partial/half-answer,Dodging
+train_2133,Implicit,Explicit
+train_2137,Explicit,Explicit
+train_2138,Dodging,Dodging
+train_2143,Dodging,Dodging
+train_2154,Dodging,Explicit
+train_2159,Implicit,Explicit
+train_2167,Explicit,Explicit
+train_2168,Explicit,Dodging
+train_2169,General,Dodging
+train_2170,Explicit,Explicit
+train_2171,Declining to answer,Explicit
+train_2175,Explicit,Dodging
+train_2179,Implicit,Deflection
+train_2184,Implicit,Dodging
+train_2189,Explicit,Explicit
+train_2190,General,Explicit
+train_2197,Dodging,Declining to answer
+train_2198,Declining to answer,Declining to answer
+train_2199,Explicit,Explicit
+train_2200,Deflection,Dodging
+train_2205,Explicit,Explicit
+train_2215,Explicit,Dodging
+train_2218,Claims ignorance,Declining to answer
+train_2232,Explicit,Explicit
+train_2233,Explicit,Explicit
+train_2235,General,Implicit
+train_2236,Dodging,Deflection
+train_2237,Implicit,Explicit
+train_2240,Claims ignorance,Dodging
+train_2252,General,Explicit
+train_2256,Dodging,Claims ignorance
+train_2259,Implicit,Explicit
+train_2266,Explicit,Explicit
+train_2274,Declining to answer,Declining to answer
+train_2281,Implicit,Explicit
+train_2282,Declining to answer,Declining to answer
+train_2292,Dodging,Implicit
+train_2297,Deflection,Dodging
+train_2300,Dodging,Dodging
+train_2304,Declining to answer,Declining to answer
+train_2309,Explicit,Explicit
+train_2310,Dodging,Dodging
+train_2329,Deflection,Explicit
+train_2336,Explicit,Dodging
+train_2344,Declining to answer,Declining to answer
+train_2345,General,Implicit
+train_2349,General,Explicit
+train_2352,Declining to answer,Implicit
+train_2357,General,Dodging
+train_2358,Implicit,Explicit
+train_2363,Deflection,Explicit
+train_2365,Deflection,Dodging
+train_2370,General,Explicit
+train_2386,Explicit,Implicit
+train_2394,Implicit,Implicit
+train_2401,Explicit,Explicit
+train_2407,General,Deflection
+train_2413,General,Explicit
+train_2414,General,Explicit
+train_2423,Dodging,Explicit
+train_2424,General,Deflection
+train_2429,General,Explicit
+train_2430,Partial/half-answer,Explicit
+train_2434,Dodging,Deflection
+train_2446,Implicit,Explicit
+train_2449,Partial/half-answer,Explicit
+train_2456,General,Implicit
+train_2461,General,Explicit
+train_2464,Dodging,Dodging
+train_2468,Explicit,Explicit
+train_2470,Explicit,Implicit
+train_2476,Deflection,Dodging
+train_2478,Dodging,Dodging
+train_2479,Explicit,Explicit
+train_2486,Explicit,Deflection
+train_2497,Deflection,Implicit
+train_2501,Dodging,Dodging
+train_2518,Explicit,Explicit
+train_2523,Dodging,Claims ignorance
+train_2527,General,Explicit
+train_2532,Deflection,Implicit
+train_2536,Deflection,Dodging
+train_2538,Dodging,Explicit
+train_2539,Deflection,Implicit
+train_2543,Dodging,Deflection
+train_2554,Deflection,Explicit
+train_2556,Explicit,Explicit
+train_2563,Deflection,Deflection
+train_2566,General,Explicit
+train_2567,Implicit,Dodging
+train_2575,Implicit,Explicit
+train_2577,Explicit,Explicit
+train_2578,Implicit,Explicit
+train_2581,Implicit,Dodging
+train_2582,Explicit,Implicit
+train_2586,Declining to answer,Dodging
+train_2595,Implicit,Dodging
+train_2598,Claims ignorance,Claims ignorance
+train_2605,Dodging,Explicit
+train_2610,Implicit,Implicit
+train_2615,Explicit,Implicit
+train_2616,Dodging,General
+train_2621,Clarification,Dodging
+train_2624,Clarification,Clarification
+train_2633,General,Explicit
+train_2641,Implicit,Explicit
+train_2648,Implicit,Deflection
+train_2651,Dodging,Dodging
+train_2652,Deflection,Explicit
+train_2658,Dodging,Dodging
+train_2668,Deflection,Dodging
+train_2670,Dodging,Dodging
+train_2671,Implicit,Explicit
+train_2675,Dodging,Explicit
+train_2677,Explicit,Explicit
+train_2686,Partial/half-answer,General
+train_2693,Dodging,Dodging
+train_2706,General,Implicit
+train_2709,Clarification,Clarification
+train_2710,Clarification,Clarification
+train_2717,General,Explicit
+train_2720,Dodging,Explicit
+train_2723,Claims ignorance,Declining to answer
+train_2726,Claims ignorance,Dodging
+train_2731,Explicit,Clarification
+train_2735,Implicit,Explicit
+train_2737,Implicit,Explicit
+train_2753,Dodging,Explicit
+train_2756,Explicit,Explicit
+train_2757,Explicit,Explicit
+train_2767,Implicit,Explicit
+train_2774,General,Explicit
+train_2777,Explicit,Implicit
+train_2780,Explicit,Explicit
+train_2781,Implicit,Implicit
+train_2790,Declining to answer,Explicit
+train_2793,Explicit,Explicit
+train_2798,Partial/half-answer,Explicit
+train_2801,Dodging,Implicit
+train_2804,General,Explicit
+train_2805,Declining to answer,Dodging
+train_2811,Implicit,Explicit
+train_2823,Deflection,Explicit
+train_2828,Implicit,Explicit
+train_2830,Implicit,Explicit
+train_2836,Explicit,Explicit
+train_2843,Explicit,Explicit
+train_2848,General,Explicit
+train_2852,Implicit,Dodging
+train_2855,Deflection,Dodging
+train_2856,Implicit,Explicit
+train_2860,Deflection,Explicit
+train_2864,Implicit,Explicit
+train_2867,Explicit,Explicit
+train_2869,Explicit,Explicit
+train_2870,Explicit,Explicit
+train_2873,Explicit,Explicit
+train_2876,Explicit,Explicit
+train_2880,Explicit,Claims ignorance
+train_2882,Deflection,Claims ignorance
+train_2890,Deflection,Explicit
+train_2894,Implicit,Explicit
+train_2895,Explicit,Explicit
+train_2896,Deflection,Explicit
+train_2897,Deflection,Explicit
+train_2900,Implicit,Explicit
+train_2910,Dodging,Dodging
+train_2912,Dodging,Explicit
+train_2916,Implicit,Explicit
+train_2917,Dodging,Explicit
+train_2919,Dodging,Dodging
+train_2924,Deflection,Dodging
+train_2926,Implicit,Explicit
+train_2930,Claims ignorance,Claims ignorance
+train_2941,General,Explicit
+train_2943,Implicit,Explicit
+train_2948,Claims ignorance,Claims ignorance
+train_2950,Deflection,Claims ignorance
+train_2959,General,Explicit
+train_2961,Dodging,Explicit
+train_2963,Deflection,Explicit
+train_2964,General,Implicit
+train_2965,Explicit,Explicit
+train_2967,Claims ignorance,Explicit
+train_2969,Explicit,Explicit
+train_2972,Implicit,Explicit
+train_2979,Deflection,Explicit
+train_2980,Explicit,Explicit
+train_2982,Explicit,Explicit
+train_2986,Explicit,Explicit
+train_2989,Explicit,Explicit
+train_2992,Dodging,Dodging
+train_2993,Explicit,Explicit
+train_2994,Explicit,Explicit
+train_2998,Declining to answer,Dodging
+train_3002,Dodging,Explicit
+train_3009,Dodging,Dodging
+train_3011,General,Explicit
+train_3016,General,Explicit
+train_3017,General,Dodging
+train_3019,Implicit,Dodging
+train_3020,Declining to answer,Explicit
+train_3021,General,Claims ignorance
+train_3026,Explicit,Explicit
+train_3028,Explicit,Dodging
+train_3029,Deflection,Dodging
+train_3038,Claims ignorance,Claims ignorance
+train_3040,Dodging,Implicit
+train_3049,Implicit,Explicit
+train_3050,Explicit,Dodging
+train_3055,Explicit,Explicit
+train_3057,Claims ignorance,Claims ignorance
+train_3059,Declining to answer,Declining to answer
+train_3062,Explicit,Explicit
+train_3065,Declining to answer,Declining to answer
+train_3079,Explicit,Deflection
+train_3081,Explicit,Dodging
+train_3082,Dodging,Dodging
+train_3083,Explicit,Explicit
+train_3096,Explicit,Explicit
+train_3102,Explicit,Explicit
+train_3107,Dodging,Dodging
+train_3115,Dodging,Explicit
+train_3122,General,Explicit
+train_3126,Explicit,Explicit
+train_3132,Explicit,Explicit
+train_3134,Dodging,Explicit
+train_3137,Explicit,Claims ignorance
+train_3148,Explicit,Dodging
+train_3150,Dodging,Dodging
+train_3153,Explicit,Explicit
+train_3160,Explicit,Explicit
+train_3161,Explicit,Dodging
+train_3162,Implicit,Dodging
+train_3166,Implicit,Explicit
+train_3169,Deflection,Explicit
+train_3174,Implicit,Deflection
+train_3181,Deflection,Explicit
+train_3195,Explicit,Dodging
+train_3197,General,Dodging
+train_3199,Explicit,Explicit
+train_3209,Explicit,Explicit
+train_3213,Implicit,Explicit
+train_3231,Deflection,Explicit
+train_3232,Deflection,Explicit
+train_3242,Explicit,Explicit
+train_3245,Deflection,Deflection
+train_3247,Implicit,Explicit
+train_3250,Explicit,Explicit
+train_3257,Dodging,Dodging
+train_3267,Implicit,Dodging
+train_3271,Explicit,Explicit
+train_3275,Explicit,Explicit
+train_3278,General,Explicit
+train_3283,Deflection,Explicit
+train_3285,Dodging,Explicit
+train_3292,Explicit,Explicit
+train_3299,Dodging,Explicit
+train_3303,Dodging,Deflection
+train_3306,Deflection,Explicit
+train_3323,Dodging,Explicit
+train_3326,Explicit,Explicit
+train_3335,Explicit,Explicit
+train_3336,Dodging,Explicit
+train_3342,Explicit,Dodging
+train_3351,Dodging,Implicit
+train_3364,Dodging,Explicit
+train_3365,Implicit,Dodging
+train_3373,General,Dodging
+train_3375,Deflection,Dodging
+train_3388,Dodging,Dodging
+train_3391,Explicit,Explicit
+train_3399,Explicit,Explicit
+train_3402,Explicit,Explicit
+train_3406,Dodging,Dodging
+train_3411,Explicit,Explicit
+train_3427,Dodging,Dodging
+train_3429,Deflection,Dodging
+train_3433,Dodging,Dodging
+train_3434,Claims ignorance,Claims ignorance
+train_3444,Explicit,Explicit

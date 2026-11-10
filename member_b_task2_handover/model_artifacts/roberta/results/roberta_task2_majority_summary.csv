@@ -1,0 +1,2 @@
+model,task,reference,num_samples,accuracy,macro_f1,ece,brier_score
+RoBERTa-base,Task 2,supplementary_majority_vote,275,0.3490909090909091,0.298601630447124,0.05007382247272729,0.752991976603199

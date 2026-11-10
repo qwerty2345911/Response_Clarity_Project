@@ -1,0 +1,10 @@
+model,task,reference,class,precision,recall,f1,support
+DeBERTa-v3-base,Task 2,supplementary_majority_vote,Explicit,0.3333333333333333,0.8181818181818182,0.47368421052631576,77
+DeBERTa-v3-base,Task 2,supplementary_majority_vote,Implicit,0.0,0.0,0.0,57
+DeBERTa-v3-base,Task 2,supplementary_majority_vote,Dodging,0.31746031746031744,0.4,0.35398230088495575,50
+DeBERTa-v3-base,Task 2,supplementary_majority_vote,General,0.0,0.0,0.0,48
+DeBERTa-v3-base,Task 2,supplementary_majority_vote,Deflection,0.0,0.0,0.0,17
+DeBERTa-v3-base,Task 2,supplementary_majority_vote,Declining to answer,0.2,0.36363636363636365,0.25806451612903225,11
+DeBERTa-v3-base,Task 2,supplementary_majority_vote,Claims ignorance,0.0,0.0,0.0,8
+DeBERTa-v3-base,Task 2,supplementary_majority_vote,Clarification,1.0,0.25,0.4,4
+DeBERTa-v3-base,Task 2,supplementary_majority_vote,Partial/half-answer,0.0,0.0,0.0,3

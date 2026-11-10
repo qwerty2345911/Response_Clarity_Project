@@ -1,0 +1,313 @@
+{
+  "delivery_name": "Member B Task 2 baseline handover",
+  "generated_at_utc": "2026-11-10T10:24:42.698854+00:00",
+  "task": "Task 2 nine-class classification",
+  "models": [
+    "RoBERTa-base",
+    "DeBERTa-v3-base",
+    "XLNet-base-cased"
+  ],
+  "label_order": [
+    "Explicit",
+    "Implicit",
+    "Dodging",
+    "General",
+    "Deflection",
+    "Declining to answer",
+    "Claims ignorance",
+    "Clarification",
+    "Partial/half-answer"
+  ],
+  "test_samples": 308,
+  "validation_samples": 748,
+  "majority_vote_samples": 275,
+  "data_commits": [
+    "95069879832d95dfc0262acb1b9559a706a496ec"
+  ],
+  "temperature_scaling_rule": "Fit temperature on Validation logits only. Never fit on Test.",
+  "model_weights_included": false,
+  "model_weights_note": "Best-model weights remain in the three Kaggle Notebook Outputs.",
+  "file_count_excluding_manifest": 40,
+  "files": [
+    {
+      "archive_path": "baseline_comparison/baseline_results.csv",
+      "source_path": "/kaggle/working/baseline_comparison_outputs/baseline_results.csv",
+      "size_bytes": 1623,
+      "sha256": "145416baadb80e708ee9e82e03c38bcebcfbd745ed91ac3ff5596c7ba9313737",
+      "category": "baseline_comparison"
+    },
+    {
+      "archive_path": "baseline_comparison/baseline_comparison.png",
+      "source_path": "/kaggle/working/baseline_comparison_outputs/baseline_comparison.png",
+      "size_bytes": 354248,
+      "sha256": "761b7fbfa7e7113490fcee06485dd1ae6c11f41625e4de439ee9faf8a1ad8fa6",
+      "category": "baseline_comparison"
+    },
+    {
+      "archive_path": "baseline_comparison/baseline_analysis.md",
+      "source_path": "/kaggle/working/baseline_comparison_outputs/baseline_analysis.md",
+      "size_bytes": 3730,
+      "sha256": "fec134a6c697b71caad17066e0743d755c31c549e719bb95d24212f02fb99e2a",
+      "category": "baseline_comparison"
+    },
+    {
+      "archive_path": "baseline_comparison/baseline_per_class_results.csv",
+      "source_path": "/kaggle/working/baseline_comparison_outputs/baseline_per_class_results.csv",
+      "size_bytes": 1430,
+      "sha256": "ca1b2a30631a3b9ce52bf61b9ee57a8ed93275aeaa366cc5960de68b80aad72b",
+      "category": "baseline_comparison"
+    },
+    {
+      "archive_path": "baseline_comparison/baseline_typical_errors.csv",
+      "source_path": "/kaggle/working/baseline_comparison_outputs/baseline_typical_errors.csv",
+      "size_bytes": 65129,
+      "sha256": "2f0b01d5e082eb04f47afd6ad1d3cf8d647b1b237c4ff4187c83996696d1d86a",
+      "category": "baseline_comparison"
+    },
+    {
+      "archive_path": "baseline_comparison/baseline_input_audit.csv",
+      "source_path": "/kaggle/working/baseline_comparison_outputs/baseline_input_audit.csv",
+      "size_bytes": 4989,
+      "sha256": "324bd9288248f820ddf0efa01737e7ef1f60da79e173823ae2f2142addf5d7b0",
+      "category": "baseline_comparison"
+    },
+    {
+      "archive_path": "inference_benchmark.csv",
+      "source_path": "/kaggle/working/inference_benchmark.csv",
+      "size_bytes": 1303,
+      "sha256": "69bdb8b65a9de9d0fd3b4bd26bcbd97e006dfbab776f2e436fdc7773a69798e3",
+      "category": "inference_benchmark"
+    },
+    {
+      "archive_path": "model_artifacts/deberta_v3/logs/deberta_v3_experiment_config.json",
+      "source_path": "/kaggle/working/baseline_inputs/deberta_v3/logs/deberta_v3_experiment_config.json",
+      "size_bytes": 1444,
+      "sha256": "b06dc7cdab3891e5b682fe2aa52f897fe87f89a179d4eb9602f5be314a9bfbe3",
+      "category": "model_artifact"
+    },
+    {
+      "archive_path": "model_artifacts/deberta_v3/logs/deberta_v3_training_log.csv",
+      "source_path": "/kaggle/working/baseline_inputs/deberta_v3/logs/deberta_v3_training_log.csv",
+      "size_bytes": 4466,
+      "sha256": "9919944951742f7802dfc60b63da74592c179b19758dfd87bf78b4cf5e232cad",
+      "category": "model_artifact"
+    },
+    {
+      "archive_path": "model_artifacts/deberta_v3/predictions/deberta_v3_predictions.csv",
+      "source_path": "/kaggle/working/baseline_inputs/deberta_v3/predictions/deberta_v3_predictions.csv",
+      "size_bytes": 5650,
+      "sha256": "8eeebc92ddfa3f040f5638762c44d604952e748f6f7e3cb3de41bae89fa835d1",
+      "category": "model_artifact"
+    },
+    {
+      "archive_path": "model_artifacts/deberta_v3/predictions/deberta_v3_probabilities.csv",
+      "source_path": "/kaggle/working/baseline_inputs/deberta_v3/predictions/deberta_v3_probabilities.csv",
+      "size_bytes": 34402,
+      "sha256": "c1a52be4748308bf9ff1f7faf05ecd30e1f4c3ab0b7651d25d43aa7b771c0a27",
+      "category": "model_artifact"
+    },
+    {
+      "archive_path": "model_artifacts/deberta_v3/predictions/deberta_v3_validation_logits.csv",
+      "source_path": "/kaggle/working/baseline_inputs/deberta_v3/predictions/deberta_v3_validation_logits.csv",
+      "size_bytes": 79563,
+      "sha256": "3f1e373cf31c8ea6e94323d5a1de212306173b85c3a05e4a9c2c96bb58d5cae6",
+      "category": "model_artifact"
+    },
+    {
+      "archive_path": "model_artifacts/deberta_v3/predictions/deberta_v3_validation_predictions.csv",
+      "source_path": "/kaggle/working/baseline_inputs/deberta_v3/predictions/deberta_v3_validation_predictions.csv",
+      "size_bytes": 22759,
+      "sha256": "bf614772b4ffc33e68e1a77eefe8ab3f2859bf46926c887b8b88758ec2842ccc",
+      "category": "model_artifact"
+    },
+    {
+      "archive_path": "model_artifacts/deberta_v3/predictions/deberta_v3_validation_probabilities.csv",
+      "source_path": "/kaggle/working/baseline_inputs/deberta_v3/predictions/deberta_v3_validation_probabilities.csv",
+      "size_bytes": 84977,
+      "sha256": "288c3ec454e2ccb1ec67409aabf6d4ecf229b5fc56e96c1ea3be92a85895017c",
+      "category": "model_artifact"
+    },
+    {
+      "archive_path": "model_artifacts/deberta_v3/results/deberta_v3_task2_majority_per_class.csv",
+      "source_path": "/kaggle/working/baseline_inputs/deberta_v3/results/deberta_v3_task2_majority_per_class.csv",
+      "size_bytes": 873,
+      "sha256": "174c67fc25147affd7ab4c7f105987687edbf0103977e61642668cf4418a377d",
+      "category": "model_artifact"
+    },
+    {
+      "archive_path": "model_artifacts/deberta_v3/results/deberta_v3_task2_majority_summary.csv",
+      "source_path": "/kaggle/working/baseline_inputs/deberta_v3/results/deberta_v3_task2_majority_summary.csv",
+      "size_bytes": 186,
+      "sha256": "47e3182a41a7d58e53ea7ba6bc838008ce5c8606269f7465c9dbcb27f21a388d",
+      "category": "model_artifact"
+    },
+    {
+      "archive_path": "model_artifacts/deberta_v3/results/deberta_v3_task2_per_class.csv",
+      "source_path": "/kaggle/working/baseline_inputs/deberta_v3/results/deberta_v3_task2_per_class.csv",
+      "size_bytes": 2070,
+      "sha256": "23e46d592e78c49c250ca81fecbe10f0716deae0c23d16c612e374431b2c3035",
+      "category": "model_artifact"
+    },
+    {
+      "archive_path": "model_artifacts/deberta_v3/results/deberta_v3_task2_summary.csv",
+      "source_path": "/kaggle/working/baseline_inputs/deberta_v3/results/deberta_v3_task2_summary.csv",
+      "size_bytes": 654,
+      "sha256": "862ef4ce30634a0cfe1e7f89edd0a492d3ac5f35859126b42480f8e6b10ed7e1",
+      "category": "model_artifact"
+    },
+    {
+      "archive_path": "model_artifacts/roberta/logs/roberta_experiment_config.json",
+      "source_path": "/kaggle/working/baseline_inputs/roberta/logs/roberta_experiment_config.json",
+      "size_bytes": 1436,
+      "sha256": "85ae469ab52e5e60cd642c1c5f2c276573b2b64e66f7889d5644d5920d75c047",
+      "category": "model_artifact"
+    },
+    {
+      "archive_path": "model_artifacts/roberta/logs/roberta_training_log.csv",
+      "source_path": "/kaggle/working/baseline_inputs/roberta/logs/roberta_training_log.csv",
+      "size_bytes": 4410,
+      "sha256": "078a41bd2f04024e4c2febf235084bc7a5d60f8b4cca0aaba7ab89b1dfba4102",
+      "category": "model_artifact"
+    },
+    {
+      "archive_path": "model_artifacts/roberta/predictions/roberta_predictions.csv",
+      "source_path": "/kaggle/working/baseline_inputs/roberta/predictions/roberta_predictions.csv",
+      "size_bytes": 5738,
+      "sha256": "938409519436f3c4be9f8fa1aa87ac99c687db364de2c51d4981320af842ba1c",
+      "category": "model_artifact"
+    },
+    {
+      "archive_path": "model_artifacts/roberta/predictions/roberta_probabilities.csv",
+      "source_path": "/kaggle/working/baseline_inputs/roberta/predictions/roberta_probabilities.csv",
+      "size_bytes": 34598,
+      "sha256": "a9a0bd0fd5244c82505ec4ac59c80f42ce8139d877be57fd47e151e2a9fb8e5c",
+      "category": "model_artifact"
+    },
+    {
+      "archive_path": "model_artifacts/roberta/predictions/roberta_validation_logits.csv",
+      "source_path": "/kaggle/working/baseline_inputs/roberta/predictions/roberta_validation_logits.csv",
+      "size_bytes": 79245,
+      "sha256": "6208050cf63b2c5f02c17c7b9dc4afc71852fb58b7f7836e46e498602d0ebed4",
+      "category": "model_artifact"
+    },
+    {
+      "archive_path": "model_artifacts/roberta/predictions/roberta_validation_predictions.csv",
+      "source_path": "/kaggle/working/baseline_inputs/roberta/predictions/roberta_validation_predictions.csv",
+      "size_bytes": 22802,
+      "sha256": "cbe5608f3f401cc3e8238957843b13b646118b79fa0e97909401bcdc1c47d47e",
+      "category": "model_artifact"
+    },
+    {
+      "archive_path": "model_artifacts/roberta/predictions/roberta_validation_probabilities.csv",
+      "source_path": "/kaggle/working/baseline_inputs/roberta/predictions/roberta_validation_probabilities.csv",
+      "size_bytes": 85516,
+      "sha256": "5c3adb260937ab0b347d7846f30ccd72c4c38b4424e3392142b6a1615f202a10",
+      "category": "model_artifact"
+    },
+    {
+      "archive_path": "model_artifacts/roberta/results/roberta_task2_majority_per_class.csv",
+      "source_path": "/kaggle/working/baseline_inputs/roberta/results/roberta_task2_majority_per_class.csv",
+      "size_bytes": 894,
+      "sha256": "17328678150df0277ba73131c44b0db28c919a20888e80db3a6c9671a43800b5",
+      "category": "model_artifact"
+    },
+    {
+      "archive_path": "model_artifacts/roberta/results/roberta_task2_majority_summary.csv",
+      "source_path": "/kaggle/working/baseline_inputs/roberta/results/roberta_task2_majority_summary.csv",
+      "size_bytes": 194,
+      "sha256": "2565ca5c16cf9997e5b84e7d8e18fd389e514e713e31d337cd11bf1956606b40",
+      "category": "model_artifact"
+    },
+    {
+      "archive_path": "model_artifacts/roberta/results/roberta_task2_per_class.csv",
+      "source_path": "/kaggle/working/baseline_inputs/roberta/results/roberta_task2_per_class.csv",
+      "size_bytes": 2451,
+      "sha256": "0f99aab02244f90969f5b3a7e86efc44712434f3206ed415453fde36c140d6af",
+      "category": "model_artifact"
+    },
+    {
+      "archive_path": "model_artifacts/roberta/results/roberta_task2_summary.csv",
+      "source_path": "/kaggle/working/baseline_inputs/roberta/results/roberta_task2_summary.csv",
+      "size_bytes": 640,
+      "sha256": "5d890343d9237185351fda49d3ecdc58034a4ba2483b51da90d888899bbbe9ed",
+      "category": "model_artifact"
+    },
+    {
+      "archive_path": "model_artifacts/xlnet/logs/xlnet_experiment_config.json",
+      "source_path": "/kaggle/working/baseline_inputs/xlnet/logs/xlnet_experiment_config.json",
+      "size_bytes": 1490,
+      "sha256": "6f95529e709d13b29776935db71c1de442d8fcd7ce6c3890dc0af0b2d295588d",
+      "category": "model_artifact"
+    },
+    {
+      "archive_path": "model_artifacts/xlnet/logs/xlnet_training_log.csv",
+      "source_path": "/kaggle/working/baseline_inputs/xlnet/logs/xlnet_training_log.csv",
+      "size_bytes": 4340,
+      "sha256": "67ab96e2e9d2d5cb9ab8c0399eae5dbdb7abdec84dfc15f1aedca66debbfb5bd",
+      "category": "model_artifact"
+    },
+    {
+      "archive_path": "model_artifacts/xlnet/predictions/xlnet_predictions.csv",
+      "source_path": "/kaggle/working/baseline_inputs/xlnet/predictions/xlnet_predictions.csv",
+      "size_bytes": 5590,
+      "sha256": "53c542fc538dae29af04a4b5b1291b82aff550ea343d1f2a72d44eb2cd60f7cb",
+      "category": "model_artifact"
+    },
+    {
+      "archive_path": "model_artifacts/xlnet/predictions/xlnet_probabilities.csv",
+      "source_path": "/kaggle/working/baseline_inputs/xlnet/predictions/xlnet_probabilities.csv",
+      "size_bytes": 34725,
+      "sha256": "1d33a20f9741587432589f280040f3958cfc094d040a30edbdf58bc17cf58832",
+      "category": "model_artifact"
+    },
+    {
+      "archive_path": "model_artifacts/xlnet/predictions/xlnet_validation_logits.csv",
+      "source_path": "/kaggle/working/baseline_inputs/xlnet/predictions/xlnet_validation_logits.csv",
+      "size_bytes": 78920,
+      "sha256": "f5182a0063556a22515d2d6499b7611e7897211be432aefc9e24b98f682ad02d",
+      "category": "model_artifact"
+    },
+    {
+      "archive_path": "model_artifacts/xlnet/predictions/xlnet_validation_predictions.csv",
+      "source_path": "/kaggle/working/baseline_inputs/xlnet/predictions/xlnet_validation_predictions.csv",
+      "size_bytes": 22696,
+      "sha256": "478a0b79628d251e4d9541807ba484c527a188d072e1f0b55ce2b1a6c1a4fcd1",
+      "category": "model_artifact"
+    },
+    {
+      "archive_path": "model_artifacts/xlnet/predictions/xlnet_validation_probabilities.csv",
+      "source_path": "/kaggle/working/baseline_inputs/xlnet/predictions/xlnet_validation_probabilities.csv",
+      "size_bytes": 85768,
+      "sha256": "0039344c8ec8eb65247e1661cf67374547c5ea7b3ac1a378396b0c08061eb369",
+      "category": "model_artifact"
+    },
+    {
+      "archive_path": "model_artifacts/xlnet/results/xlnet_task2_majority_per_class.csv",
+      "source_path": "/kaggle/working/baseline_inputs/xlnet/results/xlnet_task2_majority_per_class.csv",
+      "size_bytes": 982,
+      "sha256": "2952085081146555df7c3b2491dc880bb4b85b34e5e0c06fa3bc87ba327744b6",
+      "category": "model_artifact"
+    },
+    {
+      "archive_path": "model_artifacts/xlnet/results/xlnet_task2_majority_summary.csv",
+      "source_path": "/kaggle/working/baseline_inputs/xlnet/results/xlnet_task2_majority_summary.csv",
+      "size_bytes": 202,
+      "sha256": "2330809c402a5291719f2b5affec40d3c30fb4c08792015c09ddc56c2774be1e",
+      "category": "model_artifact"
+    },
+    {
+      "archive_path": "model_artifacts/xlnet/results/xlnet_task2_per_class.csv",
+      "source_path": "/kaggle/working/baseline_inputs/xlnet/results/xlnet_task2_per_class.csv",
+      "size_bytes": 2562,
+      "sha256": "5598c94d7ed156bf8239d6459eb8d924b496fe95633ded8c28633d5126cdae49",
+      "category": "model_artifact"
+    },
+    {
+      "archive_path": "model_artifacts/xlnet/results/xlnet_task2_summary.csv",
+      "source_path": "/kaggle/working/baseline_inputs/xlnet/results/xlnet_task2_summary.csv",
+      "size_bytes": 659,
+      "sha256": "6ae6b51ca4206bc041183b519d2ebda2572fb69126f61ba74db604dc16587170",
+      "category": "model_artifact"
+    }
+  ]
+}

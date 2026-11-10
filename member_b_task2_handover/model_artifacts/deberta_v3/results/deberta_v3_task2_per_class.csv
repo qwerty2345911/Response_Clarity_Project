@@ -1,0 +1,28 @@
+model,task,reference,class,precision,recall,f1,support
+DeBERTa-v3-base,Task 2,annotator1,Explicit,0.39622641509433965,0.7924528301886793,0.5283018867924528,106
+DeBERTa-v3-base,Task 2,annotator1,Implicit,0.0,0.0,0.0,54
+DeBERTa-v3-base,Task 2,annotator1,Dodging,0.3142857142857143,0.3793103448275862,0.34375,58
+DeBERTa-v3-base,Task 2,annotator1,General,0.0,0.0,0.0,29
+DeBERTa-v3-base,Task 2,annotator1,Deflection,0.0,0.0,0.0,30
+DeBERTa-v3-base,Task 2,annotator1,Declining to answer,0.17391304347826086,0.4,0.24242424242424243,10
+DeBERTa-v3-base,Task 2,annotator1,Claims ignorance,0.0,0.0,0.0,9
+DeBERTa-v3-base,Task 2,annotator1,Clarification,1.0,0.25,0.4,4
+DeBERTa-v3-base,Task 2,annotator1,Partial/half-answer,0.0,0.0,0.0,8
+DeBERTa-v3-base,Task 2,annotator2,Explicit,0.2169811320754717,0.8679245283018868,0.3471698113207547,53
+DeBERTa-v3-base,Task 2,annotator2,Implicit,0.0,0.0,0.0,54
+DeBERTa-v3-base,Task 2,annotator2,Dodging,0.37142857142857144,0.3611111111111111,0.36619718309859156,72
+DeBERTa-v3-base,Task 2,annotator2,General,0.0,0.0,0.0,78
+DeBERTa-v3-base,Task 2,annotator2,Deflection,0.0,0.0,0.0,22
+DeBERTa-v3-base,Task 2,annotator2,Declining to answer,0.21739130434782608,0.5555555555555556,0.3125,9
+DeBERTa-v3-base,Task 2,annotator2,Claims ignorance,0.0,0.0,0.0,11
+DeBERTa-v3-base,Task 2,annotator2,Clarification,1.0,0.25,0.4,4
+DeBERTa-v3-base,Task 2,annotator2,Partial/half-answer,0.0,0.0,0.0,5
+DeBERTa-v3-base,Task 2,annotator3,Explicit,0.3113207547169811,0.825,0.4520547945205479,80
+DeBERTa-v3-base,Task 2,annotator3,Implicit,0.0,0.0,0.0,67
+DeBERTa-v3-base,Task 2,annotator3,Dodging,0.2,0.32558139534883723,0.24778761061946902,43
+DeBERTa-v3-base,Task 2,annotator3,General,0.0,0.0,0.0,65
+DeBERTa-v3-base,Task 2,annotator3,Deflection,0.0,0.0,0.0,23
+DeBERTa-v3-base,Task 2,annotator3,Declining to answer,0.17391304347826086,0.2857142857142857,0.21621621621621623,14
+DeBERTa-v3-base,Task 2,annotator3,Claims ignorance,0.0,0.0,0.0,7
+DeBERTa-v3-base,Task 2,annotator3,Clarification,1.0,0.25,0.4,4
+DeBERTa-v3-base,Task 2,annotator3,Partial/half-answer,0.0,0.0,0.0,5

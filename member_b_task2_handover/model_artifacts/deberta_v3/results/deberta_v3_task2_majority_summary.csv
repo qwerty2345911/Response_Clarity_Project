@@ -1,0 +1,2 @@
+model,task,reference,num_samples,accuracy,macro_f1,ece,brier_score
+DeBERTa-v3-base,Task 2,supplementary_majority_vote,275,0.32,0.16508122528225597,0.08100979167272727,0.7680827846247253
