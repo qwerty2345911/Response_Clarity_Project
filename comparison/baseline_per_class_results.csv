@@ -1,0 +1,28 @@
+model_key,model,label,f1
+roberta,RoBERTa-base,Explicit,0.49107002731166766
+roberta,RoBERTa-base,Implicit,0.12254901960784313
+roberta,RoBERTa-base,Dodging,0.30009965753117973
+roberta,RoBERTa-base,General,0.009661835748792267
+roberta,RoBERTa-base,Deflection,0.030555555555555534
+roberta,RoBERTa-base,Declining to answer,0.3183229813664596
+roberta,RoBERTa-base,Claims ignorance,0.4832112332112332
+roberta,RoBERTa-base,Clarification,0.8571428571428571
+roberta,RoBERTa-base,Partial/half-answer,0.0
+deberta_v3,DeBERTa-v3-base,Explicit,0.4425088308779184
+deberta_v3,DeBERTa-v3-base,Implicit,0.0
+deberta_v3,DeBERTa-v3-base,Dodging,0.3192449312393535
+deberta_v3,DeBERTa-v3-base,General,0.0
+deberta_v3,DeBERTa-v3-base,Deflection,0.0
+deberta_v3,DeBERTa-v3-base,Declining to answer,0.25704681954681957
+deberta_v3,DeBERTa-v3-base,Claims ignorance,0.0
+deberta_v3,DeBERTa-v3-base,Clarification,0.4000000000000001
+deberta_v3,DeBERTa-v3-base,Partial/half-answer,0.0
+xlnet,XLNet-base-cased,Explicit,0.4258543907063513
+xlnet,XLNet-base-cased,Implicit,0.06056644880174287
+xlnet,XLNet-base-cased,Dodging,0.2166763061499903
+xlnet,XLNet-base-cased,General,0.05369997764363957
+xlnet,XLNet-base-cased,Deflection,0.0202020202020202
+xlnet,XLNet-base-cased,Declining to answer,0.3507603507603507
+xlnet,XLNet-base-cased,Claims ignorance,0.2693602693602693
+xlnet,XLNet-base-cased,Clarification,0.8571428571428571
+xlnet,XLNet-base-cased,Partial/half-answer,0.0
