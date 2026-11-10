@@ -1,0 +1,2 @@
+model,task,reference,num_samples,accuracy,macro_f1,ece,brier_score
+XLNet-base-cased,Task 2,supplementary_majority_vote,275,0.31636363636363635,0.26906355016649547,0.06309132014545456,0.7834481390316406

@@ -1,0 +1,55 @@
+{
+  "experiment": "DeBERTa-v3-base Task 2 nine-class baseline",
+  "model_id": "microsoft/deberta-v3-base",
+  "task": "Task 2",
+  "num_labels": 9,
+  "labels": [
+    "Explicit",
+    "Implicit",
+    "Dodging",
+    "General",
+    "Deflection",
+    "Declining to answer",
+    "Claims ignorance",
+    "Clarification",
+    "Partial/half-answer"
+  ],
+  "input_fields": [
+    "question",
+    "interview_answer"
+  ],
+  "train_samples": 2700,
+  "validation_samples": 748,
+  "test_samples": 308,
+  "random_seed": 42,
+  "max_length": 256,
+  "num_train_epochs": 3,
+  "learning_rate": 2e-05,
+  "per_device_train_batch_size": 4,
+  "per_device_eval_batch_size": 8,
+  "gradient_accumulation_steps": 2,
+  "weight_decay": 0.01,
+  "warmup_steps": 101,
+  "fp16": true,
+  "model_selection_metric": "validation_macro_f1",
+  "best_checkpoint": "/kaggle/working/deberta_v3_task2_outputs/formal_training/checkpoint-1014",
+  "best_validation_macro_f1": 0.19446526622156302,
+  "formal_training_seconds": 311.802771697,
+  "formal_training_minutes": 5.196712861616667,
+  "python_environment": {
+    "torch": "2.11.0+cu130",
+    "transformers": "5.20.2",
+    "pandas": "2.3.3",
+    "numpy": "2.1.3"
+  },
+  "hardware": {
+    "gpu": "Tesla T4",
+    "visible_gpu_count": 1,
+    "vram_gib": 14.56
+  },
+  "data_source": {
+    "repository": "qwerty2345911/Response_Clarity_Project",
+    "branch": "feature/A-data",
+    "commit": "95069879832d95dfc0262acb1b9559a706a496ec"
+  }
+}

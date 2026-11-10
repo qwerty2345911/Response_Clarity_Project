@@ -1,0 +1,10 @@
+model,task,reference,class,precision,recall,f1,support
+XLNet-base-cased,Task 2,supplementary_majority_vote,Explicit,0.3125,0.8441558441558441,0.45614035087719296,77
+XLNet-base-cased,Task 2,supplementary_majority_vote,Implicit,0.15384615384615385,0.03508771929824561,0.05714285714285714,57
+XLNet-base-cased,Task 2,supplementary_majority_vote,Dodging,0.3103448275862069,0.18,0.22784810126582278,50
+XLNet-base-cased,Task 2,supplementary_majority_vote,General,0.4,0.041666666666666664,0.07547169811320754,48
+XLNet-base-cased,Task 2,supplementary_majority_vote,Deflection,0.0,0.0,0.0,17
+XLNet-base-cased,Task 2,supplementary_majority_vote,Declining to answer,0.3333333333333333,0.36363636363636365,0.34782608695652173,11
+XLNet-base-cased,Task 2,supplementary_majority_vote,Claims ignorance,1.0,0.25,0.4,8
+XLNet-base-cased,Task 2,supplementary_majority_vote,Clarification,1.0,0.75,0.8571428571428571,4
+XLNet-base-cased,Task 2,supplementary_majority_vote,Partial/half-answer,0.0,0.0,0.0,3
