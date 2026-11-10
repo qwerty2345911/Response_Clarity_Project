@@ -1,0 +1,5 @@
+# CPU-only environment for auditing outputs and generating the comparison.
+# Model inference benchmarking additionally needs the main requirements.txt.
+pandas==2.3.3
+numpy==2.1.3
+matplotlib==3.10.7
