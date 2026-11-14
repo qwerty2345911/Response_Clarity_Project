@@ -1,0 +1,727 @@
+sample_id,model,gold_majority,annotator1,annotator2,annotator3,pred_label,confidence,is_no_majority
+test_1,roberta,General,Deflection,General,General,Explicit,0.27400085,0
+test_2,roberta,Implicit,Explicit,Implicit,Implicit,Explicit,0.2977184,0
+test_3,roberta,General,Explicit,General,General,Declining to answer,0.38737205,0
+test_4,roberta,Dodging,Dodging,Implicit,Dodging,Explicit,0.74057585,0
+test_5,roberta,Dodging,Dodging,Dodging,Dodging,Explicit,0.54508495,0
+test_6,roberta,Dodging,Dodging,Dodging,Dodging,Explicit,0.27776983,0
+test_8,roberta,General,General,General,General,Explicit,0.2738113,0
+test_9,roberta,Implicit,Implicit,Implicit,Implicit,Dodging,0.28620204,0
+test_10,roberta,Implicit,Implicit,General,Implicit,Explicit,0.42487833,0
+test_12,roberta,Dodging,Deflection,Dodging,Dodging,Explicit,0.74977523,0
+test_13,roberta,Explicit,Explicit,General,Explicit,Dodging,0.24995929,0
+test_16,roberta,Dodging,General,Dodging,Dodging,Claims ignorance,0.24692634,0
+test_18,roberta,Dodging,Dodging,Dodging,Dodging,Explicit,0.22984946,0
+test_19,roberta,Implicit,Implicit,Dodging,Implicit,Explicit,0.545064,0
+test_20,roberta,General,Implicit,General,General,Explicit,0.22264153,0
+test_22,roberta,Implicit,Implicit,General,Implicit,Explicit,0.2490184,0
+test_23,roberta,General,Implicit,General,General,Implicit,0.22468466,0
+test_24,roberta,Implicit,Explicit,Implicit,Implicit,Explicit,0.40994033,0
+test_26,roberta,Deflection,Deflection,General,Deflection,Explicit,0.36679283,0
+test_27,roberta,Dodging,Dodging,Dodging,Dodging,Implicit,0.22228332,0
+test_28,roberta,Dodging,Dodging,General,Dodging,Explicit,0.24649227,0
+test_29,roberta,Declining to answer,Declining to answer,Declining to answer,Declining to answer,Dodging,0.2711925,0
+test_31,roberta,General,General,Deflection,General,Explicit,0.28619304,0
+test_32,roberta,Declining to answer,Dodging,Declining to answer,Declining to answer,Explicit,0.69967633,0
+test_33,roberta,General,Deflection,General,General,Declining to answer,0.26593447,0
+test_34,roberta,Implicit,Implicit,Deflection,Implicit,Explicit,0.4592853,0
+test_35,roberta,Dodging,Dodging,Dodging,Dodging,Implicit,0.23058645,0
+test_36,roberta,Explicit,Explicit,Dodging,Explicit,Dodging,0.3082327,0
+test_37,roberta,Implicit,Explicit,Implicit,Implicit,Explicit,0.32382852,0
+test_38,roberta,General,Dodging,General,General,Explicit,0.28807902,0
+test_39,roberta,Partial/half-answer,Partial/half-answer,Partial/half-answer,Partial/half-answer,Dodging,0.22063382,0
+test_40,roberta,Implicit,Implicit,Implicit,Implicit,Claims ignorance,0.34006378,0
+test_41,roberta,Implicit,General,Implicit,Implicit,Dodging,0.2455341,0
+test_42,roberta,Dodging,General,Dodging,Dodging,Explicit,0.4797542,0
+test_43,roberta,Dodging,Deflection,Dodging,Dodging,Declining to answer,0.5214312,0
+test_44,roberta,Implicit,Implicit,Implicit,Implicit,Explicit,0.33735737,0
+test_45,roberta,Implicit,Implicit,Implicit,Implicit,Explicit,0.43672866,0
+test_48,roberta,General,General,General,General,Explicit,0.57068706,0
+test_52,roberta,General,Explicit,General,General,Explicit,0.699034,0
+test_53,roberta,Implicit,Explicit,Implicit,Implicit,Explicit,0.4667503,0
+test_54,roberta,Explicit,Explicit,Claims ignorance,Explicit,Claims ignorance,0.3040035,0
+test_55,roberta,General,General,General,General,Explicit,0.31508297,0
+test_57,roberta,Dodging,Dodging,Claims ignorance,Dodging,Claims ignorance,0.40040126,0
+test_58,roberta,Explicit,Explicit,Implicit,Explicit,General,0.20558564,0
+test_62,roberta,Dodging,Dodging,Dodging,Dodging,Explicit,0.2312402,0
+test_65,roberta,Partial/half-answer,Partial/half-answer,Implicit,Partial/half-answer,Explicit,0.5321587,0
+test_68,roberta,Dodging,Dodging,Dodging,Dodging,Explicit,0.40432373,0
+test_75,roberta,Dodging,Dodging,Dodging,Dodging,Deflection,0.20771328,0
+test_78,roberta,General,General,Implicit,General,Explicit,0.33902463,0
+test_83,roberta,Dodging,Dodging,Dodging,Dodging,Declining to answer,0.37013924,0
+test_85,roberta,General,Explicit,General,General,Explicit,0.42397627,0
+test_86,roberta,Deflection,Deflection,Deflection,Deflection,Explicit,0.38790563,0
+test_88,roberta,Claims ignorance,Claims ignorance,Claims ignorance,Deflection,Dodging,0.3343946,0
+test_89,roberta,Explicit,Explicit,Explicit,Explicit,Implicit,0.24416682,0
+test_90,roberta,Explicit,Explicit,Explicit,Explicit,Deflection,0.23991391,0
+test_91,roberta,Deflection,Dodging,Deflection,Deflection,Dodging,0.2095125,0
+test_92,roberta,Dodging,Dodging,Dodging,Deflection,Explicit,0.35199142,0
+test_93,roberta,Explicit,Explicit,Explicit,Explicit,Deflection,0.21166952,0
+test_95,roberta,General,Explicit,General,General,Dodging,0.23294581,0
+test_96,roberta,Implicit,Dodging,Implicit,Implicit,Dodging,0.27032834,0
+test_100,roberta,General,General,General,General,Declining to answer,0.33433115,0
+test_103,roberta,General,General,Dodging,General,Explicit,0.4247137,0
+test_104,roberta,Dodging,Dodging,Dodging,Deflection,Explicit,0.2446369,0
+test_105,roberta,General,General,General,General,Explicit,0.23296295,0
+test_107,roberta,Dodging,Dodging,Dodging,Dodging,Deflection,0.22725935,0
+test_110,roberta,General,Implicit,General,General,Dodging,0.23774447,0
+test_111,roberta,Implicit,General,Implicit,Implicit,Explicit,0.23305175,0
+test_114,roberta,Implicit,Implicit,General,Implicit,Explicit,0.45712304,0
+test_115,roberta,General,Deflection,General,General,Dodging,0.21298638,0
+test_116,roberta,General,General,General,General,Explicit,0.2117415,0
+test_118,roberta,Implicit,Implicit,Implicit,Implicit,Explicit,0.39531165,0
+test_119,roberta,Implicit,Implicit,Implicit,Implicit,Explicit,0.5236965,0
+test_120,roberta,Dodging,Dodging,Dodging,Explicit,Explicit,0.5138193,0
+test_123,roberta,General,General,General,Claims ignorance,Implicit,0.2129829,0
+test_126,roberta,Implicit,Implicit,Dodging,Implicit,Explicit,0.27328172,0
+test_127,roberta,Implicit,Implicit,Implicit,General,Deflection,0.20023139,0
+test_132,roberta,Deflection,Deflection,Deflection,Deflection,Dodging,0.4140546,0
+test_134,roberta,Implicit,General,Implicit,Implicit,Explicit,0.26637515,0
+test_136,roberta,Implicit,Implicit,Dodging,Implicit,Explicit,0.65259516,0
+test_137,roberta,Deflection,Deflection,Deflection,Deflection,Explicit,0.28598166,0
+test_139,roberta,Explicit,Explicit,Explicit,Explicit,General,0.20607525,0
+test_140,roberta,Implicit,Implicit,Implicit,Implicit,Explicit,0.75037104,0
+test_142,roberta,Deflection,Deflection,Dodging,Deflection,Dodging,0.24334373,0
+test_143,roberta,Implicit,Implicit,Implicit,Implicit,Explicit,0.22417706,0
+test_144,roberta,Explicit,Explicit,General,Explicit,Dodging,0.21242614,0
+test_148,roberta,Implicit,Implicit,Partial/half-answer,Implicit,Explicit,0.34043142,0
+test_149,roberta,Implicit,Explicit,Implicit,Implicit,Explicit,0.69337535,0
+test_150,roberta,Explicit,Explicit,Explicit,Explicit,Dodging,0.36889264,0
+test_151,roberta,Implicit,Implicit,Dodging,Implicit,Explicit,0.25381944,0
+test_152,roberta,General,Implicit,General,General,Explicit,0.2237863,0
+test_155,roberta,Dodging,Dodging,Dodging,Dodging,Explicit,0.26995072,0
+test_156,roberta,Deflection,Dodging,Deflection,Deflection,Dodging,0.62380594,0
+test_157,roberta,General,Implicit,General,General,Claims ignorance,0.24482945,0
+test_160,roberta,Implicit,Explicit,Implicit,Implicit,Explicit,0.26857084,0
+test_161,roberta,General,Implicit,General,General,Explicit,0.7142073,0
+test_166,roberta,General,Implicit,General,General,Implicit,0.20827442,0
+test_167,roberta,Dodging,Dodging,Dodging,Dodging,Declining to answer,0.6422448,0
+test_169,roberta,Implicit,Implicit,Implicit,Implicit,Dodging,0.22445543,0
+test_172,roberta,Dodging,Dodging,Dodging,Dodging,General,0.21409845,0
+test_173,roberta,General,Dodging,General,General,Explicit,0.21054149,0
+test_175,roberta,Implicit,Implicit,General,Implicit,Explicit,0.26760277,0
+test_176,roberta,Deflection,Deflection,Dodging,Deflection,Explicit,0.29577962,0
+test_177,roberta,General,Partial/half-answer,General,General,Implicit,0.2504599,0
+test_178,roberta,Implicit,Implicit,Dodging,Implicit,Explicit,0.27101675,0
+test_179,roberta,General,Implicit,General,General,Deflection,0.22773021,0
+test_180,roberta,Implicit,General,Implicit,Implicit,Dodging,0.23941728,0
+test_181,roberta,Dodging,Dodging,Dodging,Dodging,Deflection,0.21703807,0
+test_183,roberta,Declining to answer,Declining to answer,Claims ignorance,Declining to answer,Claims ignorance,0.4229281,0
+test_185,roberta,Deflection,Deflection,Deflection,Declining to answer,Dodging,0.2534749,0
+test_188,roberta,Declining to answer,Dodging,Declining to answer,Declining to answer,Explicit,0.6412884,0
+test_189,roberta,Implicit,Deflection,Implicit,Implicit,Explicit,0.23019364,0
+test_190,roberta,General,General,General,General,Implicit,0.21108928,0
+test_192,roberta,Implicit,Implicit,Implicit,Implicit,Explicit,0.28412366,0
+test_194,roberta,Dodging,Dodging,Dodging,Deflection,Implicit,0.2362625,0
+test_195,roberta,General,General,General,General,Explicit,0.31748852,0
+test_196,roberta,General,Explicit,General,General,Explicit,0.67379576,0
+test_197,roberta,General,Dodging,General,General,Explicit,0.40258017,0
+test_199,roberta,General,Deflection,General,General,Dodging,0.2211425,0
+test_200,roberta,Implicit,Implicit,Implicit,Implicit,Dodging,0.248703,0
+test_201,roberta,Implicit,Dodging,Implicit,Implicit,Explicit,0.76270056,0
+test_203,roberta,Dodging,Dodging,Dodging,Dodging,Explicit,0.21158955,0
+test_204,roberta,Implicit,Implicit,Implicit,Implicit,Explicit,0.31663877,0
+test_206,roberta,Dodging,Dodging,Dodging,Dodging,Explicit,0.6588996,0
+test_208,roberta,General,Implicit,General,General,Dodging,0.2250436,0
+test_210,roberta,General,General,General,General,Explicit,0.48785004,0
+test_212,roberta,Implicit,Implicit,Implicit,Implicit,Explicit,0.8025209,0
+test_214,roberta,Deflection,Deflection,Deflection,General,Explicit,0.2931177,0
+test_215,roberta,Implicit,Implicit,General,Implicit,Deflection,0.20528269,0
+test_216,roberta,Deflection,Deflection,Deflection,Deflection,Explicit,0.37705857,0
+test_217,roberta,General,General,General,General,Dodging,0.20984125,0
+test_218,roberta,General,Explicit,General,General,Explicit,0.2119096,0
+test_222,roberta,General,Explicit,General,General,Explicit,0.2871073,0
+test_223,roberta,Explicit,Explicit,Dodging,Explicit,Dodging,0.24083722,0
+test_227,roberta,General,Implicit,General,General,Dodging,0.21849781,0
+test_228,roberta,Implicit,Implicit,General,Implicit,Claims ignorance,0.32048872,0
+test_230,roberta,Deflection,Deflection,Deflection,Deflection,Explicit,0.36845192,0
+test_231,roberta,General,Dodging,General,General,Explicit,0.32679126,0
+test_232,roberta,General,Dodging,General,General,Deflection,0.22875825,0
+test_233,roberta,General,General,Implicit,General,Explicit,0.2829778,0
+test_235,roberta,General,General,General,General,Explicit,0.32418454,0
+test_241,roberta,Implicit,Explicit,Implicit,Implicit,Explicit,0.461767,0
+test_243,roberta,General,Deflection,General,General,Dodging,0.25788945,0
+test_244,roberta,General,Explicit,General,General,Dodging,0.23109765,0
+test_245,roberta,Implicit,Dodging,Implicit,Implicit,Explicit,0.6991374,0
+test_248,roberta,Deflection,Deflection,Deflection,Deflection,Explicit,0.39906117,0
+test_250,roberta,Explicit,Explicit,Explicit,Explicit,Claims ignorance,0.36520624,0
+test_253,roberta,Dodging,Dodging,Dodging,Deflection,Explicit,0.3833436,0
+test_254,roberta,Dodging,Dodging,Dodging,Dodging,Declining to answer,0.6694606,0
+test_255,roberta,Explicit,Explicit,Explicit,Explicit,Dodging,0.2522094,0
+test_256,roberta,Implicit,Implicit,Dodging,Implicit,Deflection,0.20826077,0
+test_257,roberta,Explicit,Explicit,Deflection,Explicit,Implicit,0.24073623,0
+test_258,roberta,Declining to answer,Declining to answer,Declining to answer,Declining to answer,Claims ignorance,0.44536942,0
+test_260,roberta,Explicit,Explicit,Partial/half-answer,Explicit,Dodging,0.37990865,0
+test_262,roberta,Deflection,Deflection,General,Deflection,Implicit,0.23225859,0
+test_264,roberta,Claims ignorance,Claims ignorance,Claims ignorance,Claims ignorance,Dodging,0.2195751,0
+test_266,roberta,General,General,General,Dodging,Explicit,0.23142666,0
+test_269,roberta,Dodging,Declining to answer,Dodging,Dodging,Explicit,0.66972023,0
+test_271,roberta,Deflection,Implicit,Deflection,Deflection,Claims ignorance,0.2630601,0
+test_272,roberta,Implicit,Implicit,Implicit,Implicit,Deflection,0.23037843,0
+test_273,roberta,Deflection,Deflection,General,Deflection,Explicit,0.2578712,0
+test_275,roberta,Implicit,Implicit,Implicit,Implicit,Deflection,0.21228978,0
+test_276,roberta,General,General,Dodging,General,Declining to answer,0.37661216,0
+test_277,roberta,Declining to answer,Declining to answer,Dodging,Declining to answer,Implicit,0.21906431,0
+test_278,roberta,Implicit,Implicit,Implicit,Implicit,Deflection,0.21528704,0
+test_279,roberta,Implicit,Explicit,Implicit,Implicit,Explicit,0.2931082,0
+test_280,roberta,Dodging,Dodging,Dodging,Dodging,Implicit,0.21168886,0
+test_281,roberta,General,Implicit,General,General,Explicit,0.8603913,0
+test_283,roberta,Implicit,Explicit,Implicit,Implicit,Explicit,0.28166664,0
+test_286,roberta,Dodging,Dodging,Dodging,Dodging,Deflection,0.21656847,0
+test_287,roberta,Implicit,Implicit,Explicit,Implicit,Explicit,0.31059602,0
+test_288,roberta,Declining to answer,Declining to answer,General,Declining to answer,Deflection,0.20763183,0
+test_294,roberta,Implicit,Implicit,Implicit,Implicit,Explicit,0.3203105,0
+test_297,roberta,Dodging,Dodging,Dodging,Dodging,Declining to answer,0.67455935,0
+test_300,roberta,Clarification,Clarification,Clarification,Clarification,Dodging,0.5626384,0
+test_301,roberta,Partial/half-answer,Deflection,Partial/half-answer,Partial/half-answer,Deflection,0.23375735,0
+test_303,roberta,Implicit,Implicit,Dodging,Implicit,Explicit,0.28863755,0
+test_304,roberta,Deflection,Deflection,Deflection,Deflection,Explicit,0.2332002,0
+test_306,roberta,Implicit,Deflection,Implicit,Implicit,Explicit,0.3088041,0
+test_307,roberta,Explicit,Explicit,General,Explicit,Dodging,0.35908297,0
+test_1,deberta,General,Deflection,General,General,Explicit,0.23363097,0
+test_2,deberta,Implicit,Explicit,Implicit,Implicit,Explicit,0.28200462,0
+test_3,deberta,General,Explicit,General,General,Declining to answer,0.234021,0
+test_4,deberta,Dodging,Dodging,Implicit,Dodging,Explicit,0.71662766,0
+test_5,deberta,Dodging,Dodging,Dodging,Dodging,Explicit,0.38146105,0
+test_7,deberta,Dodging,Dodging,Dodging,Dodging,Explicit,0.22632758,0
+test_8,deberta,General,General,General,General,Explicit,0.2864976,0
+test_9,deberta,Implicit,Implicit,Implicit,Implicit,Explicit,0.20128223,0
+test_10,deberta,Implicit,Implicit,General,Implicit,Dodging,0.22867975,0
+test_12,deberta,Dodging,Deflection,Dodging,Dodging,Explicit,0.7769108,0
+test_16,deberta,Dodging,General,Dodging,Dodging,Declining to answer,0.24320437,0
+test_18,deberta,Dodging,Dodging,Dodging,Dodging,Explicit,0.27031848,0
+test_19,deberta,Implicit,Implicit,Dodging,Implicit,Dodging,0.33481786,0
+test_20,deberta,General,Implicit,General,General,Explicit,0.21588102,0
+test_22,deberta,Implicit,Implicit,General,Implicit,Dodging,0.23040585,0
+test_23,deberta,General,Implicit,General,General,Explicit,0.36974764,0
+test_24,deberta,Implicit,Explicit,Implicit,Implicit,Dodging,0.31133407,0
+test_26,deberta,Deflection,Deflection,General,Deflection,Explicit,0.26782995,0
+test_27,deberta,Dodging,Dodging,Dodging,Dodging,Explicit,0.27362445,0
+test_28,deberta,Dodging,Dodging,General,Dodging,Explicit,0.25460947,0
+test_29,deberta,Declining to answer,Declining to answer,Declining to answer,Declining to answer,Dodging,0.20374808,0
+test_31,deberta,General,General,Deflection,General,Explicit,0.4087775,0
+test_32,deberta,Declining to answer,Dodging,Declining to answer,Declining to answer,Dodging,0.24604866,0
+test_33,deberta,General,Deflection,General,General,Declining to answer,0.21603663,0
+test_34,deberta,Implicit,Implicit,Deflection,Implicit,Explicit,0.42059988,0
+test_35,deberta,Dodging,Dodging,Dodging,Dodging,Explicit,0.22287433,0
+test_36,deberta,Explicit,Explicit,Dodging,Explicit,Dodging,0.5605905,0
+test_37,deberta,Implicit,Explicit,Implicit,Implicit,Explicit,0.26816368,0
+test_38,deberta,General,Dodging,General,General,Explicit,0.32227525,0
+test_39,deberta,Partial/half-answer,Partial/half-answer,Partial/half-answer,Partial/half-answer,Explicit,0.25549638,0
+test_40,deberta,Implicit,Implicit,Implicit,Implicit,Declining to answer,0.21294081,0
+test_41,deberta,Implicit,General,Implicit,Implicit,Dodging,0.2294154,0
+test_42,deberta,Dodging,General,Dodging,Dodging,Explicit,0.24812928,0
+test_44,deberta,Implicit,Implicit,Implicit,Implicit,Explicit,0.33717015,0
+test_45,deberta,Implicit,Implicit,Implicit,Implicit,Dodging,0.24839352,0
+test_48,deberta,General,General,General,General,Explicit,0.48258543,0
+test_49,deberta,Claims ignorance,Claims ignorance,Claims ignorance,Claims ignorance,Declining to answer,0.26928663,0
+test_52,deberta,General,Explicit,General,General,Explicit,0.80320156,0
+test_53,deberta,Implicit,Explicit,Implicit,Implicit,Dodging,0.3702526,0
+test_54,deberta,Explicit,Explicit,Claims ignorance,Explicit,Dodging,0.20499346,0
+test_55,deberta,General,General,General,General,Explicit,0.31243792,0
+test_56,deberta,Claims ignorance,Claims ignorance,Claims ignorance,Dodging,Declining to answer,0.32322362,0
+test_57,deberta,Dodging,Dodging,Claims ignorance,Dodging,Explicit,0.21795966,0
+test_62,deberta,Dodging,Dodging,Dodging,Dodging,Explicit,0.2308125,0
+test_65,deberta,Partial/half-answer,Partial/half-answer,Implicit,Partial/half-answer,Explicit,0.5001212,0
+test_67,deberta,Explicit,Explicit,Explicit,Explicit,Dodging,0.2585769,0
+test_69,deberta,Explicit,Explicit,Implicit,Explicit,Dodging,0.2466153,0
+test_70,deberta,Explicit,Explicit,Explicit,Explicit,Dodging,0.26370606,0
+test_71,deberta,Claims ignorance,Claims ignorance,Claims ignorance,Claims ignorance,Explicit,0.20800647,0
+test_72,deberta,Clarification,Clarification,Clarification,Clarification,Dodging,0.42988604,0
+test_74,deberta,Implicit,Implicit,Implicit,Implicit,Explicit,0.26373634,0
+test_75,deberta,Dodging,Dodging,Dodging,Dodging,Explicit,0.23739173,0
+test_78,deberta,General,General,Implicit,General,Explicit,0.3364503,0
+test_82,deberta,Implicit,Implicit,Implicit,Implicit,Deflection,0.20217693,0
+test_83,deberta,Dodging,Dodging,Dodging,Dodging,Declining to answer,0.26830092,0
+test_84,deberta,Claims ignorance,Claims ignorance,Declining to answer,Claims ignorance,Declining to answer,0.3607096,0
+test_85,deberta,General,Explicit,General,General,Explicit,0.26717472,0
+test_86,deberta,Deflection,Deflection,Deflection,Deflection,Explicit,0.27042252,0
+test_88,deberta,Claims ignorance,Claims ignorance,Claims ignorance,Deflection,Dodging,0.27844778,0
+test_91,deberta,Deflection,Dodging,Deflection,Deflection,Explicit,0.23263219,0
+test_95,deberta,General,Explicit,General,General,Dodging,0.22252487,0
+test_96,deberta,Implicit,Dodging,Implicit,Implicit,Explicit,0.22998537,0
+test_100,deberta,General,General,General,General,Declining to answer,0.24123724,0
+test_103,deberta,General,General,Dodging,General,Explicit,0.28768587,0
+test_104,deberta,Dodging,Dodging,Dodging,Deflection,Explicit,0.23886676,0
+test_105,deberta,General,General,General,General,Explicit,0.24516246,0
+test_106,deberta,Dodging,Dodging,General,Dodging,Explicit,0.29151407,0
+test_107,deberta,Dodging,Dodging,Dodging,Dodging,Explicit,0.22908613,0
+test_108,deberta,Claims ignorance,Claims ignorance,Claims ignorance,Claims ignorance,Explicit,0.20112218,0
+test_110,deberta,General,Implicit,General,General,Explicit,0.24337499,0
+test_111,deberta,Implicit,General,Implicit,Implicit,Explicit,0.22154295,0
+test_114,deberta,Implicit,Implicit,General,Implicit,Explicit,0.29885283,0
+test_115,deberta,General,Deflection,General,General,Explicit,0.22222495,0
+test_116,deberta,General,General,General,General,Explicit,0.30801573,0
+test_117,deberta,Explicit,Explicit,General,Explicit,Dodging,0.25312823,0
+test_118,deberta,Implicit,Implicit,Implicit,Implicit,Explicit,0.39241114,0
+test_119,deberta,Implicit,Implicit,Implicit,Implicit,Explicit,0.6757892,0
+test_120,deberta,Dodging,Dodging,Dodging,Explicit,Explicit,0.26499054,0
+test_123,deberta,General,General,General,Claims ignorance,Dodging,0.2189551,0
+test_126,deberta,Implicit,Implicit,Dodging,Implicit,Dodging,0.22379327,0
+test_127,deberta,Implicit,Implicit,Implicit,General,Explicit,0.22984627,0
+test_132,deberta,Deflection,Deflection,Deflection,Deflection,Dodging,0.3631243,0
+test_134,deberta,Implicit,General,Implicit,Implicit,Explicit,0.26454055,0
+test_136,deberta,Implicit,Implicit,Dodging,Implicit,Explicit,0.2433696,0
+test_137,deberta,Deflection,Deflection,Deflection,Deflection,Explicit,0.36623988,0
+test_140,deberta,Implicit,Implicit,Implicit,Implicit,Explicit,0.79038066,0
+test_142,deberta,Deflection,Deflection,Dodging,Deflection,Dodging,0.20527568,0
+test_143,deberta,Implicit,Implicit,Implicit,Implicit,Explicit,0.25285482,0
+test_148,deberta,Implicit,Implicit,Partial/half-answer,Implicit,Explicit,0.4814673,0
+test_149,deberta,Implicit,Explicit,Implicit,Implicit,Explicit,0.58940834,0
+test_150,deberta,Explicit,Explicit,Explicit,Explicit,Dodging,0.29468048,0
+test_151,deberta,Implicit,Implicit,Dodging,Implicit,Explicit,0.24527334,0
+test_152,deberta,General,Implicit,General,General,Explicit,0.24410535,0
+test_153,deberta,Dodging,Dodging,Dodging,Dodging,Explicit,0.24718204,0
+test_154,deberta,Explicit,Explicit,Explicit,Explicit,Dodging,0.5618937,0
+test_155,deberta,Dodging,Dodging,Dodging,Dodging,Explicit,0.25832942,0
+test_156,deberta,Deflection,Dodging,Deflection,Deflection,Dodging,0.72835183,0
+test_157,deberta,General,Implicit,General,General,Dodging,0.23337738,0
+test_160,deberta,Implicit,Explicit,Implicit,Implicit,Explicit,0.24502005,0
+test_161,deberta,General,Implicit,General,General,Dodging,0.31550398,0
+test_166,deberta,General,Implicit,General,General,Explicit,0.46875364,0
+test_167,deberta,Dodging,Dodging,Dodging,Dodging,Declining to answer,0.315616,0
+test_169,deberta,Implicit,Implicit,Implicit,Implicit,Explicit,0.26798105,0
+test_170,deberta,Dodging,Dodging,Dodging,Dodging,Explicit,0.21093084,0
+test_173,deberta,General,Dodging,General,General,Explicit,0.25796893,0
+test_175,deberta,Implicit,Implicit,General,Implicit,Explicit,0.23752493,0
+test_176,deberta,Deflection,Deflection,Dodging,Deflection,Explicit,0.2809285,0
+test_177,deberta,General,Partial/half-answer,General,General,Explicit,0.23677747,0
+test_178,deberta,Implicit,Implicit,Dodging,Implicit,Dodging,0.26813027,0
+test_179,deberta,General,Implicit,General,General,Explicit,0.20748304,0
+test_180,deberta,Implicit,General,Implicit,Implicit,Explicit,0.24381576,0
+test_183,deberta,Declining to answer,Declining to answer,Claims ignorance,Declining to answer,Dodging,0.20452361,0
+test_185,deberta,Deflection,Deflection,Deflection,Declining to answer,Explicit,0.25510544,0
+test_187,deberta,Implicit,Implicit,Explicit,Implicit,Explicit,0.23024821,0
+test_188,deberta,Declining to answer,Dodging,Declining to answer,Declining to answer,Explicit,0.21593261,0
+test_189,deberta,Implicit,Deflection,Implicit,Implicit,Explicit,0.26098058,0
+test_190,deberta,General,General,General,General,Explicit,0.20515653,0
+test_192,deberta,Implicit,Implicit,Implicit,Implicit,Dodging,0.22576521,0
+test_195,deberta,General,General,General,General,Explicit,0.28261325,0
+test_196,deberta,General,Explicit,General,General,Explicit,0.67836213,0
+test_197,deberta,General,Dodging,General,General,Explicit,0.310582,0
+test_199,deberta,General,Deflection,General,General,Dodging,0.2074492,0
+test_200,deberta,Implicit,Implicit,Implicit,Implicit,Explicit,0.25356746,0
+test_201,deberta,Implicit,Dodging,Implicit,Implicit,Explicit,0.7851691,0
+test_203,deberta,Dodging,Dodging,Dodging,Dodging,Explicit,0.24121282,0
+test_204,deberta,Implicit,Implicit,Implicit,Implicit,Explicit,0.317479,0
+test_205,deberta,Implicit,Explicit,Implicit,Implicit,Explicit,0.33152142,0
+test_206,deberta,Dodging,Dodging,Dodging,Dodging,Explicit,0.53941345,0
+test_207,deberta,Implicit,Partial/half-answer,Implicit,Implicit,Explicit,0.29188997,0
+test_208,deberta,General,Implicit,General,General,Explicit,0.2542765,0
+test_210,deberta,General,General,General,General,Explicit,0.27668676,0
+test_212,deberta,Implicit,Implicit,Implicit,Implicit,Explicit,0.83307445,0
+test_214,deberta,Deflection,Deflection,Deflection,General,Explicit,0.31675303,0
+test_215,deberta,Implicit,Implicit,General,Implicit,Explicit,0.24254912,0
+test_216,deberta,Deflection,Deflection,Deflection,Deflection,Explicit,0.2820305,0
+test_217,deberta,General,General,General,General,Explicit,0.22517654,0
+test_218,deberta,General,Explicit,General,General,Explicit,0.21456556,0
+test_222,deberta,General,Explicit,General,General,Explicit,0.30006382,0
+test_224,deberta,Explicit,Explicit,General,Explicit,Dodging,0.50382215,0
+test_225,deberta,Dodging,General,Dodging,Dodging,Explicit,0.27853736,0
+test_227,deberta,General,Implicit,General,General,Explicit,0.2382527,0
+test_228,deberta,Implicit,Implicit,General,Implicit,Dodging,0.19932984,0
+test_230,deberta,Deflection,Deflection,Deflection,Deflection,Explicit,0.37240234,0
+test_231,deberta,General,Dodging,General,General,Dodging,0.24411435,0
+test_232,deberta,General,Dodging,General,General,Implicit,0.19833104,0
+test_233,deberta,General,General,Implicit,General,Explicit,0.23751384,0
+test_235,deberta,General,General,General,General,Explicit,0.28704962,0
+test_240,deberta,Declining to answer,Deflection,Declining to answer,Declining to answer,Dodging,0.19489375,0
+test_241,deberta,Implicit,Explicit,Implicit,Implicit,Explicit,0.26873478,0
+test_243,deberta,General,Deflection,General,General,Dodging,0.25095737,0
+test_244,deberta,General,Explicit,General,General,Explicit,0.26652452,0
+test_245,deberta,Implicit,Dodging,Implicit,Implicit,Explicit,0.71482754,0
+test_248,deberta,Deflection,Deflection,Deflection,Deflection,Explicit,0.31480595,0
+test_250,deberta,Explicit,Explicit,Explicit,Explicit,Declining to answer,0.22820486,0
+test_253,deberta,Dodging,Dodging,Dodging,Deflection,Explicit,0.3324826,0
+test_254,deberta,Dodging,Dodging,Dodging,Dodging,Declining to answer,0.37536454,0
+test_256,deberta,Implicit,Implicit,Dodging,Implicit,Explicit,0.2824595,0
+test_260,deberta,Explicit,Explicit,Partial/half-answer,Explicit,Declining to answer,0.40106964,0
+test_262,deberta,Deflection,Deflection,General,Deflection,Explicit,0.23750454,0
+test_263,deberta,Claims ignorance,Claims ignorance,General,Claims ignorance,Declining to answer,0.33456883,0
+test_264,deberta,Claims ignorance,Claims ignorance,Claims ignorance,Claims ignorance,Explicit,0.26160994,0
+test_266,deberta,General,General,General,Dodging,Explicit,0.22661722,0
+test_269,deberta,Dodging,Declining to answer,Dodging,Dodging,Explicit,0.68694377,0
+test_271,deberta,Deflection,Implicit,Deflection,Deflection,Dodging,0.22611386,0
+test_272,deberta,Implicit,Implicit,Implicit,Implicit,Explicit,0.21688312,0
+test_273,deberta,Deflection,Deflection,General,Deflection,Explicit,0.2838112,0
+test_275,deberta,Implicit,Implicit,Implicit,Implicit,Explicit,0.2274757,0
+test_276,deberta,General,General,Dodging,General,Declining to answer,0.23817728,0
+test_277,deberta,Declining to answer,Declining to answer,Dodging,Declining to answer,Explicit,0.23704223,0
+test_278,deberta,Implicit,Implicit,Implicit,Implicit,Explicit,0.19967112,0
+test_279,deberta,Implicit,Explicit,Implicit,Implicit,Dodging,0.25044304,0
+test_281,deberta,General,Implicit,General,General,Explicit,0.79241747,0
+test_283,deberta,Implicit,Explicit,Implicit,Implicit,Explicit,0.23759,0
+test_285,deberta,Clarification,Clarification,Clarification,Clarification,Dodging,0.34162933,0
+test_286,deberta,Dodging,Dodging,Dodging,Dodging,Explicit,0.2155719,0
+test_287,deberta,Implicit,Implicit,Explicit,Implicit,Explicit,0.27808097,0
+test_288,deberta,Declining to answer,Declining to answer,General,Declining to answer,Explicit,0.21972318,0
+test_290,deberta,Explicit,Implicit,Explicit,Explicit,Dodging,0.22588813,0
+test_294,deberta,Implicit,Implicit,Implicit,Implicit,Explicit,0.3021153,0
+test_297,deberta,Dodging,Dodging,Dodging,Dodging,Declining to answer,0.36370793,0
+test_300,deberta,Clarification,Clarification,Clarification,Clarification,Dodging,0.49117535,0
+test_301,deberta,Partial/half-answer,Deflection,Partial/half-answer,Partial/half-answer,Explicit,0.22164205,0
+test_303,deberta,Implicit,Implicit,Dodging,Implicit,Explicit,0.25536388,0
+test_304,deberta,Deflection,Deflection,Deflection,Deflection,Explicit,0.29041553,0
+test_305,deberta,Explicit,Explicit,Explicit,Explicit,Dodging,0.2210312,0
+test_306,deberta,Implicit,Deflection,Implicit,Implicit,Explicit,0.23647177,0
+test_307,deberta,Explicit,Explicit,General,Explicit,Dodging,0.5955223,0
+test_1,xlnet,General,Deflection,General,General,Explicit,0.38388556,0
+test_2,xlnet,Implicit,Explicit,Implicit,Implicit,Explicit,0.37779206,0
+test_4,xlnet,Dodging,Dodging,Implicit,Dodging,Explicit,0.44487196,0
+test_5,xlnet,Dodging,Dodging,Dodging,Dodging,Implicit,0.25666368,0
+test_6,xlnet,Dodging,Dodging,Dodging,Dodging,Explicit,0.29658183,0
+test_7,xlnet,Dodging,Dodging,Dodging,Dodging,Explicit,0.3327066,0
+test_8,xlnet,General,General,General,General,Explicit,0.31998095,0
+test_9,xlnet,Implicit,Implicit,Implicit,Implicit,Explicit,0.30294052,0
+test_10,xlnet,Implicit,Implicit,General,Implicit,Explicit,0.32654813,0
+test_12,xlnet,Dodging,Deflection,Dodging,Dodging,Explicit,0.41102764,0
+test_16,xlnet,Dodging,General,Dodging,Dodging,Explicit,0.21051793,0
+test_17,xlnet,Dodging,Dodging,Dodging,Implicit,Declining to answer,0.47892138,0
+test_18,xlnet,Dodging,Dodging,Dodging,Dodging,Explicit,0.2762656,0
+test_19,xlnet,Implicit,Implicit,Dodging,Implicit,Explicit,0.40286875,0
+test_20,xlnet,General,Implicit,General,General,Explicit,0.4158397,0
+test_22,xlnet,Implicit,Implicit,General,Implicit,Explicit,0.30720416,0
+test_23,xlnet,General,Implicit,General,General,Explicit,0.23094419,0
+test_24,xlnet,Implicit,Explicit,Implicit,Implicit,Explicit,0.3562237,0
+test_26,xlnet,Deflection,Deflection,General,Deflection,Explicit,0.31530505,0
+test_27,xlnet,Dodging,Dodging,Dodging,Dodging,Explicit,0.21523358,0
+test_29,xlnet,Declining to answer,Declining to answer,Declining to answer,Declining to answer,Explicit,0.26499248,0
+test_31,xlnet,General,General,Deflection,General,Explicit,0.2960551,0
+test_32,xlnet,Declining to answer,Dodging,Declining to answer,Declining to answer,Explicit,0.23547086,0
+test_33,xlnet,General,Deflection,General,General,Declining to answer,0.36496398,0
+test_34,xlnet,Implicit,Implicit,Deflection,Implicit,Explicit,0.39686581,0
+test_35,xlnet,Dodging,Dodging,Dodging,Dodging,Explicit,0.39041477,0
+test_37,xlnet,Implicit,Explicit,Implicit,Implicit,Explicit,0.29649213,0
+test_38,xlnet,General,Dodging,General,General,Dodging,0.25879303,0
+test_39,xlnet,Partial/half-answer,Partial/half-answer,Partial/half-answer,Partial/half-answer,Explicit,0.3483768,0
+test_40,xlnet,Implicit,Implicit,Implicit,Implicit,Explicit,0.2603127,0
+test_41,xlnet,Implicit,General,Implicit,Implicit,Explicit,0.40511525,0
+test_42,xlnet,Dodging,General,Dodging,Dodging,Explicit,0.3282152,0
+test_43,xlnet,Dodging,Deflection,Dodging,Dodging,Explicit,0.25453997,0
+test_44,xlnet,Implicit,Implicit,Implicit,Implicit,Explicit,0.30702126,0
+test_45,xlnet,Implicit,Implicit,Implicit,Implicit,Explicit,0.31074393,0
+test_48,xlnet,General,General,General,General,Explicit,0.35016686,0
+test_49,xlnet,Claims ignorance,Claims ignorance,Claims ignorance,Claims ignorance,Explicit,0.28919983,0
+test_52,xlnet,General,Explicit,General,General,Explicit,0.35349107,0
+test_53,xlnet,Implicit,Explicit,Implicit,Implicit,Explicit,0.3492929,0
+test_55,xlnet,General,General,General,General,Explicit,0.35060498,0
+test_56,xlnet,Claims ignorance,Claims ignorance,Claims ignorance,Dodging,Dodging,0.5748429,0
+test_57,xlnet,Dodging,Dodging,Claims ignorance,Dodging,Explicit,0.3133956,0
+test_58,xlnet,Explicit,Explicit,Implicit,Explicit,Implicit,0.26380673,0
+test_60,xlnet,Explicit,Explicit,General,Explicit,Dodging,0.5754636,0
+test_62,xlnet,Dodging,Dodging,Dodging,Dodging,Explicit,0.34516165,0
+test_65,xlnet,Partial/half-answer,Partial/half-answer,Implicit,Partial/half-answer,Explicit,0.326519,0
+test_68,xlnet,Dodging,Dodging,Dodging,Dodging,Explicit,0.4770909,0
+test_70,xlnet,Explicit,Explicit,Explicit,Explicit,Dodging,0.52562577,0
+test_71,xlnet,Claims ignorance,Claims ignorance,Claims ignorance,Claims ignorance,Explicit,0.26157743,0
+test_74,xlnet,Implicit,Implicit,Implicit,Implicit,Explicit,0.35129973,0
+test_75,xlnet,Dodging,Dodging,Dodging,Dodging,Explicit,0.31364557,0
+test_78,xlnet,General,General,Implicit,General,Explicit,0.3717573,0
+test_82,xlnet,Implicit,Implicit,Implicit,Implicit,Explicit,0.275139,0
+test_83,xlnet,Dodging,Dodging,Dodging,Dodging,Declining to answer,0.40200323,0
+test_85,xlnet,General,Explicit,General,General,Explicit,0.3198828,0
+test_86,xlnet,Deflection,Deflection,Deflection,Deflection,Explicit,0.34598473,0
+test_88,xlnet,Claims ignorance,Claims ignorance,Claims ignorance,Deflection,Dodging,0.47626767,0
+test_89,xlnet,Explicit,Explicit,Explicit,Explicit,Implicit,0.34213048,0
+test_90,xlnet,Explicit,Explicit,Explicit,Explicit,Deflection,0.1979312,0
+test_91,xlnet,Deflection,Dodging,Deflection,Deflection,Explicit,0.31290165,0
+test_92,xlnet,Dodging,Dodging,Dodging,Deflection,Explicit,0.39794332,0
+test_95,xlnet,General,Explicit,General,General,Dodging,0.25950843,0
+test_96,xlnet,Implicit,Dodging,Implicit,Implicit,Explicit,0.4088977,0
+test_100,xlnet,General,General,General,General,Declining to answer,0.23578195,0
+test_103,xlnet,General,General,Dodging,General,Explicit,0.4054782,0
+test_104,xlnet,Dodging,Dodging,Dodging,Deflection,Explicit,0.29238814,0
+test_105,xlnet,General,General,General,General,Explicit,0.32459107,0
+test_107,xlnet,Dodging,Dodging,Dodging,Dodging,Explicit,0.32093927,0
+test_108,xlnet,Claims ignorance,Claims ignorance,Claims ignorance,Claims ignorance,Explicit,0.28112993,0
+test_110,xlnet,General,Implicit,General,General,Explicit,0.33528906,0
+test_111,xlnet,Implicit,General,Implicit,Implicit,Explicit,0.38795352,0
+test_112,xlnet,Dodging,Deflection,Dodging,Dodging,Explicit,0.5123091,0
+test_114,xlnet,Implicit,Implicit,General,Implicit,Explicit,0.48107573,0
+test_115,xlnet,General,Deflection,General,General,Explicit,0.2926903,0
+test_116,xlnet,General,General,General,General,Explicit,0.26509184,0
+test_118,xlnet,Implicit,Implicit,Implicit,Implicit,Explicit,0.29596645,0
+test_119,xlnet,Implicit,Implicit,Implicit,Implicit,Explicit,0.7194942,0
+test_120,xlnet,Dodging,Dodging,Dodging,Explicit,Explicit,0.32075214,0
+test_126,xlnet,Implicit,Implicit,Dodging,Implicit,Explicit,0.3075822,0
+test_127,xlnet,Implicit,Implicit,Implicit,General,Explicit,0.2775003,0
+test_132,xlnet,Deflection,Deflection,Deflection,Deflection,Dodging,0.42778155,0
+test_134,xlnet,Implicit,General,Implicit,Implicit,Explicit,0.34860066,0
+test_136,xlnet,Implicit,Implicit,Dodging,Implicit,Explicit,0.42905128,0
+test_137,xlnet,Deflection,Deflection,Deflection,Deflection,Explicit,0.3193222,0
+test_139,xlnet,Explicit,Explicit,Explicit,Explicit,Implicit,0.2688331,0
+test_140,xlnet,Implicit,Implicit,Implicit,Implicit,Explicit,0.4546295,0
+test_142,xlnet,Deflection,Deflection,Dodging,Deflection,Explicit,0.31176588,0
+test_143,xlnet,Implicit,Implicit,Implicit,Implicit,Explicit,0.31066734,0
+test_149,xlnet,Implicit,Explicit,Implicit,Implicit,Explicit,0.5119964,0
+test_150,xlnet,Explicit,Explicit,Explicit,Explicit,Dodging,0.2957545,0
+test_151,xlnet,Implicit,Implicit,Dodging,Implicit,Dodging,0.29005936,0
+test_152,xlnet,General,Implicit,General,General,Explicit,0.35755196,0
+test_153,xlnet,Dodging,Dodging,Dodging,Dodging,Explicit,0.36995336,0
+test_155,xlnet,Dodging,Dodging,Dodging,Dodging,Explicit,0.3277494,0
+test_156,xlnet,Deflection,Dodging,Deflection,Deflection,Dodging,0.76211005,0
+test_157,xlnet,General,Implicit,General,General,Explicit,0.22828174,0
+test_160,xlnet,Implicit,Explicit,Implicit,Implicit,Explicit,0.3436039,0
+test_161,xlnet,General,Implicit,General,General,Explicit,0.43546852,0
+test_163,xlnet,Explicit,Explicit,Dodging,Explicit,Implicit,0.28317645,0
+test_166,xlnet,General,Implicit,General,General,Dodging,0.38761154,0
+test_167,xlnet,Dodging,Dodging,Dodging,Dodging,Declining to answer,0.49151546,0
+test_169,xlnet,Implicit,Implicit,Implicit,Implicit,Explicit,0.28862134,0
+test_170,xlnet,Dodging,Dodging,Dodging,Dodging,Explicit,0.43082595,0
+test_172,xlnet,Dodging,Dodging,Dodging,Dodging,General,0.22167657,0
+test_173,xlnet,General,Dodging,General,General,Explicit,0.37486193,0
+test_175,xlnet,Implicit,Implicit,General,Implicit,Explicit,0.2169553,0
+test_176,xlnet,Deflection,Deflection,Dodging,Deflection,Explicit,0.35814628,0
+test_177,xlnet,General,Partial/half-answer,General,General,Implicit,0.23097739,0
+test_178,xlnet,Implicit,Implicit,Dodging,Implicit,Dodging,0.35803294,0
+test_179,xlnet,General,Implicit,General,General,Dodging,0.2694171,0
+test_180,xlnet,Implicit,General,Implicit,Implicit,Explicit,0.3619113,0
+test_181,xlnet,Dodging,Dodging,Dodging,Dodging,General,0.22656234,0
+test_183,xlnet,Declining to answer,Declining to answer,Claims ignorance,Declining to answer,Dodging,0.2562877,0
+test_185,xlnet,Deflection,Deflection,Deflection,Declining to answer,Explicit,0.29802242,0
+test_187,xlnet,Implicit,Implicit,Explicit,Implicit,Explicit,0.28558233,0
+test_188,xlnet,Declining to answer,Dodging,Declining to answer,Declining to answer,Explicit,0.23858957,0
+test_189,xlnet,Implicit,Deflection,Implicit,Implicit,Explicit,0.34627935,0
+test_190,xlnet,General,General,General,General,Implicit,0.25236288,0
+test_192,xlnet,Implicit,Implicit,Implicit,Implicit,Explicit,0.29263332,0
+test_194,xlnet,Dodging,Dodging,Dodging,Deflection,Explicit,0.2896135,0
+test_195,xlnet,General,General,General,General,Explicit,0.44556662,0
+test_196,xlnet,General,Explicit,General,General,Explicit,0.4430004,0
+test_197,xlnet,General,Dodging,General,General,Explicit,0.30287924,0
+test_199,xlnet,General,Deflection,General,General,Explicit,0.29777676,0
+test_200,xlnet,Implicit,Implicit,Implicit,Implicit,Dodging,0.28436926,0
+test_201,xlnet,Implicit,Dodging,Implicit,Implicit,Explicit,0.38470286,0
+test_203,xlnet,Dodging,Dodging,Dodging,Dodging,Explicit,0.36089903,0
+test_204,xlnet,Implicit,Implicit,Implicit,Implicit,Explicit,0.28672683,0
+test_206,xlnet,Dodging,Dodging,Dodging,Dodging,Explicit,0.6501948,0
+test_207,xlnet,Implicit,Partial/half-answer,Implicit,Implicit,Explicit,0.3723948,0
+test_208,xlnet,General,Implicit,General,General,Explicit,0.34539515,0
+test_210,xlnet,General,General,General,General,Explicit,0.37986472,0
+test_211,xlnet,Dodging,Dodging,Dodging,General,Explicit,0.4509227,0
+test_212,xlnet,Implicit,Implicit,Implicit,Implicit,Explicit,0.6575003,0
+test_214,xlnet,Deflection,Deflection,Deflection,General,Explicit,0.2948379,0
+test_215,xlnet,Implicit,Implicit,General,Implicit,Explicit,0.29090396,0
+test_216,xlnet,Deflection,Deflection,Deflection,Deflection,Explicit,0.36737704,0
+test_217,xlnet,General,General,General,General,Explicit,0.33497602,0
+test_218,xlnet,General,Explicit,General,General,Explicit,0.3437808,0
+test_220,xlnet,Dodging,Dodging,Dodging,Dodging,Explicit,0.35128835,0
+test_222,xlnet,General,Explicit,General,General,Explicit,0.37171304,0
+test_226,xlnet,Dodging,Claims ignorance,Dodging,Dodging,Explicit,0.29016292,0
+test_227,xlnet,General,Implicit,General,General,Explicit,0.3239133,0
+test_228,xlnet,Implicit,Implicit,General,Implicit,Explicit,0.26028275,0
+test_230,xlnet,Deflection,Deflection,Deflection,Deflection,Explicit,0.41172522,0
+test_231,xlnet,General,Dodging,General,General,Explicit,0.3179442,0
+test_232,xlnet,General,Dodging,General,General,Implicit,0.2305325,0
+test_233,xlnet,General,General,Implicit,General,Explicit,0.30806762,0
+test_235,xlnet,General,General,General,General,Explicit,0.33156177,0
+test_236,xlnet,Explicit,Explicit,Explicit,Explicit,Implicit,0.30389005,0
+test_240,xlnet,Declining to answer,Deflection,Declining to answer,Declining to answer,Explicit,0.2722064,0
+test_241,xlnet,Implicit,Explicit,Implicit,Implicit,Explicit,0.31236523,0
+test_243,xlnet,General,Deflection,General,General,Explicit,0.20401986,0
+test_244,xlnet,General,Explicit,General,General,Explicit,0.32066342,0
+test_245,xlnet,Implicit,Dodging,Implicit,Implicit,Explicit,0.36787945,0
+test_248,xlnet,Deflection,Deflection,Deflection,Deflection,Explicit,0.29782876,0
+test_253,xlnet,Dodging,Dodging,Dodging,Deflection,Explicit,0.2954772,0
+test_254,xlnet,Dodging,Dodging,Dodging,Dodging,Declining to answer,0.57651645,0
+test_256,xlnet,Implicit,Implicit,Dodging,Implicit,Explicit,0.2818136,0
+test_260,xlnet,Explicit,Explicit,Partial/half-answer,Explicit,Dodging,0.4565787,0
+test_262,xlnet,Deflection,Deflection,General,Deflection,Explicit,0.28997368,0
+test_264,xlnet,Claims ignorance,Claims ignorance,Claims ignorance,Claims ignorance,Explicit,0.32899418,0
+test_266,xlnet,General,General,General,Dodging,Explicit,0.3455465,0
+test_269,xlnet,Dodging,Declining to answer,Dodging,Dodging,Explicit,0.42811492,0
+test_271,xlnet,Deflection,Implicit,Deflection,Deflection,Explicit,0.2734054,0
+test_272,xlnet,Implicit,Implicit,Implicit,Implicit,Deflection,0.2319212,0
+test_273,xlnet,Deflection,Deflection,General,Deflection,Explicit,0.35584587,0
+test_274,xlnet,Dodging,Dodging,Dodging,General,Explicit,0.36175758,0
+test_275,xlnet,Implicit,Implicit,Implicit,Implicit,Explicit,0.32654056,0
+test_276,xlnet,General,General,Dodging,General,Declining to answer,0.40178004,0
+test_277,xlnet,Declining to answer,Declining to answer,Dodging,Declining to answer,Implicit,0.25432014,0
+test_278,xlnet,Implicit,Implicit,Implicit,Implicit,Explicit,0.32483083,0
+test_279,xlnet,Implicit,Explicit,Implicit,Implicit,Dodging,0.3415432,0
+test_280,xlnet,Dodging,Dodging,Dodging,Dodging,Implicit,0.24986632,0
+test_281,xlnet,General,Implicit,General,General,Explicit,0.7171059,0
+test_283,xlnet,Implicit,Explicit,Implicit,Implicit,Explicit,0.32448292,0
+test_286,xlnet,Dodging,Dodging,Dodging,Dodging,General,0.22265416,0
+test_287,xlnet,Implicit,Implicit,Explicit,Implicit,Explicit,0.3883583,0
+test_288,xlnet,Declining to answer,Declining to answer,General,Declining to answer,Explicit,0.31563735,0
+test_290,xlnet,Explicit,Implicit,Explicit,Explicit,Dodging,0.31886286,0
+test_294,xlnet,Implicit,Implicit,Implicit,Implicit,Explicit,0.38273957,0
+test_297,xlnet,Dodging,Dodging,Dodging,Dodging,Declining to answer,0.5251783,0
+test_300,xlnet,Clarification,Clarification,Clarification,Clarification,Dodging,0.48136422,0
+test_301,xlnet,Partial/half-answer,Deflection,Partial/half-answer,Partial/half-answer,Deflection,0.26631933,0
+test_303,xlnet,Implicit,Implicit,Dodging,Implicit,Explicit,0.32368302,0
+test_304,xlnet,Deflection,Deflection,Deflection,Deflection,Explicit,0.3189359,0
+test_306,xlnet,Implicit,Deflection,Implicit,Implicit,Explicit,0.33852407,0
+test_307,xlnet,Explicit,Explicit,General,Explicit,Dodging,0.6291115,0
+test_1,llm_only,General,Deflection,General,General,Deflection,0.8761929630596093,0
+test_2,llm_only,Implicit,Explicit,Implicit,Implicit,Dodging,0.9210551844077869,0
+test_3,llm_only,General,Explicit,General,General,Deflection,0.8555695876470358,0
+test_4,llm_only,Dodging,Dodging,Implicit,Dodging,Deflection,0.9988485740228861,0
+test_5,llm_only,Dodging,Dodging,Dodging,Dodging,Deflection,0.904739149734276,0
+test_6,llm_only,Dodging,Dodging,Dodging,Dodging,Deflection,0.7945808278634827,0
+test_9,llm_only,Implicit,Implicit,Implicit,Implicit,Deflection,0.9963089758515129,0
+test_12,llm_only,Dodging,Deflection,Dodging,Dodging,Deflection,0.8588318800007505,0
+test_13,llm_only,Explicit,Explicit,General,Explicit,Deflection,0.9004577909568336,0
+test_16,llm_only,Dodging,General,Dodging,Dodging,Deflection,0.7228830073995534,0
+test_17,llm_only,Dodging,Dodging,Dodging,Implicit,Implicit,0.9144379658238666,0
+test_19,llm_only,Implicit,Implicit,Dodging,Implicit,Deflection,0.9823888454372639,0
+test_20,llm_only,General,Implicit,General,General,Deflection,0.8841940164917306,0
+test_21,llm_only,Explicit,Explicit,Explicit,Explicit,Deflection,0.9086174109446996,0
+test_22,llm_only,Implicit,Implicit,General,Implicit,Deflection,0.6609418187344502,0
+test_23,llm_only,General,Implicit,General,General,Implicit,0.9171812440948272,0
+test_24,llm_only,Implicit,Explicit,Implicit,Implicit,Explicit,0.883482890404722,0
+test_28,llm_only,Dodging,Dodging,General,Dodging,Deflection,0.9601286375656757,0
+test_30,llm_only,Explicit,Explicit,Dodging,Explicit,Deflection,0.8272218622753699,0
+test_31,llm_only,General,General,Deflection,General,Deflection,0.897997656214963,0
+test_33,llm_only,General,Deflection,General,General,Deflection,0.796208204215673,0
+test_34,llm_only,Implicit,Implicit,Deflection,Implicit,Deflection,0.98856058711371,0
+test_36,llm_only,Explicit,Explicit,Dodging,Explicit,Dodging,0.8424540332958133,0
+test_37,llm_only,Implicit,Explicit,Implicit,Implicit,Deflection,0.863200766432529,0
+test_38,llm_only,General,Dodging,General,General,Implicit,0.9511196787574081,0
+test_39,llm_only,Partial/half-answer,Partial/half-answer,Partial/half-answer,Partial/half-answer,Deflection,0.8156955117222688,0
+test_40,llm_only,Implicit,Implicit,Implicit,Implicit,Deflection,0.8825341091747685,0
+test_41,llm_only,Implicit,General,Implicit,Implicit,Dodging,0.981475765758896,0
+test_42,llm_only,Dodging,General,Dodging,Dodging,Deflection,0.9993300666359097,0
+test_43,llm_only,Dodging,Deflection,Dodging,Dodging,Deflection,0.8704056883979686,0
+test_45,llm_only,Implicit,Implicit,Implicit,Implicit,General,0.9999997615814784,0
+test_48,llm_only,General,General,General,General,Deflection,0.8604270540853843,0
+test_49,llm_only,Claims ignorance,Claims ignorance,Claims ignorance,Claims ignorance,Dodging,0.9942325166095123,0
+test_51,llm_only,Explicit,Explicit,Explicit,Explicit,Partial/half-answer,0.9106051872130102,0
+test_52,llm_only,General,Explicit,General,General,Deflection,0.8936423986505063,0
+test_53,llm_only,Implicit,Explicit,Implicit,Implicit,Dodging,0.9890291113592868,0
+test_54,llm_only,Explicit,Explicit,Claims ignorance,Explicit,Deflection,0.8802577735665412,0
+test_55,llm_only,General,General,General,General,Deflection,0.7472130649323869,0
+test_56,llm_only,Claims ignorance,Claims ignorance,Claims ignorance,Dodging,Deflection,0.8548163188208816,0
+test_57,llm_only,Dodging,Dodging,Claims ignorance,Dodging,Claims ignorance,0.9038812062549603,0
+test_58,llm_only,Explicit,Explicit,Implicit,Explicit,Deflection,0.8902354778367261,0
+test_65,llm_only,Partial/half-answer,Partial/half-answer,Implicit,Partial/half-answer,Dodging,0.9346102618670571,0
+test_67,llm_only,Explicit,Explicit,Explicit,Explicit,Implicit,0.90673754126935,0
+test_68,llm_only,Dodging,Dodging,Dodging,Dodging,Partial/half-answer,0.6829572998346534,0
+test_73,llm_only,Explicit,Explicit,Explicit,Explicit,Implicit,0.8911904855801588,0
+test_76,llm_only,Explicit,Explicit,Explicit,Explicit,General,0.9999998807907271,0
+test_78,llm_only,General,General,Implicit,General,Deflection,0.8205723163467754,0
+test_80,llm_only,Explicit,Explicit,Dodging,Explicit,Deflection,0.9993209230826321,0
+test_82,llm_only,Implicit,Implicit,Implicit,Implicit,Dodging,0.9342323586342386,0
+test_85,llm_only,General,Explicit,General,General,Deflection,0.8730781085344222,0
+test_89,llm_only,Explicit,Explicit,Explicit,Explicit,Deflection,0.8788962031934104,0
+test_90,llm_only,Explicit,Explicit,Explicit,Explicit,Deflection,0.8744503870999688,0
+test_91,llm_only,Deflection,Dodging,Deflection,Deflection,Dodging,0.9193173863445536,0
+test_93,llm_only,Explicit,Explicit,Explicit,Explicit,Deflection,0.6286259226723948,0
+test_95,llm_only,General,Explicit,General,General,Declining to answer,0.9934967468090395,0
+test_96,llm_only,Implicit,Dodging,Implicit,Implicit,Deflection,0.8463050918216234,0
+test_97,llm_only,Explicit,Explicit,General,Explicit,Deflection,0.7843347087800316,0
+test_101,llm_only,Explicit,Explicit,Explicit,Explicit,Deflection,0.7632747186623687,0
+test_102,llm_only,Explicit,Explicit,Implicit,Explicit,Deflection,0.9381730393377662,0
+test_103,llm_only,General,General,Dodging,General,Deflection,0.9911296863582364,0
+test_104,llm_only,Dodging,Dodging,Dodging,Deflection,Deflection,0.8757727719095872,0
+test_105,llm_only,General,General,General,General,Deflection,0.8040209726140454,0
+test_106,llm_only,Dodging,Dodging,General,Dodging,Deflection,0.9284809585939461,0
+test_108,llm_only,Claims ignorance,Claims ignorance,Claims ignorance,Claims ignorance,Deflection,0.8310549378256835,0
+test_110,llm_only,General,Implicit,General,General,Deflection,0.9965195417906738,0
+test_111,llm_only,Implicit,General,Implicit,Implicit,Deflection,0.996505737425329,0
+test_114,llm_only,Implicit,Implicit,General,Implicit,Explicit,0.9345174616370249,0
+test_115,llm_only,General,Deflection,General,General,Implicit,0.9758608301603446,0
+test_116,llm_only,General,General,General,General,Deflection,0.9861555027957619,0
+test_118,llm_only,Implicit,Implicit,Implicit,Implicit,Deflection,0.8605876619600306,0
+test_119,llm_only,Implicit,Implicit,Implicit,Implicit,Explicit,0.8650122706003712,0
+test_122,llm_only,Explicit,Explicit,Explicit,Explicit,Deflection,0.9173949513645139,0
+test_123,llm_only,General,General,General,Claims ignorance,Dodging,0.7916047648243997,0
+test_126,llm_only,Implicit,Implicit,Dodging,Implicit,Dodging,0.9623834204721673,0
+test_127,llm_only,Implicit,Implicit,Implicit,General,Deflection,0.7667506706180209,0
+test_132,llm_only,Deflection,Deflection,Deflection,Deflection,Dodging,0.8158288358783725,0
+test_133,llm_only,Explicit,Explicit,Explicit,Explicit,Deflection,0.8270333814769776,0
+test_134,llm_only,Implicit,General,Implicit,Implicit,Deflection,0.9113674251178913,0
+test_136,llm_only,Implicit,Implicit,Dodging,Implicit,General,0.9999998807907271,0
+test_139,llm_only,Explicit,Explicit,Explicit,Explicit,Deflection,0.9052099461696352,0
+test_140,llm_only,Implicit,Implicit,Implicit,Implicit,Explicit,0.9003371769935905,0
+test_144,llm_only,Explicit,Explicit,General,Explicit,Deflection,0.7701830592976098,0
+test_147,llm_only,Explicit,Explicit,Explicit,Explicit,Implicit,0.7785776825497958,0
+test_148,llm_only,Implicit,Implicit,Partial/half-answer,Implicit,Deflection,0.7118644882143267,0
+test_149,llm_only,Implicit,Explicit,Implicit,Implicit,Dodging,0.9990914902806303,0
+test_151,llm_only,Implicit,Implicit,Dodging,Implicit,Deflection,0.8210055643780584,0
+test_152,llm_only,General,Implicit,General,General,Implicit,0.9683137079235745,0
+test_154,llm_only,Explicit,Explicit,Explicit,Explicit,Implicit,0.8026580787186101,0
+test_156,llm_only,Deflection,Dodging,Deflection,Deflection,Dodging,0.9077386193144078,0
+test_157,llm_only,General,Implicit,General,General,Dodging,0.8209153014179409,0
+test_158,llm_only,Explicit,Explicit,Explicit,Explicit,General,0.9999994039538777,0
+test_160,llm_only,Implicit,Explicit,Implicit,Implicit,Deflection,0.888923020588052,0
+test_161,llm_only,General,Implicit,General,General,Deflection,0.9898002570841348,0
+test_163,llm_only,Explicit,Explicit,Dodging,Explicit,Deflection,0.9995125122565872,0
+test_165,llm_only,Explicit,Explicit,General,Explicit,Deflection,0.7666518176564826,0
+test_166,llm_only,General,Implicit,General,General,Deflection,0.8243352364259904,0
+test_170,llm_only,Dodging,Dodging,Dodging,Dodging,Deflection,0.941438520036466,0
+test_171,llm_only,Explicit,Explicit,General,Explicit,Deflection,0.9998936421960264,0
+test_173,llm_only,General,Dodging,General,General,Deflection,0.9973900769767093,0
+test_174,llm_only,Explicit,Explicit,Explicit,Explicit,Deflection,0.9060183678836319,0
+test_175,llm_only,Implicit,Implicit,General,Implicit,Deflection,0.9998140306629165,0
+test_177,llm_only,General,Partial/half-answer,General,General,Deflection,0.844435974267197,0
+test_179,llm_only,General,Implicit,General,General,Deflection,0.757309165749508,0
+test_180,llm_only,Implicit,General,Implicit,Implicit,Deflection,0.992629807503063,0
+test_185,llm_only,Deflection,Deflection,Deflection,Declining to answer,Dodging,0.999619958954761,0
+test_188,llm_only,Declining to answer,Dodging,Declining to answer,Declining to answer,Dodging,0.8619150360640876,0
+test_190,llm_only,General,General,General,General,Deflection,0.9999073630536828,0
+test_191,llm_only,Explicit,Implicit,Explicit,Explicit,Implicit,0.9795819377637868,0
+test_192,llm_only,Implicit,Implicit,Implicit,Implicit,Deflection,0.7312226943612923,0
+test_193,llm_only,Explicit,Explicit,Dodging,Explicit,General,0.9999998807907271,0
+test_194,llm_only,Dodging,Dodging,Dodging,Deflection,Deflection,0.8186060315145153,0
+test_195,llm_only,General,General,General,General,Dodging,0.8756496610204203,0
+test_196,llm_only,General,Explicit,General,General,Deflection,0.7194261987695003,0
+test_197,llm_only,General,Dodging,General,General,Deflection,0.8592122373777922,0
+test_199,llm_only,General,Deflection,General,General,Dodging,0.9784895020164959,0
+test_200,llm_only,Implicit,Implicit,Implicit,Implicit,Deflection,0.7927478508914406,0
+test_201,llm_only,Implicit,Dodging,Implicit,Implicit,Deflection,0.9247913044810997,0
+test_203,llm_only,Dodging,Dodging,Dodging,Dodging,Deflection,0.8432617794210502,0
+test_204,llm_only,Implicit,Implicit,Implicit,Implicit,Deflection,0.6612405055464344,0
+test_205,llm_only,Implicit,Explicit,Implicit,Implicit,Explicit,0.8741337283459707,0
+test_207,llm_only,Implicit,Partial/half-answer,Implicit,Implicit,Explicit,0.9460949099651625,0
+test_208,llm_only,General,Implicit,General,General,Dodging,0.9712362384454258,0
+test_210,llm_only,General,General,General,General,Explicit,0.9997903572076703,0
+test_211,llm_only,Dodging,Dodging,Dodging,General,Implicit,0.9404187665803322,0
+test_215,llm_only,Implicit,Implicit,General,Implicit,Deflection,0.5794337217147709,0
+test_217,llm_only,General,General,General,General,Deflection,0.996395048785223,0
+test_218,llm_only,General,Explicit,General,General,Deflection,0.8349448140170881,0
+test_219,llm_only,Explicit,Explicit,Implicit,Explicit,Deflection,0.738744159656978,0
+test_225,llm_only,Dodging,General,Dodging,Dodging,Deflection,0.8865578076056491,0
+test_226,llm_only,Dodging,Claims ignorance,Dodging,Dodging,Claims ignorance,0.8825337955267547,0
+test_227,llm_only,General,Implicit,General,General,Deflection,0.9111468663034831,0
+test_230,llm_only,Deflection,Deflection,Deflection,Deflection,Dodging,0.9334661198325951,0
+test_231,llm_only,General,Dodging,General,General,Implicit,0.878243411045905,0
+test_232,llm_only,General,Dodging,General,General,Dodging,0.9975581846385222,0
+test_233,llm_only,General,General,Implicit,General,Deflection,0.9019157680215311,0
+test_235,llm_only,General,General,General,General,Deflection,0.7810421403091993,0
+test_236,llm_only,Explicit,Explicit,Explicit,Explicit,Deflection,0.8682897813980759,0
+test_239,llm_only,Explicit,Explicit,Explicit,General,General,1.0,0
+test_241,llm_only,Implicit,Explicit,Implicit,Implicit,Deflection,0.9996293446281332,0
+test_243,llm_only,General,Deflection,General,General,Deflection,0.999663788465194,0
+test_244,llm_only,General,Explicit,General,General,Deflection,0.8451254107971703,0
+test_245,llm_only,Implicit,Dodging,Implicit,Implicit,Explicit,0.761630702989822,0
+test_246,llm_only,Dodging,Dodging,Dodging,General,Deflection,0.8317434810955904,0
+test_247,llm_only,Explicit,Explicit,Explicit,Explicit,Dodging,0.9649393119852827,0
+test_250,llm_only,Explicit,Explicit,Explicit,Explicit,Deflection,0.9055281687416447,0
+test_253,llm_only,Dodging,Dodging,Dodging,Deflection,Deflection,0.9112971797671616,0
+test_255,llm_only,Explicit,Explicit,Explicit,Explicit,Deflection,0.9979843587488422,0
+test_256,llm_only,Implicit,Implicit,Dodging,Implicit,Deflection,0.9200097894525383,0
+test_258,llm_only,Declining to answer,Declining to answer,Declining to answer,Declining to answer,Claims ignorance,0.9611881672585378,0
+test_263,llm_only,Claims ignorance,Claims ignorance,General,Claims ignorance,Declining to answer,0.9830736204370212,0
+test_264,llm_only,Claims ignorance,Claims ignorance,Claims ignorance,Claims ignorance,Dodging,0.9987854855029521,0
+test_266,llm_only,General,General,General,Dodging,Dodging,0.7618855417077468,0
+test_267,llm_only,Explicit,Explicit,Explicit,Explicit,Deflection,0.9151278429911096,0
+test_268,llm_only,Explicit,Explicit,Explicit,Explicit,Deflection,0.838231184683098,0
+test_272,llm_only,Implicit,Implicit,Implicit,Implicit,Deflection,0.898493482358637,0
+test_276,llm_only,General,General,Dodging,General,Dodging,0.8579598742545642,0
+test_277,llm_only,Declining to answer,Declining to answer,Dodging,Declining to answer,Dodging,0.9174919831611241,0
+test_278,llm_only,Implicit,Implicit,Implicit,Implicit,Explicit,0.9045927322531838,0
+test_279,llm_only,Implicit,Explicit,Implicit,Implicit,Deflection,0.9904659993696745,0
+test_280,llm_only,Dodging,Dodging,Dodging,Dodging,Declining to answer,0.8955656018633866,0
+test_281,llm_only,General,Implicit,General,General,Explicit,0.8387472471577522,0
+test_283,llm_only,Implicit,Explicit,Implicit,Implicit,Deflection,0.8726915125430579,0
+test_290,llm_only,Explicit,Implicit,Explicit,Explicit,Deflection,0.883375878442995,0
+test_291,llm_only,Explicit,Explicit,Deflection,Explicit,Deflection,0.9285687228206185,0
+test_292,llm_only,Explicit,Partial/half-answer,Explicit,Explicit,Deflection,0.8751853503956216,0
+test_293,llm_only,Explicit,Explicit,General,Explicit,Deflection,0.8411576186448668,0
+test_294,llm_only,Implicit,Implicit,Implicit,Implicit,Dodging,0.8689238273442911,0
+test_301,llm_only,Partial/half-answer,Deflection,Partial/half-answer,Partial/half-answer,Deflection,0.8608279366479077,0
+test_303,llm_only,Implicit,Implicit,Dodging,Implicit,Explicit,0.9472592620244922,0
+test_305,llm_only,Explicit,Explicit,Explicit,Explicit,General,0.9999997615814784,0
+test_306,llm_only,Implicit,Deflection,Implicit,Implicit,Deflection,0.7064011508921116,0
+test_307,llm_only,Explicit,Explicit,General,Explicit,General,1.0,0
