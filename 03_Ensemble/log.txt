@@ -1,0 +1,22 @@
+(study) PS D:\15716\Desktop\MSBD5018\group\Response_Clarity_Project> python .\03_Ensemble\C1_hard_voting.py
+Hard Voting completed.
+Number of samples: 308
+Number of ties resolved: 24
+Output saved to: D:\15716\Desktop\MSBD5018\group\Response_Clarity_Project\03_Ensemble\results\C1_hard_voting\hard_voting_predictions.csv
+(study) PS D:\15716\Desktop\MSBD5018\group\Response_Clarity_Project> python .\03_Ensemble\C2_soft_voting.py
+Soft Voting completed.
+Number of samples: 308
+Predictions saved to: D:\15716\Desktop\MSBD5018\group\Response_Clarity_Project\03_Ensemble\results\C2_soft_voting\soft_voting_predictions.csv
+Probabilities saved to: D:\15716\Desktop\MSBD5018\group\Response_Clarity_Project\03_Ensemble\results\C2_soft_voting\soft_voting_probabilities.csv
+(study) PS D:\15716\Desktop\MSBD5018\group\Response_Clarity_Project> python .\03_Ensemble\C3_temperature_scaling.py
+Processing roberta...
+Temperature: 1.1249
+Processing deberta_v3...
+Temperature: 1.0299
+Processing xlnet...
+Temperature: 1.1839
+Calibration comparison plot: D:\15716\Desktop\MSBD5018\group\Response_Clarity_Project\03_Ensemble\results\C3_temperature_scaling\calibration_comparison.png
+Temperature Scaling completed.
+Calibration results: D:\15716\Desktop\MSBD5018\group\Response_Clarity_Project\03_Ensemble\results\C3_temperature_scaling\calibration_results.csv
+Temperature parameters: D:\15716\Desktop\MSBD5018\group\Response_Clarity_Project\03_Ensemble\artifact\temperature_parameters.json
+Calibrated test probabilities saved in: D:\15716\Desktop\MSBD5018\group\Response_Clarity_Project\03_Ensemble\results\C3_temperature_scaling
