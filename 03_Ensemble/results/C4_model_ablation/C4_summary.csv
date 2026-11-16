@@ -1,0 +1,9 @@
+experiment,split,models,n_samples,prediction_file,probability_file
+C4-1_full_ensemble,validation,roberta+deberta_v3+xlnet,748,C4-1_full_ensemble_validation_predictions.csv,C4-1_full_ensemble_validation_probabilities.csv
+C4-2_without_roberta,validation,deberta_v3+xlnet,748,C4-2_without_roberta_validation_predictions.csv,C4-2_without_roberta_validation_probabilities.csv
+C4-3_without_deberta,validation,roberta+xlnet,748,C4-3_without_deberta_validation_predictions.csv,C4-3_without_deberta_validation_probabilities.csv
+C4-4_without_xlnet,validation,roberta+deberta_v3,748,C4-4_without_xlnet_validation_predictions.csv,C4-4_without_xlnet_validation_probabilities.csv
+C4-1_full_ensemble,test,roberta+deberta_v3+xlnet,308,C4-1_full_ensemble_test_predictions.csv,C4-1_full_ensemble_test_probabilities.csv
+C4-2_without_roberta,test,deberta_v3+xlnet,308,C4-2_without_roberta_test_predictions.csv,C4-2_without_roberta_test_probabilities.csv
+C4-3_without_deberta,test,roberta+xlnet,308,C4-3_without_deberta_test_predictions.csv,C4-3_without_deberta_test_probabilities.csv
+C4-4_without_xlnet,test,roberta+deberta_v3,308,C4-4_without_xlnet_test_predictions.csv,C4-4_without_xlnet_test_probabilities.csv
