@@ -1,0 +1,162 @@
+model,gold,pred,count
+deberta,Implicit,Explicit,43
+deberta,General,Explicit,36
+deberta,Dodging,Explicit,25
+deberta,Deflection,Explicit,13
+deberta,Explicit,Dodging,12
+deberta,Implicit,Dodging,12
+deberta,General,Dodging,7
+deberta,Dodging,Declining to answer,5
+deberta,General,Declining to answer,4
+deberta,Deflection,Dodging,4
+deberta,Declining to answer,Dodging,4
+deberta,Claims ignorance,Declining to answer,4
+deberta,Declining to answer,Explicit,3
+deberta,Claims ignorance,Explicit,3
+deberta,Clarification,Dodging,3
+deberta,Partial/half-answer,Explicit,3
+deberta,Explicit,Declining to answer,2
+deberta,Implicit,Deflection,1
+deberta,Implicit,Declining to answer,1
+deberta,General,Implicit,1
+deberta,Claims ignorance,Dodging,1
+llm_assisted,Implicit,Deflection,23
+llm_assisted,General,Deflection,21
+llm_assisted,Explicit,Deflection,18
+llm_assisted,Implicit,Explicit,14
+llm_assisted,Dodging,Deflection,13
+llm_assisted,General,Dodging,9
+llm_assisted,Implicit,Dodging,8
+llm_assisted,Deflection,Dodging,8
+llm_assisted,General,Explicit,7
+llm_assisted,General,Implicit,6
+llm_assisted,Explicit,Dodging,3
+llm_assisted,Explicit,General,3
+llm_assisted,Explicit,Partial/half-answer,3
+llm_assisted,Claims ignorance,Dodging,3
+llm_assisted,Explicit,Implicit,2
+llm_assisted,Dodging,Implicit,2
+llm_assisted,Claims ignorance,Deflection,2
+llm_assisted,Implicit,General,1
+llm_assisted,Dodging,Explicit,1
+llm_assisted,Dodging,General,1
+llm_assisted,Dodging,Declining to answer,1
+llm_assisted,Dodging,Claims ignorance,1
+llm_assisted,Dodging,Partial/half-answer,1
+llm_assisted,General,Declining to answer,1
+llm_assisted,Deflection,Explicit,1
+llm_assisted,Declining to answer,Dodging,1
+llm_assisted,Declining to answer,Claims ignorance,1
+llm_assisted,Partial/half-answer,General,1
+llm_assisted,Partial/half-answer,Deflection,1
+llm_only,Explicit,Deflection,30
+llm_only,General,Deflection,29
+llm_only,Implicit,Deflection,27
+llm_only,Dodging,Deflection,16
+llm_only,Implicit,Explicit,9
+llm_only,General,Dodging,8
+llm_only,Implicit,Dodging,7
+llm_only,Explicit,General,6
+llm_only,Explicit,Implicit,5
+llm_only,General,Implicit,5
+llm_only,Deflection,Dodging,5
+llm_only,Explicit,Dodging,2
+llm_only,Implicit,General,2
+llm_only,Dodging,Implicit,2
+llm_only,Dodging,Claims ignorance,2
+llm_only,General,Explicit,2
+llm_only,Declining to answer,Dodging,2
+llm_only,Claims ignorance,Dodging,2
+llm_only,Claims ignorance,Deflection,2
+llm_only,Partial/half-answer,Deflection,2
+llm_only,Explicit,Partial/half-answer,1
+llm_only,Dodging,Declining to answer,1
+llm_only,Dodging,Partial/half-answer,1
+llm_only,General,Declining to answer,1
+llm_only,Declining to answer,Claims ignorance,1
+llm_only,Claims ignorance,Declining to answer,1
+llm_only,Partial/half-answer,Dodging,1
+roberta,Implicit,Explicit,38
+roberta,General,Explicit,27
+roberta,Dodging,Explicit,17
+roberta,Deflection,Explicit,10
+roberta,General,Dodging,9
+roberta,Explicit,Dodging,8
+roberta,Implicit,Dodging,6
+roberta,Implicit,Deflection,6
+roberta,Dodging,Declining to answer,5
+roberta,General,Implicit,5
+roberta,Deflection,Dodging,5
+roberta,Dodging,Implicit,4
+roberta,Dodging,Deflection,4
+roberta,General,Declining to answer,4
+roberta,Explicit,Implicit,2
+roberta,Explicit,General,2
+roberta,Explicit,Deflection,2
+roberta,Explicit,Claims ignorance,2
+roberta,Implicit,Claims ignorance,2
+roberta,Dodging,Claims ignorance,2
+roberta,General,Deflection,2
+roberta,Declining to answer,Explicit,2
+roberta,Declining to answer,Claims ignorance,2
+roberta,Claims ignorance,Dodging,2
+roberta,Dodging,General,1
+roberta,General,Claims ignorance,1
+roberta,Deflection,Implicit,1
+roberta,Deflection,Claims ignorance,1
+roberta,Declining to answer,Implicit,1
+roberta,Declining to answer,Dodging,1
+roberta,Declining to answer,Deflection,1
+roberta,Clarification,Dodging,1
+roberta,Partial/half-answer,Explicit,1
+roberta,Partial/half-answer,Dodging,1
+roberta,Partial/half-answer,Deflection,1
+soft_voting,Implicit,Explicit,50
+soft_voting,General,Explicit,35
+soft_voting,Dodging,Explicit,31
+soft_voting,Deflection,Explicit,13
+soft_voting,Explicit,Dodging,9
+soft_voting,Implicit,Dodging,5
+soft_voting,Dodging,Declining to answer,5
+soft_voting,General,Implicit,4
+soft_voting,General,Dodging,4
+soft_voting,General,Declining to answer,4
+soft_voting,Deflection,Dodging,4
+soft_voting,Explicit,Implicit,3
+soft_voting,Dodging,General,3
+soft_voting,Declining to answer,Explicit,3
+soft_voting,Claims ignorance,Explicit,3
+soft_voting,Claims ignorance,Dodging,2
+soft_voting,Partial/half-answer,Explicit,2
+soft_voting,Explicit,Deflection,1
+soft_voting,Implicit,Deflection,1
+soft_voting,Dodging,Implicit,1
+soft_voting,Declining to answer,Implicit,1
+soft_voting,Declining to answer,Dodging,1
+soft_voting,Declining to answer,Claims ignorance,1
+soft_voting,Clarification,Dodging,1
+soft_voting,Partial/half-answer,Deflection,1
+xlnet,Implicit,Explicit,50
+xlnet,General,Explicit,36
+xlnet,Dodging,Explicit,31
+xlnet,Deflection,Explicit,15
+xlnet,Explicit,Dodging,6
+xlnet,Explicit,Implicit,5
+xlnet,Dodging,Declining to answer,5
+xlnet,Declining to answer,Explicit,5
+xlnet,Implicit,Dodging,4
+xlnet,General,Dodging,4
+xlnet,Claims ignorance,Explicit,4
+xlnet,Dodging,General,3
+xlnet,General,Implicit,3
+xlnet,General,Declining to answer,3
+xlnet,Dodging,Implicit,2
+xlnet,Deflection,Dodging,2
+xlnet,Claims ignorance,Dodging,2
+xlnet,Partial/half-answer,Explicit,2
+xlnet,Explicit,Deflection,1
+xlnet,Implicit,Deflection,1
+xlnet,Declining to answer,Implicit,1
+xlnet,Declining to answer,Dodging,1
+xlnet,Clarification,Dodging,1
+xlnet,Partial/half-answer,Deflection,1

@@ -1,0 +1,34 @@
+sample_id,annotator1,annotator2,annotator3
+test_11,Explicit,Claims ignorance,General
+test_14,Deflection,General,Implicit
+test_25,Deflection,Implicit,General
+test_47,Explicit,General,Implicit
+test_50,Deflection,Implicit,General
+test_59,Explicit,Dodging,General
+test_64,Explicit,Partial/half-answer,Implicit
+test_77,Dodging,General,Explicit
+test_79,Explicit,Dodging,General
+test_81,General,Deflection,Implicit
+test_98,Implicit,General,Deflection
+test_109,Explicit,Deflection,Implicit
+test_129,Partial/half-answer,Implicit,General
+test_131,Dodging,General,Declining to answer
+test_135,Explicit,Dodging,General
+test_138,Explicit,Dodging,General
+test_145,Explicit,Claims ignorance,Partial/half-answer
+test_159,Explicit,Dodging,General
+test_162,Dodging,Implicit,Deflection
+test_182,Deflection,Dodging,Implicit
+test_202,General,Dodging,Deflection
+test_209,Explicit,General,Implicit
+test_213,Explicit,Implicit,General
+test_234,Partial/half-answer,Dodging,General
+test_238,Dodging,General,Declining to answer
+test_251,Declining to answer,Dodging,General
+test_261,Partial/half-answer,General,Explicit
+test_270,General,Deflection,Partial/half-answer
+test_284,Explicit,Dodging,Implicit
+test_289,Implicit,General,Explicit
+test_295,Implicit,Deflection,General
+test_296,General,Deflection,Implicit
+test_302,Explicit,General,Implicit

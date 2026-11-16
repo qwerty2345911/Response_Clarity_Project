@@ -43,7 +43,8 @@ def main():
         "deberta": IN_DIR / "deberta_task2_probabilities.csv",
         "xlnet": IN_DIR / "xlnet_task2_probabilities.csv", 
         "llm_only": IN_DIR / "llm_only_task2_probabilities.csv",  
-        #"soft_voting": IN_DIR / "soft_voting_probabilities.csv",
+        "soft_voting": IN_DIR / "soft_voting_probabilities.csv",
+        "llm_assisted": IN_DIR / "llm_assisted_task2_probabilities.csv",
     }
 
     frames = []

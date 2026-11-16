@@ -1,0 +1,55 @@
+model,label,n,acc
+roberta,Explicit,77,0.7922
+roberta,Implicit,57,0.0877
+roberta,Dodging,50,0.34
+roberta,General,48,0.0
+roberta,Deflection,17,0.0
+roberta,Declining to answer,11,0.3636
+roberta,Claims ignorance,8,0.75
+roberta,Clarification,4,0.75
+roberta,Partial/half-answer,3,0.0
+deberta,Explicit,77,0.8182
+deberta,Implicit,57,0.0
+deberta,Dodging,50,0.4
+deberta,General,48,0.0
+deberta,Deflection,17,0.0
+deberta,Declining to answer,11,0.3636
+deberta,Claims ignorance,8,0.0
+deberta,Clarification,4,0.25
+deberta,Partial/half-answer,3,0.0
+xlnet,Explicit,77,0.8442
+xlnet,Implicit,57,0.0351
+xlnet,Dodging,50,0.18
+xlnet,General,48,0.0417
+xlnet,Deflection,17,0.0
+xlnet,Declining to answer,11,0.3636
+xlnet,Claims ignorance,8,0.25
+xlnet,Clarification,4,0.75
+xlnet,Partial/half-answer,3,0.0
+llm_only,Explicit,77,0.4286
+llm_only,Implicit,57,0.2105
+llm_only,Dodging,50,0.56
+llm_only,General,48,0.0625
+llm_only,Deflection,17,0.7059
+llm_only,Declining to answer,11,0.7273
+llm_only,Claims ignorance,8,0.375
+llm_only,Clarification,4,1.0
+llm_only,Partial/half-answer,3,0.0
+soft_voting,Explicit,77,0.8312
+soft_voting,Implicit,57,0.0175
+soft_voting,Dodging,50,0.2
+soft_voting,General,48,0.0208
+soft_voting,Deflection,17,0.0
+soft_voting,Declining to answer,11,0.4545
+soft_voting,Claims ignorance,8,0.375
+soft_voting,Clarification,4,0.75
+soft_voting,Partial/half-answer,3,0.0
+llm_assisted,Explicit,77,0.6234
+llm_assisted,Implicit,57,0.193
+llm_assisted,Dodging,50,0.6
+llm_assisted,General,48,0.0833
+llm_assisted,Deflection,17,0.4706
+llm_assisted,Declining to answer,11,0.8182
+llm_assisted,Claims ignorance,8,0.375
+llm_assisted,Clarification,4,1.0
+llm_assisted,Partial/half-answer,3,0.3333

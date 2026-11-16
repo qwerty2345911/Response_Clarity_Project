@@ -1,0 +1,9 @@
+experiment_id,module,model_name,setting,eval_protocol,accuracy,macro_f1,ece,brier_score,train_time_sec,inference_time_sec,num_models,llm_cost,notes
+B1,Baseline,RoBERTa-base,Single,majority275,0.3491,0.2986,0.0501,0.7530,163.0,1.048,1,0,
+B2,Baseline,DeBERTa-v3-base,Single,majority275,0.3200,0.1651,0.0810,0.7681,314.4,2.233,1,0,
+B3,Baseline,XLNet-base-cased,Single,majority275,0.3164,0.2691,0.0631,0.7834,241.4,1.817,1,0,
+C1,Ensemble,Hard Voting,Ensemble,majority275,0.3345,0.2698,0.4873,1.1216,N/A,N/A,3,0,
+C2,Ensemble,Soft Voting,Ensemble,majority275,0.3164,0.2798,0.0976,0.7527,N/A,N/A,3,0,
+C3,Ensemble,Soft Voting + TS,Calibration,majority275,0.3127,0.2763,0.0894,0.7526,N/A,N/A,3,0,
+D1,LLM,LLM-only,Zero-shot,majority275,0.3745,0.4234,N/A,N/A,0,1470.81,1,~0.1,基于真实API耗时
+D2,LLM,LLM-assisted,Reasoning,majority275,0.4291,0.4766,N/A,N/A,0,1996.32,1,~0.1,全场最佳F1，基于真实API耗时

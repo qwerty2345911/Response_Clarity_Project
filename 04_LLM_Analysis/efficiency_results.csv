@@ -1,0 +1,7 @@
+model_name,params,train_time,mean_inference_seconds,milliseconds_per_sample,samples_per_second,peak_gpu_memory_gib,hardware,notes
+RoBERTa-base,125M,163.0s,1.048,3.40,294.01,0.52,Tesla T4,B提供的真实基准测试
+DeBERTa-v3-base,184M,314.4s,2.233,7.25,137.91,0.87,Tesla T4,B提供的真实基准测试
+XLNet-base-cased,110M,241.4s,1.817,5.90,169.51,0.55,Tesla T4,B提供的真实基准测试
+Soft Voting (Ensemble),~419M,N/A,N/A,N/A,N/A,N/A,Unknown,需运行3个模型，成本为三者累加
+LLM-only (DeepSeek),API,0,1470.81,4780.00,0.21,0.0,Cloud API,真实测试总耗时（单条平均4.78秒）
+LLM-assisted (DeepSeek),API,0,1996.32,6480.00,0.15,0.0,Cloud API,真实测试总耗时（单条平均6.48秒）

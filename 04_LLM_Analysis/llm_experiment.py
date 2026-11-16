@@ -210,18 +210,20 @@ def llm_results_to_prob_csv(setting: str):
             row[col] = prob[lab]
         rows.append(row)
 
-    out = PROJECT_ROOT / "04_LLM_Analysis" / "inputs" / f"llm_only_task2_probabilities.csv"
+    out = PROJECT_ROOT / "04_LLM_Analysis" / "inputs" / f"{setting}_task2_probabilities.csv"
+    # out = PROJECT_ROOT / "04_LLM_Analysis" / "inputs" / f"llm_only_task2_probabilities.csv"
     pd.DataFrame(rows).to_csv(out, index=False)
     print(f"[转换完成] 写入: {out}")
 
 if __name__ == "__main__":
-    # run_experiment("llm_only", n_samples=30)
+    # 如果你不想重新跑 LLM-only，就把这行注释掉
+    # run_experiment("llm_only", n_samples=308)
+    # llm_results_to_prob_csv("llm_only")
 
-    #print("=== 全量：LLM-only 308 条 ===")
-    #run_experiment("llm_only", n_samples=308)
-
-    llm_results_to_prob_csv("llm_only")
-    # LLM-assisted 需要先有 C 的 soft_voting_probabilities.csv
-    # soft_voting_file = PROJECT_ROOT / "04_LLM_Analysis" / "inputs" / "soft_voting_probabilities.csv"
-    # print("=== LLM-assisted 30 条 ===")
-    # run_experiment("llm_assisted", n_samples=30, ensemble_file=soft_voting_file)
+    # 跑 LLM-assisted (需要 inputs 里有 soft_voting_probabilities.csv)
+    print("=== 全量：LLM-assisted 308 条 ===")
+    soft_voting_file = PROJECT_ROOT / "04_LLM_Analysis" / "inputs" / "soft_voting_probabilities.csv"
+    run_experiment("llm_assisted", n_samples=308, ensemble_file=soft_voting_file)
+    
+    # 跑完后自动转成概率格式
+    llm_results_to_prob_csv("llm_assisted")

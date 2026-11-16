@@ -725,3 +725,348 @@ test_303,llm_only,Implicit,Implicit,Dodging,Implicit,Explicit,0.9472592620244922
 test_305,llm_only,Explicit,Explicit,Explicit,Explicit,General,0.9999997615814784,0
 test_306,llm_only,Implicit,Deflection,Implicit,Implicit,Deflection,0.7064011508921116,0
 test_307,llm_only,Explicit,Explicit,General,Explicit,General,1.0,0
+test_1,soft_voting,General,Deflection,General,General,Explicit,0.29717246,0
+test_2,soft_voting,Implicit,Explicit,Implicit,Implicit,Explicit,0.31917169333333334,0
+test_3,soft_voting,General,Explicit,General,General,Declining to answer,0.26843364333333336,0
+test_4,soft_voting,Dodging,Dodging,Implicit,Dodging,Explicit,0.6340251566666667,0
+test_5,soft_voting,Dodging,Dodging,Dodging,Dodging,Explicit,0.3930768233333333,0
+test_6,soft_voting,Dodging,Dodging,Dodging,Dodging,Explicit,0.25331719999999996,0
+test_7,soft_voting,Dodging,Dodging,Dodging,Dodging,Explicit,0.25214588666666665,0
+test_8,soft_voting,General,General,General,General,Explicit,0.29342995,0
+test_9,soft_voting,Implicit,Implicit,Implicit,Implicit,Dodging,0.24608083,0
+test_10,soft_voting,Implicit,Implicit,General,Implicit,Explicit,0.31893813666666665,0
+test_12,soft_voting,Dodging,Deflection,Dodging,Dodging,Explicit,0.6459045566666667,0
+test_13,soft_voting,Explicit,Explicit,General,Explicit,Dodging,0.24348601000000003,0
+test_18,soft_voting,Dodging,Dodging,Dodging,Dodging,Explicit,0.25881118000000003,0
+test_19,soft_voting,Implicit,Implicit,Dodging,Implicit,Explicit,0.37583272999999995,0
+test_20,soft_voting,General,Implicit,General,General,Explicit,0.2847874166666667,0
+test_22,soft_voting,Implicit,Implicit,General,Implicit,Explicit,0.25486008666666665,0
+test_23,soft_voting,General,Implicit,General,General,Explicit,0.26869008,0
+test_24,soft_voting,Implicit,Explicit,Implicit,Implicit,Explicit,0.3407534833333333,0
+test_26,soft_voting,Deflection,Deflection,General,Deflection,Explicit,0.31664261,0
+test_27,soft_voting,Dodging,Dodging,Dodging,Dodging,Explicit,0.21488138,0
+test_28,soft_voting,Dodging,Dodging,General,Dodging,Explicit,0.25856187999999997,0
+test_29,soft_voting,Declining to answer,Declining to answer,Declining to answer,Declining to answer,Dodging,0.23795806666666666,0
+test_31,soft_voting,General,General,Deflection,General,Explicit,0.33034188000000003,0
+test_32,soft_voting,Declining to answer,Dodging,Declining to answer,Declining to answer,Explicit,0.36880478,0
+test_33,soft_voting,General,Deflection,General,General,Declining to answer,0.28231169333333334,0
+test_34,soft_voting,Implicit,Implicit,Deflection,Implicit,Explicit,0.42558366333333336,0
+test_35,soft_voting,Dodging,Dodging,Dodging,Dodging,Explicit,0.2729259666666667,0
+test_36,soft_voting,Explicit,Explicit,Dodging,Explicit,Dodging,0.37921916666666666,0
+test_37,soft_voting,Implicit,Explicit,Implicit,Implicit,Explicit,0.29616144333333333,0
+test_38,soft_voting,General,Dodging,General,General,Explicit,0.28191934,0
+test_39,soft_voting,Partial/half-answer,Partial/half-answer,Partial/half-answer,Partial/half-answer,Explicit,0.22794666333333335,0
+test_40,soft_voting,Implicit,Implicit,Implicit,Implicit,Dodging,0.21512533666666667,0
+test_41,soft_voting,Implicit,General,Implicit,Implicit,Explicit,0.26121859666666664,0
+test_42,soft_voting,Dodging,General,Dodging,Dodging,Explicit,0.3520328933333334,0
+test_43,soft_voting,Dodging,Deflection,Dodging,Dodging,Declining to answer,0.24400054666666668,0
+test_44,soft_voting,Implicit,Implicit,Implicit,Implicit,Explicit,0.32718292666666665,0
+test_45,soft_voting,Implicit,Implicit,Implicit,Implicit,Explicit,0.33163256999999996,0
+test_48,soft_voting,General,General,General,General,Explicit,0.46781311666666664,0
+test_49,soft_voting,Claims ignorance,Claims ignorance,Claims ignorance,Claims ignorance,Explicit,0.16046044466666667,0
+test_52,soft_voting,General,Explicit,General,General,Explicit,0.6185755433333333,0
+test_53,soft_voting,Implicit,Explicit,Implicit,Implicit,Explicit,0.33865821333333335,0
+test_55,soft_voting,General,General,General,General,Explicit,0.32604195666666663,0
+test_56,soft_voting,Claims ignorance,Claims ignorance,Claims ignorance,Dodging,Dodging,0.29467862,0
+test_57,soft_voting,Dodging,Dodging,Claims ignorance,Dodging,Explicit,0.19612680666666668,0
+test_58,soft_voting,Explicit,Explicit,Implicit,Explicit,Implicit,0.20662663,0
+test_62,soft_voting,Dodging,Dodging,Dodging,Dodging,Explicit,0.26907145,0
+test_65,soft_voting,Partial/half-answer,Partial/half-answer,Implicit,Partial/half-answer,Explicit,0.45293296666666666,0
+test_68,soft_voting,Dodging,Dodging,Dodging,Dodging,Explicit,0.3612551533333333,0
+test_74,soft_voting,Implicit,Implicit,Implicit,Implicit,Explicit,0.27079753666666667,0
+test_75,soft_voting,Dodging,Dodging,Dodging,Dodging,Explicit,0.25006961333333333,0
+test_78,soft_voting,General,General,Implicit,General,Explicit,0.34907741000000003,0
+test_82,soft_voting,Implicit,Implicit,Implicit,Implicit,Explicit,0.21721019333333333,0
+test_83,soft_voting,Dodging,Dodging,Dodging,Dodging,Declining to answer,0.3468144633333334,0
+test_85,soft_voting,General,Explicit,General,General,Explicit,0.3370112633333333,0
+test_86,soft_voting,Deflection,Deflection,Deflection,Deflection,Explicit,0.33477096,0
+test_88,soft_voting,Claims ignorance,Claims ignorance,Claims ignorance,Deflection,Dodging,0.36303668333333333,0
+test_89,soft_voting,Explicit,Explicit,Explicit,Explicit,Implicit,0.2614060866666667,0
+test_90,soft_voting,Explicit,Explicit,Explicit,Explicit,Deflection,0.19817760333333334,0
+test_91,soft_voting,Deflection,Dodging,Deflection,Deflection,Explicit,0.2480946933333333,0
+test_92,soft_voting,Dodging,Dodging,Dodging,Deflection,Explicit,0.32485084999999997,0
+test_95,soft_voting,General,Explicit,General,General,Dodging,0.23832637,0
+test_96,soft_voting,Implicit,Dodging,Implicit,Implicit,Explicit,0.27869363999999996,0
+test_100,soft_voting,General,General,General,General,Declining to answer,0.27045011333333335,0
+test_103,soft_voting,General,General,Dodging,General,Explicit,0.3726259233333334,0
+test_104,soft_voting,Dodging,Dodging,Dodging,Deflection,Explicit,0.2586306,0
+test_105,soft_voting,General,General,General,General,Explicit,0.26757216,0
+test_106,soft_voting,Dodging,Dodging,General,Dodging,Explicit,0.27228611666666663,0
+test_107,soft_voting,Dodging,Dodging,Dodging,Dodging,Explicit,0.24097173333333333,0
+test_108,soft_voting,Claims ignorance,Claims ignorance,Claims ignorance,Claims ignorance,Explicit,0.18082462866666668,0
+test_110,soft_voting,General,Implicit,General,General,Explicit,0.24168755666666666,0
+test_111,soft_voting,Implicit,General,Implicit,Implicit,Explicit,0.2808494066666667,0
+test_114,soft_voting,Implicit,Implicit,General,Implicit,Explicit,0.4123505333333333,0
+test_115,soft_voting,General,Deflection,General,General,Explicit,0.2235797966666667,0
+test_116,soft_voting,General,General,General,General,Explicit,0.26161635666666666,0
+test_118,soft_voting,Implicit,Implicit,Implicit,Implicit,Explicit,0.3612297466666667,0
+test_119,soft_voting,Implicit,Implicit,Implicit,Implicit,Explicit,0.6396599666666666,0
+test_120,soft_voting,Dodging,Dodging,Dodging,Explicit,Explicit,0.36652066,0
+test_126,soft_voting,Implicit,Implicit,Dodging,Implicit,Explicit,0.25919694,0
+test_127,soft_voting,Implicit,Implicit,Implicit,General,Explicit,0.23361658,0
+test_132,soft_voting,Deflection,Deflection,Deflection,Deflection,Dodging,0.40165348333333334,0
+test_134,soft_voting,Implicit,General,Implicit,Implicit,Explicit,0.29317212,0
+test_136,soft_voting,Implicit,Implicit,Dodging,Implicit,Explicit,0.44167201333333334,0
+test_137,soft_voting,Deflection,Deflection,Deflection,Deflection,Explicit,0.32384791333333335,0
+test_139,soft_voting,Explicit,Explicit,Explicit,Explicit,Implicit,0.20528712333333332,0
+test_140,soft_voting,Implicit,Implicit,Implicit,Implicit,Explicit,0.6651270666666667,0
+test_142,soft_voting,Deflection,Deflection,Dodging,Deflection,Dodging,0.2331250366666667,0
+test_143,soft_voting,Implicit,Implicit,Implicit,Implicit,Explicit,0.26256640666666664,0
+test_148,soft_voting,Implicit,Implicit,Partial/half-answer,Implicit,Explicit,0.34077266,0
+test_149,soft_voting,Implicit,Explicit,Implicit,Implicit,Explicit,0.59826003,0
+test_150,soft_voting,Explicit,Explicit,Explicit,Explicit,Dodging,0.31977587333333335,0
+test_151,soft_voting,Implicit,Implicit,Dodging,Implicit,Explicit,0.2582634366666667,0
+test_152,soft_voting,General,Implicit,General,General,Explicit,0.27514787,0
+test_153,soft_voting,Dodging,Dodging,Dodging,Dodging,Explicit,0.27581973666666665,0
+test_154,soft_voting,Explicit,Explicit,Explicit,Explicit,Dodging,0.42735585000000004,0
+test_155,soft_voting,Dodging,Dodging,Dodging,Dodging,Explicit,0.28534318,0
+test_156,soft_voting,Deflection,Dodging,Deflection,Deflection,Dodging,0.7047559400000001,0
+test_157,soft_voting,General,Implicit,General,General,Dodging,0.19685359666666666,0
+test_160,soft_voting,Implicit,Explicit,Implicit,Implicit,Explicit,0.28573159666666664,0
+test_161,soft_voting,General,Implicit,General,General,Explicit,0.44682628666666674,0
+test_166,soft_voting,General,Implicit,General,General,Explicit,0.26816876,0
+test_167,soft_voting,Dodging,Dodging,Dodging,Dodging,Declining to answer,0.48312541999999997,0
+test_169,soft_voting,Implicit,Implicit,Implicit,Implicit,Explicit,0.25977037000000003,0
+test_170,soft_voting,Dodging,Dodging,Dodging,Dodging,Explicit,0.27383800333333336,0
+test_172,soft_voting,Dodging,Dodging,Dodging,Dodging,General,0.19784331666666666,0
+test_173,soft_voting,General,Dodging,General,General,Explicit,0.28112411666666665,0
+test_175,soft_voting,Implicit,Implicit,General,Implicit,Explicit,0.24069433333333332,0
+test_176,soft_voting,Deflection,Deflection,Dodging,Deflection,Explicit,0.3116181333333334,0
+test_177,soft_voting,General,Partial/half-answer,General,General,Implicit,0.2287837033333333,0
+test_178,soft_voting,Implicit,Implicit,Dodging,Implicit,Dodging,0.29227090333333333,0
+test_179,soft_voting,General,Implicit,General,General,Dodging,0.21741455333333337,0
+test_180,soft_voting,Implicit,General,Implicit,Implicit,Explicit,0.24940061666666669,0
+test_181,soft_voting,Dodging,Dodging,Dodging,Dodging,General,0.19660361666666668,0
+test_183,soft_voting,Declining to answer,Declining to answer,Claims ignorance,Declining to answer,Claims ignorance,0.2525519933333333,0
+test_185,soft_voting,Deflection,Deflection,Deflection,Declining to answer,Explicit,0.26747647,0
+test_187,soft_voting,Implicit,Implicit,Explicit,Implicit,Explicit,0.24677238666666668,0
+test_188,soft_voting,Declining to answer,Dodging,Declining to answer,Declining to answer,Explicit,0.3652701933333333,0
+test_189,soft_voting,Implicit,Deflection,Implicit,Implicit,Explicit,0.27915119,0
+test_190,soft_voting,General,General,General,General,Implicit,0.2214814133333333,0
+test_192,soft_voting,Implicit,Implicit,Implicit,Implicit,Explicit,0.25769894666666665,0
+test_194,soft_voting,Dodging,Dodging,Dodging,Deflection,Explicit,0.23215905,0
+test_195,soft_voting,General,General,General,General,Explicit,0.34855612999999996,0
+test_196,soft_voting,General,Explicit,General,General,Explicit,0.5983860966666666,0
+test_197,soft_voting,General,Dodging,General,General,Explicit,0.33868047000000007,0
+test_199,soft_voting,General,Deflection,General,General,Implicit,0.22279134666666667,0
+test_200,soft_voting,Implicit,Implicit,Implicit,Implicit,Explicit,0.24489942666666667,0
+test_201,soft_voting,Implicit,Dodging,Implicit,Implicit,Explicit,0.6441908399999999,0
+test_203,soft_voting,Dodging,Dodging,Dodging,Dodging,Explicit,0.2712338,0
+test_204,soft_voting,Implicit,Implicit,Implicit,Implicit,Explicit,0.3069482,0
+test_206,soft_voting,Dodging,Dodging,Dodging,Dodging,Explicit,0.6161692833333333,0
+test_207,soft_voting,Implicit,Partial/half-answer,Implicit,Implicit,Explicit,0.28355489333333334,0
+test_208,soft_voting,General,Implicit,General,General,Explicit,0.27245526000000003,0
+test_210,soft_voting,General,General,General,General,Explicit,0.3814671733333333,0
+test_211,soft_voting,Dodging,Dodging,Dodging,General,Explicit,0.2841414,0
+test_212,soft_voting,Implicit,Implicit,Implicit,Implicit,Explicit,0.7643652166666667,0
+test_214,soft_voting,Deflection,Deflection,Deflection,General,Explicit,0.3015695433333333,0
+test_215,soft_voting,Implicit,Implicit,General,Implicit,Explicit,0.24604508000000003,0
+test_216,soft_voting,Deflection,Deflection,Deflection,Deflection,Explicit,0.34215537,0
+test_217,soft_voting,General,General,General,General,Explicit,0.25591723666666666,0
+test_218,soft_voting,General,Explicit,General,General,Explicit,0.25675198666666665,0
+test_220,soft_voting,Dodging,Dodging,Dodging,Dodging,Explicit,0.26062684666666663,0
+test_222,soft_voting,General,Explicit,General,General,Explicit,0.31962805333333333,0
+test_224,soft_voting,Explicit,Explicit,General,Explicit,Dodging,0.38020348666666665,0
+test_225,soft_voting,Dodging,General,Dodging,Dodging,Explicit,0.26002387,0
+test_227,soft_voting,General,Implicit,General,General,Explicit,0.25675041333333337,0
+test_228,soft_voting,Implicit,Implicit,General,Implicit,Dodging,0.22093906,0
+test_230,soft_voting,Deflection,Deflection,Deflection,Deflection,Explicit,0.38419316,0
+test_231,soft_voting,General,Dodging,General,General,Explicit,0.2721079,0
+test_232,soft_voting,General,Dodging,General,General,Implicit,0.20933356333333333,0
+test_233,soft_voting,General,General,Implicit,General,Explicit,0.27618642,0
+test_235,soft_voting,General,General,General,General,Explicit,0.31426530999999996,0
+test_241,soft_voting,Implicit,Explicit,Implicit,Implicit,Explicit,0.34762233666666664,0
+test_243,soft_voting,General,Deflection,General,General,Dodging,0.2201045066666667,0
+test_244,soft_voting,General,Explicit,General,General,Explicit,0.26324717000000003,0
+test_245,soft_voting,Implicit,Dodging,Implicit,Implicit,Explicit,0.59394813,0
+test_248,soft_voting,Deflection,Deflection,Deflection,Deflection,Explicit,0.33723196,0
+test_250,soft_voting,Explicit,Explicit,Explicit,Explicit,Dodging,0.21218625333333332,0
+test_253,soft_voting,Dodging,Dodging,Dodging,Deflection,Explicit,0.33710113333333336,0
+test_254,soft_voting,Dodging,Dodging,Dodging,Dodging,Declining to answer,0.5404471966666666,0
+test_256,soft_voting,Implicit,Implicit,Dodging,Implicit,Explicit,0.24626400999999998,0
+test_260,soft_voting,Explicit,Explicit,Partial/half-answer,Explicit,Dodging,0.30598447666666667,0
+test_262,soft_voting,Deflection,Deflection,General,Deflection,Explicit,0.24624855333333331,0
+test_264,soft_voting,Claims ignorance,Claims ignorance,Claims ignorance,Claims ignorance,Explicit,0.2347283166666667,0
+test_266,soft_voting,General,General,General,Dodging,Explicit,0.26786346,0
+test_269,soft_voting,Dodging,Declining to answer,Dodging,Dodging,Explicit,0.5949263066666667,0
+test_271,soft_voting,Deflection,Implicit,Deflection,Deflection,Dodging,0.2051643,0
+test_272,soft_voting,Implicit,Implicit,Implicit,Implicit,Deflection,0.21112213,0
+test_273,soft_voting,Deflection,Deflection,General,Deflection,Explicit,0.29917609,0
+test_274,soft_voting,Dodging,Dodging,Dodging,General,Explicit,0.27362879,0
+test_275,soft_voting,Implicit,Implicit,Implicit,Implicit,Explicit,0.25481613,0
+test_276,soft_voting,General,General,Dodging,General,Declining to answer,0.33885649333333334,0
+test_277,soft_voting,Declining to answer,Declining to answer,Dodging,Declining to answer,Implicit,0.21814082333333332,0
+test_278,soft_voting,Implicit,Implicit,Implicit,Implicit,Explicit,0.24113851666666666,0
+test_279,soft_voting,Implicit,Explicit,Implicit,Implicit,Dodging,0.27920194666666664,0
+test_280,soft_voting,Dodging,Dodging,Dodging,Dodging,Implicit,0.20516250333333333,0
+test_281,soft_voting,General,Implicit,General,General,Explicit,0.7899715566666666,0
+test_283,soft_voting,Implicit,Explicit,Implicit,Implicit,Explicit,0.28124652,0
+test_286,soft_voting,Dodging,Dodging,Dodging,Dodging,General,0.1953999366666667,0
+test_287,soft_voting,Implicit,Implicit,Explicit,Implicit,Explicit,0.32567842999999996,0
+test_288,soft_voting,Declining to answer,Declining to answer,General,Declining to answer,Explicit,0.24475320999999997,0
+test_294,soft_voting,Implicit,Implicit,Implicit,Implicit,Explicit,0.33505512333333337,0
+test_297,soft_voting,Dodging,Dodging,Dodging,Dodging,Declining to answer,0.5211485266666666,0
+test_300,soft_voting,Clarification,Clarification,Clarification,Clarification,Dodging,0.51172599,0
+test_301,soft_voting,Partial/half-answer,Deflection,Partial/half-answer,Partial/half-answer,Deflection,0.23343786,0
+test_303,soft_voting,Implicit,Implicit,Dodging,Implicit,Explicit,0.28922815,0
+test_304,soft_voting,Deflection,Deflection,Deflection,Deflection,Explicit,0.2808505433333333,0
+test_305,soft_voting,Explicit,Explicit,Explicit,Explicit,Dodging,0.20692977999999998,0
+test_306,soft_voting,Implicit,Deflection,Implicit,Implicit,Explicit,0.29459998000000004,0
+test_307,soft_voting,Explicit,Explicit,General,Explicit,Dodging,0.52790559,0
+test_1,llm_assisted,General,Deflection,General,General,Deflection,0.8240216308448762,0
+test_2,llm_assisted,Implicit,Explicit,Implicit,Implicit,Dodging,0.9968448856422011,0
+test_3,llm_assisted,General,Explicit,General,General,Deflection,0.7822668744889754,0
+test_4,llm_assisted,Dodging,Dodging,Implicit,Dodging,Deflection,0.8792389281061164,0
+test_5,llm_assisted,Dodging,Dodging,Dodging,Dodging,Deflection,0.6701389580949477,0
+test_6,llm_assisted,Dodging,Dodging,Dodging,Dodging,Deflection,0.7529445216379175,0
+test_9,llm_assisted,Implicit,Implicit,Implicit,Implicit,Deflection,0.8754165910665571,0
+test_10,llm_assisted,Implicit,Implicit,General,Implicit,Explicit,0.8767736529707618,0
+test_12,llm_assisted,Dodging,Deflection,Dodging,Dodging,Explicit,0.7899488013146146,0
+test_13,llm_assisted,Explicit,Explicit,General,Explicit,Deflection,0.990935042167009,0
+test_16,llm_assisted,Dodging,General,Dodging,Dodging,Deflection,0.8516962375883241,0
+test_19,llm_assisted,Implicit,Implicit,Dodging,Implicit,Deflection,0.9946543393432499,0
+test_20,llm_assisted,General,Implicit,General,General,Dodging,0.9134327564073169,0
+test_22,llm_assisted,Implicit,Implicit,General,Implicit,Dodging,0.9196526135245391,0
+test_23,llm_assisted,General,Implicit,General,General,Implicit,0.9386933207745294,0
+test_24,llm_assisted,Implicit,Explicit,Implicit,Implicit,Explicit,0.9937084394130226,0
+test_28,llm_assisted,Dodging,Dodging,General,Dodging,Deflection,0.9797543157618076,0
+test_30,llm_assisted,Explicit,Explicit,Dodging,Explicit,Deflection,0.7044564152420335,0
+test_31,llm_assisted,General,General,Deflection,General,Deflection,0.9082509585694528,0
+test_33,llm_assisted,General,Deflection,General,General,Declining to answer,0.8369766258498395,0
+test_34,llm_assisted,Implicit,Implicit,Deflection,Implicit,Deflection,0.9971367666769774,0
+test_36,llm_assisted,Explicit,Explicit,Dodging,Explicit,Dodging,0.7209266146551171,0
+test_37,llm_assisted,Implicit,Explicit,Implicit,Implicit,Explicit,0.9905558853511672,0
+test_38,llm_assisted,General,Dodging,General,General,Explicit,0.8771336786727505,0
+test_39,llm_assisted,Partial/half-answer,Partial/half-answer,Partial/half-answer,Partial/half-answer,General,0.9999998807907271,0
+test_40,llm_assisted,Implicit,Implicit,Implicit,Implicit,Deflection,0.8141619961562009,0
+test_41,llm_assisted,Implicit,General,Implicit,Implicit,Deflection,0.7977866001369167,0
+test_42,llm_assisted,Dodging,General,Dodging,Dodging,Deflection,0.886172430165616,0
+test_43,llm_assisted,Dodging,Deflection,Dodging,Dodging,Deflection,0.7624939921841438,0
+test_45,llm_assisted,Implicit,Implicit,Implicit,Implicit,General,0.9999997615814784,0
+test_48,llm_assisted,General,General,General,General,Explicit,0.9007886287328785,0
+test_49,llm_assisted,Claims ignorance,Claims ignorance,Claims ignorance,Claims ignorance,Dodging,0.6276088892540832,0
+test_52,llm_assisted,General,Explicit,General,General,Deflection,0.6317601809265198,0
+test_53,llm_assisted,Implicit,Explicit,Implicit,Implicit,Dodging,0.9654126920206494,0
+test_54,llm_assisted,Explicit,Explicit,Claims ignorance,Explicit,Partial/half-answer,0.9503059631621483,0
+test_55,llm_assisted,General,General,General,General,Deflection,0.9636416528650404,0
+test_56,llm_assisted,Claims ignorance,Claims ignorance,Claims ignorance,Dodging,Deflection,0.7405100321527134,0
+test_57,llm_assisted,Dodging,Dodging,Claims ignorance,Dodging,Deflection,0.997811508481422,0
+test_58,llm_assisted,Explicit,Explicit,Implicit,Explicit,Deflection,0.9995250554592687,0
+test_67,llm_assisted,Explicit,Explicit,Explicit,Explicit,Implicit,0.9873850932711221,0
+test_68,llm_assisted,Dodging,Dodging,Dodging,Dodging,Partial/half-answer,0.9351078171730413,0
+test_74,llm_assisted,Implicit,Implicit,Implicit,Implicit,Deflection,0.9653117801380138,0
+test_78,llm_assisted,General,General,Implicit,General,Implicit,0.8562245690513058,0
+test_82,llm_assisted,Implicit,Implicit,Implicit,Implicit,Dodging,0.9360598498895106,0
+test_85,llm_assisted,General,Explicit,General,General,Deflection,0.9695782472266231,0
+test_88,llm_assisted,Claims ignorance,Claims ignorance,Claims ignorance,Deflection,Dodging,0.8087828699335335,0
+test_89,llm_assisted,Explicit,Explicit,Explicit,Explicit,Implicit,0.8705552370246211,0
+test_90,llm_assisted,Explicit,Explicit,Explicit,Explicit,Deflection,0.9818831970124409,0
+test_91,llm_assisted,Deflection,Dodging,Deflection,Deflection,Dodging,0.7669581542318664,0
+test_95,llm_assisted,General,Explicit,General,General,Dodging,0.7518485610707045,0
+test_96,llm_assisted,Implicit,Dodging,Implicit,Implicit,Deflection,0.9975397358368499,0
+test_103,llm_assisted,General,General,Dodging,General,Deflection,0.8570135137642133,0
+test_104,llm_assisted,Dodging,Dodging,Dodging,Deflection,Deflection,0.8944584520771931,0
+test_105,llm_assisted,General,General,General,General,Deflection,0.9974403032692503,0
+test_106,llm_assisted,Dodging,Dodging,General,Dodging,Deflection,0.8987993019831614,0
+test_108,llm_assisted,Claims ignorance,Claims ignorance,Claims ignorance,Claims ignorance,Deflection,0.8696472856560605,0
+test_110,llm_assisted,General,Implicit,General,General,Explicit,0.8402530706328143,0
+test_111,llm_assisted,Implicit,General,Implicit,Implicit,Deflection,0.7465227366396048,0
+test_113,llm_assisted,Explicit,Explicit,General,Explicit,Deflection,0.8468750651753448,0
+test_114,llm_assisted,Implicit,Implicit,General,Implicit,Explicit,0.8299112374348003,0
+test_116,llm_assisted,General,General,General,General,Deflection,0.8530434437723166,0
+test_117,llm_assisted,Explicit,Explicit,General,Explicit,Deflection,0.9967562008532347,0
+test_118,llm_assisted,Implicit,Implicit,Implicit,Implicit,Deflection,0.7651194714337708,0
+test_119,llm_assisted,Implicit,Implicit,Implicit,Implicit,Explicit,0.9374611576552359,0
+test_122,llm_assisted,Explicit,Explicit,Explicit,Explicit,Deflection,0.9316354627048885,0
+test_126,llm_assisted,Implicit,Implicit,Dodging,Implicit,Deflection,0.7529761193205632,0
+test_127,llm_assisted,Implicit,Implicit,Implicit,General,Deflection,0.8446736268344963,0
+test_132,llm_assisted,Deflection,Deflection,Deflection,Deflection,Dodging,0.7710250910287775,0
+test_133,llm_assisted,Explicit,Explicit,Explicit,Explicit,Deflection,0.8672163519214017,0
+test_134,llm_assisted,Implicit,General,Implicit,Implicit,Deflection,0.8493596307170047,0
+test_136,llm_assisted,Implicit,Implicit,Dodging,Implicit,Deflection,0.9037942670368047,0
+test_140,llm_assisted,Implicit,Implicit,Implicit,Implicit,Explicit,0.9224474609861079,0
+test_142,llm_assisted,Deflection,Deflection,Dodging,Deflection,Dodging,0.8627885954841145,0
+test_148,llm_assisted,Implicit,Implicit,Partial/half-answer,Implicit,Explicit,0.8292163994384159,0
+test_149,llm_assisted,Implicit,Explicit,Implicit,Implicit,Dodging,0.9494225954297785,0
+test_151,llm_assisted,Implicit,Implicit,Dodging,Implicit,Explicit,0.9010193033256164,0
+test_152,llm_assisted,General,Implicit,General,General,Implicit,0.8891562762466034,0
+test_154,llm_assisted,Explicit,Explicit,Explicit,Explicit,Dodging,0.9017233597869967,0
+test_156,llm_assisted,Deflection,Dodging,Deflection,Deflection,Dodging,0.974876689424625,0
+test_157,llm_assisted,General,Implicit,General,General,Dodging,0.8885351450830163,0
+test_160,llm_assisted,Implicit,Explicit,Implicit,Implicit,Deflection,0.840641737245399,0
+test_161,llm_assisted,General,Implicit,General,General,Deflection,0.7975442715810969,0
+test_166,llm_assisted,General,Implicit,General,General,Deflection,0.9979425585915879,0
+test_170,llm_assisted,Dodging,Dodging,Dodging,Dodging,Implicit,0.8833740995545218,0
+test_171,llm_assisted,Explicit,Explicit,General,Explicit,Deflection,0.9462163278107492,0
+test_173,llm_assisted,General,Dodging,General,General,Deflection,0.9424557771908472,0
+test_174,llm_assisted,Explicit,Explicit,Explicit,Explicit,Partial/half-answer,0.9877862723496403,0
+test_175,llm_assisted,Implicit,Implicit,General,Implicit,Explicit,0.7437761815207625,0
+test_177,llm_assisted,General,Partial/half-answer,General,General,Implicit,0.8492942175520638,0
+test_178,llm_assisted,Implicit,Implicit,Dodging,Implicit,Dodging,0.847788963652552,0
+test_179,llm_assisted,General,Implicit,General,General,Deflection,0.9924555953496631,0
+test_181,llm_assisted,Dodging,Dodging,Dodging,Dodging,General,0.9999997615814784,0
+test_183,llm_assisted,Declining to answer,Declining to answer,Claims ignorance,Declining to answer,Claims ignorance,0.978460695844437,0
+test_185,llm_assisted,Deflection,Deflection,Deflection,Declining to answer,Dodging,0.7258833683631919,0
+test_190,llm_assisted,General,General,General,General,Deflection,0.9952189244957637,0
+test_192,llm_assisted,Implicit,Implicit,Implicit,Implicit,Dodging,0.923626561349853,0
+test_193,llm_assisted,Explicit,Explicit,Dodging,Explicit,General,0.9999998807907271,0
+test_194,llm_assisted,Dodging,Dodging,Dodging,Deflection,Deflection,0.9987871535397665,0
+test_195,llm_assisted,General,General,General,General,Deflection,0.9585494849163985,0
+test_196,llm_assisted,General,Explicit,General,General,Explicit,0.8955712833570594,0
+test_197,llm_assisted,General,Dodging,General,General,Deflection,0.7955703699948101,0
+test_199,llm_assisted,General,Deflection,General,General,Implicit,0.863557961729459,0
+test_200,llm_assisted,Implicit,Implicit,Implicit,Implicit,Deflection,0.8501528474877845,0
+test_201,llm_assisted,Implicit,Dodging,Implicit,Implicit,Explicit,0.769355000875527,0
+test_203,llm_assisted,Dodging,Dodging,Dodging,Dodging,Deflection,0.9311536968111869,0
+test_204,llm_assisted,Implicit,Implicit,Implicit,Implicit,Deflection,0.9473924567821719,0
+test_205,llm_assisted,Implicit,Explicit,Implicit,Implicit,Deflection,0.7998903928414183,0
+test_207,llm_assisted,Implicit,Partial/half-answer,Implicit,Implicit,Explicit,0.9507134032049158,0
+test_208,llm_assisted,General,Implicit,General,General,Dodging,0.7870347124020397,0
+test_210,llm_assisted,General,General,General,General,Explicit,0.9824795700732772,0
+test_211,llm_assisted,Dodging,Dodging,Dodging,General,Implicit,0.9351362178745122,0
+test_216,llm_assisted,Deflection,Deflection,Deflection,Deflection,Explicit,0.8907224986782305,0
+test_217,llm_assisted,General,General,General,General,Dodging,0.975176076962995,0
+test_218,llm_assisted,General,Explicit,General,General,Deflection,0.9975570988078803,0
+test_222,llm_assisted,General,Explicit,General,General,Implicit,0.8940982626908373,0
+test_225,llm_assisted,Dodging,General,Dodging,Dodging,Deflection,0.8507648594521816,0
+test_226,llm_assisted,Dodging,Claims ignorance,Dodging,Dodging,Claims ignorance,0.8094715070220169,0
+test_227,llm_assisted,General,Implicit,General,General,Dodging,0.9430957707940385,0
+test_228,llm_assisted,Implicit,Implicit,General,Implicit,Dodging,0.8480123970148993,0
+test_230,llm_assisted,Deflection,Deflection,Deflection,Deflection,Dodging,0.9988775447787007,0
+test_231,llm_assisted,General,Dodging,General,General,Deflection,0.9488331597341724,0
+test_232,llm_assisted,General,Dodging,General,General,Deflection,0.9989726745926432,0
+test_233,llm_assisted,General,General,Implicit,General,Deflection,0.9391529875574053,0
+test_235,llm_assisted,General,General,General,General,Deflection,0.9893075725593187,0
+test_236,llm_assisted,Explicit,Explicit,Explicit,Explicit,Deflection,0.8061457977991595,0
+test_239,llm_assisted,Explicit,Explicit,Explicit,General,General,0.9999998807907271,0
+test_241,llm_assisted,Implicit,Explicit,Implicit,Implicit,Deflection,0.8451354250842417,0
+test_243,llm_assisted,General,Deflection,General,General,Dodging,0.7970483537487127,0
+test_244,llm_assisted,General,Explicit,General,General,Explicit,0.9061840148054582,0
+test_245,llm_assisted,Implicit,Dodging,Implicit,Implicit,Deflection,0.9698449262551393,0
+test_247,llm_assisted,Explicit,Explicit,Explicit,Explicit,Dodging,0.7875603950722254,0
+test_250,llm_assisted,Explicit,Explicit,Explicit,Explicit,Deflection,0.8805581184252113,0
+test_255,llm_assisted,Explicit,Explicit,Explicit,Explicit,Deflection,0.9052776680283285,0
+test_262,llm_assisted,Deflection,Deflection,General,Deflection,Dodging,0.8687206575371104,0
+test_264,llm_assisted,Claims ignorance,Claims ignorance,Claims ignorance,Claims ignorance,Dodging,0.8647619437876686,0
+test_266,llm_assisted,General,General,General,Dodging,Dodging,0.7733102858914566,0
+test_267,llm_assisted,Explicit,Explicit,Explicit,Explicit,Deflection,0.9628932008668587,0
+test_268,llm_assisted,Explicit,Explicit,Explicit,Explicit,Deflection,0.9998362598944517,0
+test_271,llm_assisted,Deflection,Implicit,Deflection,Deflection,Dodging,0.9973785437329461,0
+test_272,llm_assisted,Implicit,Implicit,Implicit,Implicit,Deflection,0.7986874460106581,0
+test_276,llm_assisted,General,General,Dodging,General,Dodging,0.8439821835596487,0
+test_277,llm_assisted,Declining to answer,Declining to answer,Dodging,Declining to answer,Dodging,0.9979413799671184,0
+test_278,llm_assisted,Implicit,Implicit,Implicit,Implicit,Explicit,0.9092420814430807,0
+test_279,llm_assisted,Implicit,Explicit,Implicit,Implicit,Deflection,0.8174624876957007,0
+test_280,llm_assisted,Dodging,Dodging,Dodging,Dodging,Declining to answer,0.9227865048433879,0
+test_281,llm_assisted,General,Implicit,General,General,Explicit,0.9148494659706012,0
+test_283,llm_assisted,Implicit,Explicit,Implicit,Implicit,Explicit,0.9650477681977698,0
+test_290,llm_assisted,Explicit,Implicit,Explicit,Explicit,Deflection,0.9407230110551644,0
+test_291,llm_assisted,Explicit,Explicit,Deflection,Explicit,Deflection,0.9475956163733721,0
+test_292,llm_assisted,Explicit,Partial/half-answer,Explicit,Explicit,Deflection,0.8719467622049067,0
+test_293,llm_assisted,Explicit,Explicit,General,Explicit,Deflection,0.99005316060286,0
+test_294,llm_assisted,Implicit,Implicit,Implicit,Implicit,Deflection,0.9517503353608492,0
+test_301,llm_assisted,Partial/half-answer,Deflection,Partial/half-answer,Partial/half-answer,Deflection,0.9384079352474688,0
+test_303,llm_assisted,Implicit,Implicit,Dodging,Implicit,Explicit,0.7335835147720138,0
+test_305,llm_assisted,Explicit,Explicit,Explicit,Explicit,Partial/half-answer,0.9485955314249376,0
+test_306,llm_assisted,Implicit,Deflection,Implicit,Implicit,Deflection,0.9827193672652514,0
+test_307,llm_assisted,Explicit,Explicit,General,Explicit,General,0.9999997615814784,0
