@@ -28,6 +28,16 @@
 
 此外，Temperature Scaling（温度缩放）虽然成功将 ECE 从 0.0976 降至 0.0894（使概率分布更可靠），但依然无法挽救分类准确率（F1 进一步降至 0.2763），这说明**校准只能改变置信度，不能改变决策边界**。
 
+为了探明各模型对集成的真实贡献，我们进行了模型消融测试。结果如下：
+
+C4-1 Full Ensemble (ALL)  | Accuracy: 0.3164 | Macro-F1: 0.2758
+C4-2 Without RoBERTa      | Accuracy: 0.3055 | Macro-F1: 0.2549
+C4-3 Without DeBERTa      | Accuracy: 0.3164 | Macro-F1: 0.2742
+C4-4 Without XLNet        | Accuracy: 0.3273 | Macro-F1: 0.2811
+
+
+当移除核心模型 RoBERTa 时，Macro-F1 暴跌至 0.2549；然而，当移除 XLNet（仅保留 RoBERTa+DeBERTa）时，Macro-F1 竟然回升至 0.2811，反而成为了表现最好的集成组合。但值得注意的是，即便是最好的集成组合，依然低于单模型 RoBERTa（0.2986）。这深刻地揭示了：在同质化严重的情况下，简单的多数投票或概率平均只会引入“噪声”（如 XLNet 的负面干扰），无法带来异构模型集成的多样性红利。
+
 ### 3.2 LLM 带来的破局
 
 在传统模型全军覆没的类别上，引入大语言模型（DeepSeek）展现出了“降维打击”的效果。纯零样本的 **LLM-only 取得了 0.4234 的 Macro-F1**，不仅远超所有单模型，甚至打破了局部类别的识别盲区（如成功识别出 `Clarification` 和 `Declining to answer` 等长尾类）。
