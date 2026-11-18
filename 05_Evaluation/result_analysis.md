@@ -29,12 +29,12 @@
 此外，Temperature Scaling（温度缩放）虽然成功将 ECE 从 0.0976 降至 0.0894（使概率分布更可靠），但依然无法挽救分类准确率（F1 进一步降至 0.2763），这说明**校准只能改变置信度，不能改变决策边界**。
 
 为了探明各模型对集成的真实贡献，我们进行了模型消融测试。结果如下：
-
+```
 C4-1 Full Ensemble (ALL)  | Accuracy: 0.3164 | Macro-F1: 0.2758
 C4-2 Without RoBERTa      | Accuracy: 0.3055 | Macro-F1: 0.2549
 C4-3 Without DeBERTa      | Accuracy: 0.3164 | Macro-F1: 0.2742
 C4-4 Without XLNet        | Accuracy: 0.3273 | Macro-F1: 0.2811
-
+```
 
 当移除核心模型 RoBERTa 时，Macro-F1 暴跌至 0.2549；然而，当移除 XLNet（仅保留 RoBERTa+DeBERTa）时，Macro-F1 竟然回升至 0.2811，反而成为了表现最好的集成组合。但值得注意的是，即便是最好的集成组合，依然低于单模型 RoBERTa（0.2986）。这深刻地揭示了：在同质化严重的情况下，简单的多数投票或概率平均只会引入“噪声”（如 XLNet 的负面干扰），无法带来异构模型集成的多样性红利。
 
@@ -54,7 +54,7 @@ C4-4 Without XLNet        | Accuracy: 0.3273 | Macro-F1: 0.2811
 - **效率分析**：LLM 的引入带来了近 1000 倍的延迟代价，实际部署时需结合业务场景在“极致性能”与“推理成本”之间进行权衡。
 
 ## 5. 结论与展望
-本项目充分验证了 Confidence-Aware Model Ensemble and LLM Reasoning 的潜力与局限。基于实验结果，我们建议在实际工业落地中采用**“级联架构（Cascade Architecture）”**：
+本项目充分验证了 Confidence-Aware Model Ensemble and LLM Reasoning 的潜力与局限。基于实验结果，我们建议在实际工业落地中采用“级联架构（Cascade Architecture）”：
 1. **第一层初筛**：使用推理仅需 3.4ms 的 RoBERTa 处理绝大多数简单直接的样本。
 2. **第二层精判**：当 RoBERTa 的置信度较低（如低于阈值），或者涉及需要复杂逻辑推理的长尾类别时，再将其路由给 LLM-assisted 进行高精度复核。
 

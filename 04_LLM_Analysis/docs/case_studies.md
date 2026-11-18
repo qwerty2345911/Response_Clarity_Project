@@ -10,8 +10,10 @@
 - Annotator3: Clarification
 - Majority  : Clarification
 - RoBERTa / DeBERTa / XLNet: 全部预测为 Dodging（逃避问题）
-- LLM-only: 预测正确
-- **分析**: 在低资源类别（整个测试集只有4个 Clarification）上，传统模型由于训练样本极少，完全丧失了识别能力，将其误认为是普通的逃避问题。而 LLM 依靠 zero-shot 的常识，成功理解了受访者“在反问/要求澄清”的意图。
+- LLM-only: Clarification
+- LLM-assisted: Clarification
+- **分析**: 这是一个低资源类别（整个测试集只有4个）。传统模型由于训练样本极少，完全丧失了识别能力。而 LLM 依靠 zero-shot 的常识，成功理解了受访者“在反问/要求澄清”的意图。无论是 LLM-only 还是 LLM-assisted，都成功做出了正确判断，展现了异构大模型在长尾类别上的绝对优势。
+
 
 ## 案例 2：LLM 的“过度自信”翻车现场（发现 LLM 的新缺陷）
 - **Sample ID**: `test_239`
@@ -24,7 +26,8 @@
 - Majority  : Explicit
 - RoBERTa / DeBERTa / XLNet: 全部预测正确
 - LLM-only: 预测为 General，且 置信度高达 1.000（极其自信的误判）
-- **分析**: 传统模型在捕捉“表面字眼”和“明确回答”时非常准，这里它们答对了。但 LLM 却过度解读了上下文，认为回答“太笼统”，导致判定为 General。这说明 LLM 的 Zero-shot 有时会引发“过度推理”的幻觉。
+- LLM-assisted: General
+- **分析**: 传统模型在捕捉“表面字眼”时很准，这里它们答对了。但 LLM 却过度解读了上下文，认为回答“太笼统”，导致判定为 General。值得注意的是，即便我们在 LLM-assisted 中提供了集成模型的正确概率作为先验，LLM 依然坚持了其错误判断（且置信度高达 1.000）。这证明了生成式模型在面对长文本时，其“过度推理”的自我确信极其顽固，单纯的概率先验难以完全纠正模型内部的幻觉。
 
 ## 案例 3：LLM 的“Deflection 偏置”（印证混淆矩阵的发现）
 - **Sample ID**: `test_1`
@@ -36,6 +39,7 @@
 - Majority  : Dodging
 - RoBERTa / DeBERTa / XLNet: 全部错猜为 Explicit（以为它直接回答了）
 - LLM-only: 预测为 Deflection（转移话题），置信度 0.85
+- LLM-assisted: Deflection, 置信度 0.82
 - **分析**: 传统模型错得离谱（全猜 Explicit），LLM 虽然没完全猜对，但方向近了一步（Deflection 和 Dodging 同属 Ambivalent 高层类）。但也印证了 LLM 高度倾向于将模棱两可的回答统统归类为 Deflection。
 
 ## 案例 4：传统模型与 LLM 的“集体迷失”（体现任务的难度）
@@ -50,6 +54,7 @@
 - DeBERTa: Declining to answer（拒绝回答）
 - XLNet: Explicit（明确回答）
 - LLM-only: Dodging（逃避）
+- LLM-assisted: Dodging
 - **分析**: 这个样本极其特殊，传统 PLM 只有 RoBERTa 蒙对，而强大的 LLM 居然也猜错了。这说明某些语境下（可能是受访者的语气极度委婉），“声称不知道”和“拒绝回答”、“逃避”的边界极其模糊，是全体模型的共同盲区。
 
 ## 案例 5：高置信度的“集体幻觉”
@@ -64,4 +69,5 @@
 - DeBERTa: 预测为 Explicit，置信度 0.79
 - XLNet: 预测为 Explicit，置信度 0.71
 - LLM-only: 预测为 Explicit，置信度 0.83
-- **分析**: 所有四个模型都极其自信地（高置信度）认为这是一个 Explicit，但人类标注者一致认为它太笼统了（General）。这说明模型很容易被回答中某些“看起来像正确答案”的实词欺骗。
+- LLM-assisted: Explicit，置信度0.91
+- **分析**: 所有四个模型都极其自信地认为这是一个 Explicit，但人类标注者一致认为它太笼统了（General）。尤其引人深思的是，当 LLM-assisted 参考了传统模型（全部误判为 Explicit）的先验概率后，它的置信度反而从 0.83 飙升到了 0.91。这揭示了一个潜在风险：当基础集成模型本身就存在系统性偏置时，它的先验信息会“放大”大模型的错误自信。

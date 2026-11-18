@@ -3,13 +3,13 @@
 ## 1. 推理基准数据
 以下数据基于统一的测试环境（Tesla T4 GPU, Batch Size 8, Max Length 256），并在相同条件下运行 3 次取平均值。LLM 采用云端 API 调用。
 
-| 模型配置 | 训练时间 | 平均推理耗时 (308条) | 单条延迟 | 吞吐量 (Samples/s) | 峰值显存 | 硬件 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| RoBERTa-base | 163.0s | 1.048s | 3.40 ms | 294.01 | 0.52 GiB | Tesla T4 |
-| DeBERTa-v3-base | 314.4s | 2.233s | 7.25 ms | 137.91 | 0.87 GiB | Tesla T4 |
-| XLNet-base-cased | 241.4s | 1.817s | 5.90 ms | 169.51 | 0.55 GiB | Tesla T4 |
-| LLM-only (DeepSeek)| N/A | 1470.81s | 4780.00 ms | 0.21 | N/A (云端) | Cloud API |
-| LLM-assisted (DeepSeek)| N/A | 1996.32s | 6480.00 ms | 0.15 | N/A (云端) | Cloud API |
+| Model | training_seconds | inference_seconds | inference_ms_per_sample | inference_samples_per_second | hardware |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| RoBERTa-base | 163.0s | 1.048s | 3.40 ms | 294.01 | Tesla T4 |
+| DeBERTa-v3-base | 314.4s | 2.233s | 7.25 ms | 137.91 | Tesla T4 |
+| XLNet-base-cased | 241.4s | 1.817s | 5.90 ms | 169.51 | Tesla T4 |
+| LLM-only (DeepSeek)| N/A | 1470.81s | 4780.00 ms | 0.21 | Cloud API |
+| LLM-assisted (DeepSeek)| N/A | 1996.32s | 6480.00 ms | 0.15 | Cloud API |
 
 ## 2. 深度效率分析
 
